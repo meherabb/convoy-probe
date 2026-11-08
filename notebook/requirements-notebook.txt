@@ -1,0 +1,26 @@
+# Python packages of the reported run (Kaggle, Python 3.13.15, Tesla T4, CUDA 12.8; results/v6.6/logs/install_log.json).
+# On Kaggle nothing needs to be installed by hand: the notebook installs what is missing (Section 0.3.2)
+# under a constraints file that keeps the preinstalled numerical stack. For a local GPU run, install
+# PyTorch for your CUDA version first (https://pytorch.org), then: pip install -r notebook/requirements-notebook.txt
+
+numpy==2.1.3                            # everything
+scipy==1.16.3                           # statistics, root finding
+pandas==2.3.3                           # result tables
+pyarrow==23.0.1                         # Argoverse 2 tables and LiDAR sweeps (feather)
+matplotlib==3.10.0                      # figures
+pillow==13.0.0                          # image I/O
+opencv-python-headless==4.14.0.94       # DIS optical flow, PnP, image ops
+# torch==2.11.0+cu128   (install the build that matches your CUDA)  # models
+# torchvision==0.26.0+cu128   (install the build that matches your CUDA)  # RAFT optical flow
+huggingface_hub==1.29.0                 # checkpoint download
+safetensors==0.8.0                      # checkpoint loading
+einops==0.8.2                           # DUSt3R family, VGGT
+roma==1.8.0                             # DUSt3R family
+omegaconf==2.3.1                        # MapAnything
+hydra-core==1.3.8                       # MapAnything
+python-box==7.4.1                       # MapAnything
+orjson==3.12.0                          # MapAnything
+natsort==8.4.0                          # MapAnything
+jaxtyping==0.3.11                       # MapAnything (uniception)
+timm==1.0.29                            # MapAnything (uniception)
+uniception==0.1.7                       # MapAnything (encoders and heads)
