@@ -1,0 +1,74 @@
+{
+  "title": "The Convoy Ambiguity: Feed-Forward 3D and 4D Reconstruction Models Inherit the Epipolar Degeneracy for Motion Parallel to Camera Translation",
+  "contribution_type": "Scientific discovery (primary); Evaluation (motion-decomposed protocol for dynamic-scene reconstruction); an elementary, exact geometric law fixes the falsifiable prediction (not a general theory paper).",
+  "research_question": "Do frozen feed-forward 3D/4D reconstruction models (DUSt3R, VGGT, MonST3R, ...) reconstruct an object moving parallel to the camera's translation at the exact depth a static object at that location would have (Z*(s)=Z/(1-s)), and do training-free dynamic-mask methods built on epipolar-inconsistency fail to flag exactly this motion?",
+  "central_hypothesis": "For static-trained feed-forward models, the predicted depth of an object moving with parallel displacement fraction s and perpendicular pixel offset eps~=0 satisfies Zhat/Z = 1/(1-s) to within the model's static-scene error, with no increase in any dynamic-mask signal; as eps grows, the prediction departs from the epipolar solution toward the model's monocular estimate; dynamic-trained models differ from static-trained ones only in the eps>0 regime and, at eps~=0, deviate from 1/(1-s) only for object classes with strong size priors.",
+  "falsification_conditions": "The hypothesis is FALSIFIED if: (a) Zhat/Z is insensitive to s (priors dominate everywhere -> beta_s CI excludes [0.5,1.5] or R^2<0.5 at eps~=0); (b) dynamic-mask methods flag parallel motion (|eps|<1px) as reliably as perpendicular motion (eps>=3px) -> recall-difference CI includes 0; or (c) dynamic-trained models beat Z*(s) at eps~=0 for ALL object classes, i.e. no class-dependent prior takeover is observed.",
+  "propositions_exact_and_verified": {
+    "Proposition 1 (parallel-motion degeneracy)": "delta = s*b (pure parallel motion) makes the moving point's camera-2 coordinates identical, up to a positive scalar, to the static point X* = X/(1-s)'s camera-2 coordinates -> both pixels are indistinguishable from a static point at depth Z*(s) = Z/(1-s). Verified numerically in Section 2 to floating-point precision, for arbitrary camera rotation R.",
+    "Proposition 2 (multi-view convoy persistence)": "If the camera's TRANSLATION per frame is constant (b each frame -> a straight path) and the object's own world-frame velocity is s*b (constant, parallel to that translation), the degeneracy persists for any number of frames and for ANY per-frame camera ROTATION R_k. It requires a CHANGE in the camera's translation direction (a curved path / true turning) to break -- rotation of the camera's heading alone, with a straight translation path, does NOT break it. This distinction is verified numerically in Section 2.",
+    "Proposition 3 (perpendicular motion is detectable)": "If the perpendicular component delta_perp != 0, no static point reproduces both observations; the second observation lies eps pixels off the true epipolar line -- the only first-order geometric evidence of motion available to a two-view method."
+  },
+  "assumptions": {
+    "A1 (correspondence-based depth)": "The model's two-view depth for textured object pixels is driven by cross-view correspondence, not monocular cues alone. DIRECTLY TESTABLE per model via the static-scene sensitivity test (mask the corresponding patch in view 2, observe the depth change). If it fails for a model, w~=1 is EXPECTED for that model and is reported as such, not treated as a hypothesis failure.",
+    "A2 (small-displacement first-order geometry)": "eps computed to first order (eps ~= f*||delta_perp||/Z) is adequate. DIRECTLY TESTABLE by comparing the first-order formula against the exact epipolar-line perpendicular distance on synthetic data with known geometry. Where it is violated, the EXACT offset is used instead for regime classification -- see Section 2.3 for the measured divergence.",
+    "A3 (ground-truth adequacy)": "Synthetic data supplies exact depth/velocity by construction; any real data (Sintel, TUM) supplies GT depth/flow/poses with bounded, documented sensor noise. STRUCTURAL for the synthetic testbed (true by construction); EMPIRICALLY PROXY-TESTABLE for any real dataset that loads, via GT self-consistency checks."
+  },
+  "falsifiable_numerical_predictions": {
+    "Prediction 1 (degeneracy)": "beta_s in [0.8,1.2] (95% cluster-bootstrap CI) for static-trained models in the parallel regime (|eps|<1px), R^2>=0.5.",
+    "Prediction 2 (masks)": "Dynamic-mask recall for |eps|<1px is lower than for eps>=3px by >=0.3 absolute, at matched |s| and object size.",
+    "Prediction 3 (prior takeover)": "Prior weight w increases with eps (Spearman rho>0.5) and, at eps~=0, is larger for size-prior-bearing classes than for texture-only synthetic objects.",
+    "Prediction 4 (convoy persistence)": "beta_s stays in [0.8,1.2] over 2-8 frames on straight (constant-translation) segments and drops toward 0 on segments with a genuinely curved translation path."
+  },
+  "method_under_test": "Feed-forward 3D/4D reconstruction models, probed by the measurement protocol in Section 4 (not a newly proposed architecture).",
+  "models_in_scope_per_idea": [
+    "DUSt3R",
+    "MASt3R",
+    "VGGT-1B",
+    "pi3",
+    "MapAnything",
+    "Depth Anything 3",
+    "MonST3R",
+    "CUT3R"
+  ],
+  "models_actually_registered_this_notebook": [
+    "DUSt3R",
+    "MASt3R",
+    "MonST3R",
+    "VGGT-1B",
+    "pi3",
+    "MapAnything"
+  ],
+  "datasets_in_scope_per_idea": [
+    "Kubric MOVi-F",
+    "MPI-Sintel",
+    "KITTI tracking",
+    "Bonn RGB-D Dynamic",
+    "TUM RGB-D dynamic"
+  ],
+  "datasets_actually_used_this_notebook": [
+    "CONVOY-3D (ray-cast synthetic street scenes; plays the role of Kubric MOVi-F, Section 3.1), including the v6 ground-contact ablation (E5)",
+    "LEGACY-FLAT (negative control for the validity gate, Section 3.4)",
+    "TUM RGB-D fr3 static sequences (real backgrounds for the CONVOY-REAL composites, Section 3.5, and for the v6.1 contact ablation on real images, E5-REAL, Section 3.5.1)",
+    "TUM RGB-D fr3 walking_xyz / walking_halfsphere (prevalence of motion regimes only, Section 3.7)",
+    "Virtual KITTI 2, clone variation, Camera_0 (photo-realistic driving with exact depth and poses, Section 3.8)",
+    "Argoverse 2 sensor dataset, validation logs, front-centre camera (real driving with LiDAR; exploratory, Sections 3.11-3.11c)",
+    "KITTI tracking (real driving with LiDAR; only when attached; exploratory, Section 3.10)",
+    "CONVOY-3D designed experiments of v6.5: baseline sweep (BSW) and contact dose-response (WDR), Section 3.2b",
+    "Bonn RGB-D Dynamic, four sequences with balloons and boxes moved by people (real objects with measured depth; exploratory, Section 3.12)"
+  ],
+  "baselines_per_idea": [
+    "Classical two-view triangulation with GT poses (positive control -- MUST follow 1/(1-s) exactly)",
+    "Monocular model / oracle (negative control -- MUST be s-invariant)",
+    "Flow-based dynamic mask (MonST3R-style)",
+    "Attention-based dynamic mask (Easi3R-style / VGGT4D-style)"
+  ],
+  "main_metrics": [
+    "beta_s (regression slope)",
+    "w(s,eps,class,texture) (prior weight)",
+    "dynamic-mask recall by regime",
+    "depth AbsRel by motion angle"
+  ],
+  "sota_position": "Scientific discovery + evaluation advance. The paper predicts a FAILURE of existing dynamic-mask methods rather than beating a leaderboard. No SOTA is claimed anywhere in this notebook.",
+  "claim_scope": "Findings are scoped to: (i) the specific models whose checkpoints actually loaded in THIS execution (see MODEL_STATUS in Section 4); (ii) the datasets that actually became available (see DATASET_STATUS in Section 3); (iii) the parameter ranges swept (depth 5-60 m, |s| up to 1.4, frame gaps and baselines documented in Section 0.2). No claim in this notebook generalizes beyond what is listed here."
+}

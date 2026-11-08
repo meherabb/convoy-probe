@@ -1,0 +1,23 @@
+{
+  "textures": 1.1,
+  "render": 801.0,
+  "render_designed": 1227.4,
+  "download_tum": 0.0,
+  "convoy_real": 0.1,
+  "convoy_real_contact": 0.1,
+  "flow": 64.8,
+  "real_dynamic_gt": 0.0,
+  "download_vkitti": 194.1,
+  "vkitti_gt": 0.0,
+  "kitti_gt": 0.0,
+  "av2_gt": 86.5,
+  "av2_gt_ext": 252.9,
+  "av2_contact": 0.3,
+  "av2_twin": 113.3,
+  "av2_flowtwin": 637.6,
+  "bonn_gt": 412.9,
+  "clone_repos": 9.7,
+  "baselines": 0.3,
+  "master_evaluation": 6378.8,
+  "oracle_validation": 0.9
+}

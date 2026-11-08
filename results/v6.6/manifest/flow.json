@@ -1,0 +1,10 @@
+{
+  "method": "RAFT-large (torchvision C_T_SKHT_V2)",
+  "preferred": "RAFT-large (torchvision C_T_SKHT_V2); DIS (OpenCV) if the weights cannot be downloaded",
+  "method_used": {
+    "MAIN": "RAFT-large (torchvision C_T_SKHT_V2)",
+    "REAL": "RAFT-large (torchvision C_T_SKHT_V2)"
+  },
+  "epe_static_convoy3d_median": 0.2616365944037937,
+  "epe_static_convoy3d_p90": 1.209044828050018
+}

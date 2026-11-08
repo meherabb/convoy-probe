@@ -1,0 +1,94 @@
+stage,status,source,fingerprint,files,MiB,seconds,original_seconds
+render:MAIN,restored,the attached data (render_MAIN),69fb343e397c43780b92,1393,718.6,256.1,660.8
+render:E4,restored,the attached data (render_E4),d4cf207f10f3987211af,1633,1000.0,252.1,777.2
+render:FLAT,restored,the attached data (render_FLAT),41effb99df7b3425103f,72,19.1,10.1,2.7
+render:ABL,restored,the attached data (render_ABL),c8f8333c111201704e66,1801,866.9,280.6,703.3
+render:BSW,computed,this session,5827f9753147ea1f68a7,1281,614.8,585.8,585.8
+render:WDR,computed,this session,e28ba8e5f26fcc89c997,1281,622.6,632.5,632.5
+tum:REAL,restored,the attached data (tum_REAL),6be522952d2c0c88bd46,622,140.7,113.6,105.8
+tum:DYN,restored,the attached data (tum_DYN),71cf009837d4727a9e94,4,0.9,0.7,228.8
+tum:RABL,restored,the attached data (tum_RABL),32f333631e3bdc562362,801,169.5,122.7,154.9
+tum:REAL,kept,this session,6be522952d2c0c88bd46,622,140.7,0.1,105.8
+tum:RABL,kept,this session,32f333631e3bdc562362,801,169.5,0.1,154.9
+flow:MAIN,restored,the attached data (flow_MAIN),5bc6868698fa89836575,241,197.0,44.6,68.7
+flow:REAL,restored,the attached data (flow_REAL),473a72ee409a8775e28d,125,104.4,20.1,35.1
+tum:DYN,kept,this session,71cf009837d4727a9e94,4,0.9,0.0,228.8
+vk:data,restored,the attached data (vk_data),1caae5d8a0a7ef74a10d,1616,224.1,194.0,1255.8
+vk:gt,restored,the attached data (vk_gt),2c6bcacc1ddd4f02e553,4,0.9,0.8,84.0
+av2_gt,restored,the attached data (av2_gt),edc522138acabf3e9ca6,673,144.0,86.4,244.8
+av2_gt_ext,restored,the attached data (av2_gt_ext),618936b9bb7d88fd2e45,2005,427.5,252.7,672.7
+av2_contact,restored,the attached data (av2_contact),79cae56fd3662d5a73f9,2,0.4,0.3,111.2
+av2_twin,computed,this session,4a892048130a1c19ea25,2,1.6,113.2,113.2
+av2_flowtwin,computed,this session,46874e9060a6b2f7dd3a,3,0.5,637.6,637.6
+bonn_gt,computed,this session,af9b309c1efee38009fe,598,151.0,410.6,410.6
+baselines,restored,the attached data (baselines),b4b7d7eb45f44e788afc,1,0.2,0.3,212.9
+eval:DUSt3R:MAIN,restored,the attached data (eval_DUSt3R_MAIN),3ccc4766d85a1b9afb37,4,5.4,1.3,490.2
+eval:DUSt3R:FLAT,restored,the attached data (eval_DUSt3R_FLAT),b15c6edde3a1b461afab,3,0.0,0.6,18.2
+eval:DUSt3R:ABL,restored,the attached data (eval_DUSt3R_ABL),cb05e3f3b579b56fecc9,4,4.2,1.2,609.8
+eval:DUSt3R:REAL,restored,the attached data (eval_DUSt3R_REAL),6de71e313631b0552053,4,1.4,1.0,214.9
+eval:DUSt3R:RABL,restored,the attached data (eval_DUSt3R_RABL),b63191fa0f9084d79f63,4,1.4,1.1,268.1
+eval:DUSt3R:VK,restored,the attached data (eval_DUSt3R_VK),dc4276a7c89c1f089af6,4,2.3,1.2,482.2
+eval:DUSt3R:AV2,restored,the attached data (eval_DUSt3R_AV2),7a5e18f35916bcd7f63d,4,1.2,1.1,251.7
+eval:DUSt3R:AV2X,restored,the attached data (eval_DUSt3R_AV2X),a8e8806aea8dc9ef4e83,4,0.3,1.0,712.8
+eval:DUSt3R:BSW,computed,this session,233cfb028ee1edb67bf3,4,4.2,276.4,276.4
+eval:DUSt3R:WDR,computed,this session,93c3b929cdab466a6828,4,4.3,420.1,420.1
+eval:DUSt3R:BONN,computed,this session,de9bfe498e1b0a932ac1,4,0.7,217.3,217.3
+eval:MASt3R:MAIN,restored,the attached data (eval_MASt3R_MAIN),393ddf6b4b64253044db,4,5.4,1.4,525.1
+eval:MASt3R:FLAT,restored,the attached data (eval_MASt3R_FLAT),99b8441badfa2b6d29f2,3,0.0,0.7,19.7
+eval:MASt3R:ABL,restored,the attached data (eval_MASt3R_ABL),f3f206030c6f8118735c,4,4.1,1.3,650.1
+eval:MASt3R:REAL,restored,the attached data (eval_MASt3R_REAL),da4f75c5172ac8477230,4,1.4,1.1,229.7
+eval:MASt3R:RABL,restored,the attached data (eval_MASt3R_RABL),e0ca56974f3f75345cac,4,1.7,1.1,288.0
+eval:MASt3R:VK,restored,the attached data (eval_MASt3R_VK),0383587626d2801b215d,4,2.3,1.2,516.1
+eval:MASt3R:AV2,restored,the attached data (eval_MASt3R_AV2),9dedfcf97fe3b8732d52,4,1.2,1.2,272.1
+eval:MASt3R:AV2X,restored,the attached data (eval_MASt3R_AV2X),0a6bf8d2c1ec3fd46f55,4,0.3,0.9,772.1
+eval:MASt3R:BSW,computed,this session,b29cdd14908940c932a7,4,4.3,300.2,300.2
+eval:MASt3R:WDR,computed,this session,5451256892d4a502d5f8,4,4.1,445.2,445.2
+eval:MASt3R:BONN,computed,this session,18bcef6a6b3f8200fe77,4,0.9,233.7,233.7
+eval:MonST3R:MAIN,restored,the attached data (eval_MonST3R_MAIN),525d83f8820dba39c64d,4,5.4,1.2,482.8
+eval:MonST3R:FLAT,restored,the attached data (eval_MonST3R_FLAT),9b4ee0e2a2a43259b440,3,0.0,0.7,17.9
+eval:MonST3R:ABL,restored,the attached data (eval_MonST3R_ABL),5de3dc08b266ef0c8896,4,4.2,1.2,597.6
+eval:MonST3R:REAL,restored,the attached data (eval_MonST3R_REAL),a9aa4515a8289cf1e327,4,1.5,1.1,211.6
+eval:MonST3R:RABL,restored,the attached data (eval_MonST3R_RABL),3cbecd7fc4341de5632d,4,1.5,0.9,264.5
+eval:MonST3R:VK,restored,the attached data (eval_MonST3R_VK),4cc1265c1ab5d7a79823,4,2.3,1.2,476.0
+eval:MonST3R:AV2,restored,the attached data (eval_MonST3R_AV2),fcc46856efc5f0594f65,4,1.2,1.1,248.7
+eval:MonST3R:AV2X,restored,the attached data (eval_MonST3R_AV2X),82283eaf5392ed1eb74e,4,0.3,0.7,703.9
+eval:MonST3R:BSW,computed,this session,c9ad6bb093dac3761427,4,4.3,277.9,277.9
+eval:MonST3R:WDR,computed,this session,d6d2d3270a63ec1410d9,4,4.3,409.5,409.5
+eval:MonST3R:BONN,computed,this session,42a7e7bccff308e5dc5d,4,0.8,213.2,213.2
+eval:VGGT-1B:MAIN,restored,the attached data (eval_VGGT-1B_MAIN),a42c27febdeb67565bdc,4,4.8,1.3,395.8
+eval:VGGT-1B:FLAT,restored,the attached data (eval_VGGT-1B_FLAT),b9b99c7e5d9a8a7d3008,3,0.0,0.7,17.5
+eval:VGGT-1B:ABL,restored,the attached data (eval_VGGT-1B_ABL),965cbae3b7a1e79e787e,4,3.1,1.4,471.9
+eval:VGGT-1B:REAL,restored,the attached data (eval_VGGT-1B_REAL),88b1aa72560c22c2e1b9,4,1.3,1.1,258.5
+eval:VGGT-1B:RABL,restored,the attached data (eval_VGGT-1B_RABL),1f9bec7fdcc2fcf0bef2,4,1.2,1.1,324.1
+eval:VGGT-1B:E4,restored,the attached data (eval_VGGT-1B_E4),e4b4eaaef2858a6b3a7b,3,0.1,0.6,526.8
+eval:VGGT-1B:VK,restored,the attached data (eval_VGGT-1B_VK),fed4a60297007520591e,4,2.2,1.2,376.2
+eval:VGGT-1B:AV2,restored,the attached data (eval_VGGT-1B_AV2),44113704da7146e1c38e,4,1.1,1.1,190.9
+eval:VGGT-1B:AV2X,restored,the attached data (eval_VGGT-1B_AV2X),48038a59500f2fa26135,4,0.3,0.9,553.3
+eval:VGGT-1B:BSW,computed,this session,cdac914c7e10522315f7,4,3.6,255.1,255.1
+eval:VGGT-1B:WDR,computed,this session,40ba2ba8ac0f9866d0ec,4,3.4,331.2,331.2
+eval:VGGT-1B:BONN,computed,this session,13d4825262a2e65c5c63,4,0.8,169.0,169.0
+eval:pi3:MAIN,restored,the attached data (eval_pi3_MAIN),42810eccb1331d096140,4,5.2,1.3,304.4
+eval:pi3:FLAT,restored,the attached data (eval_pi3_FLAT),1af231e01ae3215eab52,3,0.0,0.7,13.0
+eval:pi3:ABL,restored,the attached data (eval_pi3_ABL),88db4e457ec9b04f2cd4,4,3.4,1.2,362.4
+eval:pi3:REAL,restored,the attached data (eval_pi3_REAL),3ddf14d782d7b69ee9f3,4,1.4,1.0,196.0
+eval:pi3:RABL,restored,the attached data (eval_pi3_RABL),07caf1656441e66f7402,4,1.2,1.1,243.8
+eval:pi3:E4,restored,the attached data (eval_pi3_E4),1029fd617e1bcb89b988,3,0.1,0.7,409.5
+eval:pi3:VK,restored,the attached data (eval_pi3_VK),d0800ea2f181a05b2a94,4,2.2,1.2,287.7
+eval:pi3:AV2,restored,the attached data (eval_pi3_AV2),b0a1b8d065fd2a9be442,4,1.1,1.1,139.5
+eval:pi3:AV2X,restored,the attached data (eval_pi3_AV2X),29710fe52a057832edc7,4,0.3,1.0,408.0
+eval:pi3:BSW,computed,this session,9aa05c8d201e952d4a6f,4,3.8,200.6,200.6
+eval:pi3:WDR,computed,this session,3b06fc7cb89286eb1507,4,3.8,261.8,261.8
+eval:pi3:BONN,computed,this session,e1bf958f92b7afe1c364,4,0.7,126.4,126.4
+eval:MapAnything:MAIN,restored,the attached data (eval_MapAnything_MAIN),56308e42c27b1750afb6,4,5.5,1.3,996.9
+eval:MapAnything:FLAT,restored,the attached data (eval_MapAnything_FLAT),101769afa7fbf52d8df8,3,0.0,0.8,50.9
+eval:MapAnything:ABL,restored,the attached data (eval_MapAnything_ABL),ce92183258527e81185f,4,4.3,1.3,1167.9
+eval:MapAnything:REAL,restored,the attached data (eval_MapAnything_REAL),577f509ae07cf08f61ca,4,1.3,1.0,669.3
+eval:MapAnything:RABL,restored,the attached data (eval_MapAnything_RABL),25177dc2623fd1598a3c,4,1.6,1.1,854.6
+eval:MapAnything:E4,restored,the attached data (eval_MapAnything_E4),479b0411c33367eb870f,3,0.1,0.6,1412.7
+eval:MapAnything:VK,restored,the attached data (eval_MapAnything_VK),1ed1a857ab534840f752,4,2.3,1.4,927.7
+eval:MapAnything:AV2,restored,the attached data (eval_MapAnything_AV2),7109a77b22116aae193f,4,1.2,1.1,511.5
+eval:MapAnything:AV2X,restored,the attached data (eval_MapAnything_AV2X),7aa43cbb91dbfc4dbd8a,4,0.3,0.8,1420.5
+eval:MapAnything:BSW,computed,this session,95897d97b6028496bfd2,4,4.1,617.3,617.3
+eval:MapAnything:WDR,computed,this session,2b3275e52b57fe0b0427,4,4.1,789.5,789.5
+eval:MapAnything:BONN,computed,this session,ad5f3bfe8d9234883f67,4,0.8,429.3,429.3
+oracle,restored,the attached data (oracle),5dfd5cec986029dc8103,2,0.4,0.9,121.3

@@ -1,0 +1,27 @@
+{
+  "dust3r": {
+    "ok": true,
+    "commit": "4c24a6ebf048",
+    "note": "pinned commit"
+  },
+  "mast3r": {
+    "ok": true,
+    "commit": "f5209afc300c",
+    "note": "pinned commit"
+  },
+  "vggt": {
+    "ok": true,
+    "commit": "a288dd0f1478",
+    "note": "pinned commit"
+  },
+  "pi3": {
+    "ok": true,
+    "commit": "9fa3ddb3f8d5",
+    "note": "pinned commit"
+  },
+  "map-anything": {
+    "ok": true,
+    "commit": "3d10cf7a3016",
+    "note": "pinned commit"
+  }
+}

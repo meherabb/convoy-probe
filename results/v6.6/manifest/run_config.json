@@ -1,0 +1,662 @@
+{
+  "RUN_CONFIG": {
+    "W": 640,
+    "H": 480,
+    "n_scenes_main": 240,
+    "movers_per_scene": 3,
+    "n_scenes_knockout": 96,
+    "n_scenes_flat": 24,
+    "n_clips_e4_per_path": 48,
+    "e4_n_frames": 8,
+    "e4_window_sizes": [
+      2,
+      4,
+      8
+    ],
+    "n_real_pairs_per_seq": 60,
+    "real_movers_per_pair": 2,
+    "n_dyn_candidate_pairs_per_seq": 150,
+    "n_boot": 10000,
+    "alpha": 0.05,
+    "render_workers": 4,
+    "n_scenes_ablation": 72,
+    "n_vk_scenes": 5,
+    "vk_pairs_per_scene": 150,
+    "n_rabl_pairs_per_seq": 40,
+    "rabl_movers_per_pair": 2,
+    "n_kt_pairs_per_seq": 20,
+    "n_kt_sequences": 12,
+    "dataset_backup": true,
+    "dataset_backup_slug": "convoy-checkpoints",
+    "use_av2": true,
+    "n_av2_logs": 16,
+    "n_av2_pairs_per_log": 12,
+    "n_av2_logs_ext": 48,
+    "n_scenes_bsw": 64,
+    "n_scenes_wdr": 64,
+    "use_bonn": true,
+    "n_bonn_pairs_per_seq": 50
+  },
+  "PREREG": {
+    "eps_parallel_max": 1.0,
+    "eps_perp_min": 3.0,
+    "parallax_min_px": 5.0,
+    "gate_slope_range": [
+      0.7,
+      1.3
+    ],
+    "gate_absrel_max": 0.25,
+    "beta_support_range": [
+      0.8,
+      1.2
+    ],
+    "beta_ci_band": [
+      0.5,
+      1.5
+    ],
+    "r2_min": 0.5,
+    "recall_diff_min": 0.3,
+    "mask_fpr": 0.05,
+    "spearman_min": 0.5,
+    "w_separability_min": 0.1,
+    "e4_drop_min": 0.3,
+    "min_object_pixels": 40,
+    "erosion_px": 2,
+    "static_depth_range_synth": [
+      2.0,
+      80.0
+    ],
+    "static_depth_range_real": [
+      0.3,
+      4.5
+    ],
+    "static_depth_range_vk": [
+      2.0,
+      80.0
+    ],
+    "h9_beta_max": 0.3,
+    "h9_ci_hi_max": 0.5,
+    "h9_x_range": [
+      -0.47,
+      1.9
+    ],
+    "h9_min_movers": 20,
+    "h9_min_pairs": 5,
+    "min_movers_per_regime": 20,
+    "contact_band_m": 0.12,
+    "vk_min_occupancy": 0.85,
+    "rabl_contact_band_m": 0.03,
+    "x6_min_eroded_px": 40,
+    "x6_min_lever": 0.3,
+    "x6_pace_s": [
+      0.85,
+      1.15
+    ],
+    "x6_wheel_height_m": 0.1,
+    "x6_wheel_depth_tol_m": 0.6,
+    "kt_min_lidar_px": 40,
+    "kt_moving_disp_m": 0.5,
+    "kt_parked_disp_m": 0.15,
+    "kt_eps_noise_quantile": 0.9,
+    "x6_match_caliper_sd": 0.5,
+    "implied_factor_s": 0.85,
+    "h12_contrast": [
+      "B3",
+      "B05"
+    ],
+    "h12_models": [
+      "DUSt3R",
+      "MASt3R"
+    ],
+    "h13_contrast": [
+      "W15",
+      "G"
+    ],
+    "h13_contact_px_min": 5,
+    "dose_min_movers": 8,
+    "dose_min_scenes": 5,
+    "twin_fpr": 0.05,
+    "bonn_min_object_px": 150,
+    "bonn_floor_contact_m": 0.08,
+    "bonn_floor_clear_m": 0.2,
+    "h14_min_vehicles": 20,
+    "h14_min_tracks": 10
+  },
+  "MOVER_DESIGN": {
+    "classes": {
+      "car": 0.4,
+      "crate": 0.3,
+      "crate_floating": 0.3
+    },
+    "eps_targets_px": {
+      "0.0": 0.4,
+      "0.5": 0.08,
+      "1.5": 0.07,
+      "2.0": 0.08,
+      "3.0": 0.09,
+      "5.0": 0.1,
+      "8.0": 0.1,
+      "12.0": 0.08
+    },
+    "s_range_main": [
+      -0.6,
+      0.85
+    ],
+    "s_range_beyond": [
+      1.1,
+      1.4
+    ],
+    "p_beyond": 0.08,
+    "depth_range_m": [
+      5.0,
+      45.0
+    ]
+  },
+  "CAMERA_DESIGN": {
+    "forward": {
+      "p": 0.4,
+      "yaw_deg": [
+        -8,
+        8
+      ],
+      "baseline_m": [
+        1.2,
+        3.0
+      ]
+    },
+    "oblique": {
+      "p": 0.3,
+      "yaw_deg": [
+        20,
+        45
+      ],
+      "baseline_m": [
+        0.8,
+        2.0
+      ]
+    },
+    "side": {
+      "p": 0.3,
+      "yaw_deg": [
+        60,
+        80
+      ],
+      "baseline_m": [
+        0.5,
+        1.5
+      ]
+    },
+    "focal_px": [
+      520.0,
+      820.0
+    ],
+    "height_m": [
+      1.3,
+      1.8
+    ],
+    "rot_jitter_deg": 1.0
+  },
+  "ABLATION_DESIGN": {
+    "classes": {
+      "car": 0.5,
+      "crate": 0.5
+    },
+    "conditions": [
+      "G",
+      "NS",
+      "CH",
+      "F",
+      "FH"
+    ],
+    "labels": {
+      "G": "grounded",
+      "NS": "no shadow",
+      "CH": "contact hidden",
+      "F": "floating",
+      "FH": "floating, wall"
+    },
+    "lift_m": [
+      0.8,
+      1.6
+    ],
+    "contact_cover_car_m": 0.7,
+    "contact_cover_crate_frac": 0.35,
+    "wall_gap_m": 0.6,
+    "wall_max_cover_frac": 0.65,
+    "wall_thickness_m": 0.25
+  },
+  "RABL_DESIGN": {
+    "conditions": [
+      "G",
+      "F"
+    ],
+    "labels": {
+      "G": "grounded, contact shadow",
+      "F": "lifted, no shadow"
+    },
+    "crate_size_m": [
+      0.15,
+      0.32
+    ],
+    "lift_m": [
+      0.25,
+      0.5
+    ],
+    "depth_m": [
+      0.7,
+      3.5
+    ],
+    "max_baseline_tilt_deg": 6.0,
+    "vertical_max_tilt_deg": 12.0,
+    "plane_max_tilt_deg": 35.0,
+    "plane_inlier_m": 0.02,
+    "plane_fit_max_depth_m": 3.0,
+    "plane_min_inlier_frac": 0.08,
+    "plane_ransac_iters": 400,
+    "on_plane_sigma_k": 2.5,
+    "shadow_strength": 0.55,
+    "shadow_softness": 0.3,
+    "attempts": 300,
+    "margin_px": 16,
+    "max_candidates_per_seq": 600
+  },
+  "VK_DESIGN": {
+    "base_url": "https://download.europe.naverlabs.com/virtual_kitti_2.0.3/",
+    "scenes": [
+      "Scene01",
+      "Scene02",
+      "Scene06",
+      "Scene18",
+      "Scene20"
+    ],
+    "variation": "clone",
+    "camera": 0,
+    "crop_wh": [
+      500,
+      375
+    ],
+    "pair_baseline_m": [
+      1.0,
+      3.0
+    ],
+    "max_rot_deg": 10.0,
+    "max_gap_frames": 8,
+    "min_vehicle_px": 300,
+    "sky_depth_m": 600.0
+  },
+  "KT_DESIGN": {
+    "root_env": "CONVOY_KITTI_ROOT",
+    "classes": [
+      "Car",
+      "Van",
+      "Truck"
+    ],
+    "pair_baseline_m": [
+      1.0,
+      3.0
+    ],
+    "max_rot_deg": 10.0,
+    "max_gap_frames": 10,
+    "max_truncation": 0.3,
+    "max_occlusion": 1,
+    "lidar_min_depth_m": 2.0,
+    "lidar_max_depth_m": 80.0,
+    "static_box_margin_m": 0.3,
+    "crop_h_max": 375,
+    "zbuffer_window_px": 5,
+    "zbuffer_tol": [
+      0.1,
+      1.0
+    ]
+  },
+  "AV2_DESIGN": {
+    "base_url": "https://argoverse.s3.amazonaws.com/",
+    "prefix": "datasets/av2/sensor/",
+    "split": "val",
+    "camera": "ring_front_center",
+    "classes": [
+      "REGULAR_VEHICLE",
+      "LARGE_VEHICLE",
+      "BUS",
+      "BOX_TRUCK",
+      "TRUCK",
+      "TRUCK_CAB",
+      "SCHOOL_BUS",
+      "ARTICULATED_BUS",
+      "VEHICULAR_TRAILER"
+    ],
+    "out_wh": [
+      640,
+      480
+    ],
+    "pair_baseline_m": [
+      1.0,
+      3.0
+    ],
+    "max_rot_deg": 10.0,
+    "max_gap_frames": 20,
+    "min_start_gap_frames": 10,
+    "lidar_min_depth_m": 2.0,
+    "lidar_max_depth_m": 80.0,
+    "static_box_margin_m": 0.3,
+    "own_box_margin_m": 0.1,
+    "ground_cut_m": 0.15,
+    "zbuffer_window_px": 5,
+    "zbuffer_tol": [
+      0.1,
+      1.0
+    ],
+    "max_truncation": 0.3,
+    "max_occlusion": 0.5,
+    "min_moving_speed_mps": 1.0,
+    "min_pairs_per_log": 4,
+    "max_logs_tried": 60
+  },
+  "AV2X_DESIGN": {
+    "max_logs_tried_total": 150,
+    "body_clearance_m": 0.3,
+    "occluder_shrink_m": 0.1,
+    "occluder_gap_m": 0.3,
+    "lidar_window_cols": 2,
+    "lidar_window_rows_above": 8,
+    "lidar_occluder_tol": [
+      0.1,
+      1.0
+    ]
+  },
+  "SWEEP_DESIGN": {
+    "classes": {
+      "car": 0.35,
+      "crate": 0.3,
+      "crate_floating": 0.35
+    },
+    "levels": {
+      "B05": 0.5,
+      "B1": 1.0,
+      "B2": 2.0,
+      "B3": 3.0
+    },
+    "labels": {
+      "B05": "x0.5",
+      "B1": "x1",
+      "B2": "x2",
+      "B3": "x3"
+    },
+    "n_frames_sampled": 4
+  },
+  "WALL_DOSE_DESIGN": {
+    "classes": {
+      "car": 0.5,
+      "crate": 0.5
+    },
+    "levels": {
+      "G": 0.0,
+      "W15": 0.15,
+      "W35": 0.35,
+      "W70": 0.7
+    },
+    "labels": {
+      "G": "no wall",
+      "W15": "15 cm",
+      "W35": "35 cm",
+      "W70": "70 cm"
+    }
+  },
+  "BONN_DESIGN": {
+    "base_url": "https://www.ipb.uni-bonn.de/html/projects/rgbd_dynamic2019/",
+    "sequences": {
+      "balloon": {
+        "file": "rgbd_bonn_balloon.zip",
+        "object": "balloon"
+      },
+      "balloon2": {
+        "file": "rgbd_bonn_balloon2.zip",
+        "object": "balloon"
+      },
+      "moving_nonobstructing_box": {
+        "file": "rgbd_bonn_moving_nonobstructing_box.zip",
+        "object": "box"
+      },
+      "moving_nonobstructing_box2": {
+        "file": "rgbd_bonn_moving_nonobstructing_box2.zip",
+        "object": "box"
+      }
+    },
+    "intrinsics": {
+      "fx": 542.822841,
+      "fy": 542.57687,
+      "cx": 315.59352,
+      "cy": 237.756098,
+      "W": 640,
+      "H": 480
+    },
+    "distortion": [
+      0.039903,
+      -0.099343,
+      -0.00073,
+      -0.000144,
+      0.0
+    ],
+    "depth_scale": 5000.0,
+    "T_ros": [
+      [
+        -1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "T_m": [
+      [
+        1.0157,
+        0.1828,
+        -0.2389,
+        0.0113
+      ],
+      [
+        0.0009,
+        -0.8431,
+        -0.6413,
+        -0.0098
+      ],
+      [
+        -0.3009,
+        0.6147,
+        -0.8085,
+        0.0111
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "pair_baseline_m": [
+      0.05,
+      0.25
+    ],
+    "max_rot_deg": 20.0,
+    "person_score_min": 0.6,
+    "person_dilate_px": 5,
+    "min_component_px": 400,
+    "static_patch_px": 40,
+    "n_static_patches": 30,
+    "pnp_points": 6000,
+    "pnp_reproj_px": 1.5,
+    "pnp_min_inlier_frac": 0.4,
+    "pnp_max_med_err_px": 0.8,
+    "pnp_max_rot_change_deg": 5.0,
+    "pnp_max_trans_change_m": 0.1,
+    "max_object_frac": 0.2,
+    "max_object_extent": 0.7,
+    "occl_window_px": 2,
+    "photo_window_px": 3,
+    "photo_min_texture": 4.0,
+    "photo_min_px": 30,
+    "photo_max_zncc_static": 0.85,
+    "photo_min_support": 0.0,
+    "min_object_radius_px": 5.0,
+    "min_object_height_m": 0.05,
+    "floor_cam_height_m": [
+      0.9,
+      2.2
+    ],
+    "floor_min_frac": 0.02,
+    "floor_max_tilt_deg": 10.0,
+    "qc_max_object_frac": 0.15
+  },
+  "TWIN_DESIGN": {
+    "s_bins": [
+      -1.0,
+      -0.4,
+      -0.15,
+      -0.05,
+      0.05,
+      0.15,
+      0.4,
+      0.7,
+      1.0
+    ],
+    "theory_s": [
+      -0.9,
+      0.95
+    ]
+  },
+  "CUE_DESIGN": {
+    "kappa_grid_px": [
+      0.0,
+      1.0,
+      1.122,
+      1.259,
+      1.413,
+      1.585,
+      1.778,
+      1.995,
+      2.239,
+      2.512,
+      2.818,
+      3.162,
+      3.548,
+      3.981,
+      4.467,
+      5.012,
+      5.623,
+      6.31,
+      7.079,
+      7.943,
+      8.913,
+      10.0,
+      11.22,
+      12.589,
+      14.125,
+      15.849,
+      17.783,
+      19.953,
+      22.387,
+      25.119,
+      28.184,
+      31.623,
+      35.481,
+      39.811,
+      44.668,
+      50.119,
+      56.234,
+      63.096,
+      70.795,
+      79.433,
+      89.125,
+      100.0,
+      112.202,
+      125.893,
+      141.254,
+      158.489,
+      177.828,
+      199.526,
+      223.872,
+      251.189,
+      281.838,
+      316.228,
+      354.813,
+      398.107,
+      446.684,
+      501.187,
+      562.341,
+      630.957,
+      707.946,
+      794.328,
+      891.251,
+      1000.0
+    ],
+    "n_folds": 10,
+    "parallax_bins_px": [
+      0,
+      5,
+      10,
+      20,
+      40,
+      80,
+      1000000000.0
+    ],
+    "x_bins": [
+      -0.6,
+      -0.25,
+      0.0,
+      0.25,
+      0.5,
+      0.8,
+      1.2,
+      2.0
+    ]
+  },
+  "FLOWTWIN_DESIGN": {
+    "road_depth_m": [
+      2.0,
+      40.0
+    ],
+    "road_inlier_m": 0.08,
+    "road_max_tilt_deg": 10.0,
+    "road_cam_height_m": [
+      0.8,
+      3.0
+    ],
+    "ransac_iters": 300,
+    "fb_px": 1.0,
+    "fb_rel": 0.05,
+    "min_px": 10,
+    "low_pct": 10,
+    "behind_frac": 0.5
+  },
+  "STAGE_VERSIONS": {
+    "render": "v6.0",
+    "tum": "v6.0",
+    "flow": "v6.0",
+    "vk": "v6.2",
+    "eval": "v6.2",
+    "kitti": "v6.3",
+    "av2": "v6.3",
+    "av2x": "v6.4",
+    "render65": "v6.5",
+    "bonn": "v6.6",
+    "av2t": "v6.5",
+    "av2ft": "v6.6"
+  }
+}

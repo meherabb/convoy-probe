@@ -1,0 +1,14 @@
+{
+  "status": "written after reading the first complete v6 run and before generating any v6.1 data (the real-image contact ablation did not exist in v6). H5-H8 and P1-P4 keep their rules.",
+  "registered_hypotheses": {
+    "H11a (support cue, real images)": "E5-REAL: the same textured crate inserted into real TUM RGB-D frame pairs, once resting on the real support plane with a contact shadow (G) and once lifted 0.25-0.50 m without a shadow (F); purely parallel motion delta = s*b. beta(F) - beta(G) > 0, paired cluster-bootstrap 95% CI > 0 (cluster = image pair), Holm across models. Same estimator as H5.",
+    "H11b (single-image signature, real images)": "median rho_mono(F) - median rho_mono(G) > 0, CI > 0, on the same crates. Same estimator as H8.",
+    "sample": "crates measurable and identifiable in both conditions, with >= 5 contact pixels (within 3 cm of the plane) in both views when grounded and none when lifted; at least 8 crates from 5 pairs, otherwise NOT TESTABLE."
+  },
+  "withdrawn": {
+    "H10 (Easi3R on 10-frame clips)": "Outcome of the first complete v6 run, kept on record: FALSIFIED by its rule for both backbones (recall(perp) - recall(par) = -0.02 [-0.15, 0.10] for DUSt3R and -0.08 [-0.18, 0.02] for MonST3R, 52 parallel and 43 perpendicular movers). The rule could not have come out otherwise: the cluster-refined map found perpendicular movers with recall 0.17 and 0.07 at a 5% static false-positive rate, and the binary mask flagged 40-45% of static pixels, so the map detects movers in neither regime and cannot show a regime difference. The test is withdrawn from v6.1 and the attention-based mask of the locked baseline list is not evaluated (Section 0.2, D33); the paper reports this in its limitations, not as evidence for or against the probe."
+  },
+  "moved_to_exploratory": {
+    "H9 (driving)": "The v6.0 measurability rule for Virtual KITTI 2 (whole box inside the crop, truncation <= 5%, >= 85% visible in view 2) left 2 vehicles, so H9 could not be tested. v6.1 applies the CONVOY-3D pixel rule (>= 40 eroded visible pixels, >= 85% of the silhouette unoccluded). Because the rule was changed after the v6.0 sample size was seen, H9 is reported as exploratory, with its registered thresholds and the full attrition table (Section 3.8), not as a confirmatory test."
+  }
+}

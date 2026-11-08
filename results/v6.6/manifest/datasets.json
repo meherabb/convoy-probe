@@ -1,0 +1,46 @@
+{
+  "fr3_structure_texture_far": {
+    "role": "static",
+    "downloaded": false,
+    "restored": true,
+    "n_rgb": 0,
+    "n_depth": 0,
+    "groundtruth": false,
+    "note": "every stage built from it is restored from a checkpoint; not downloaded",
+    "seconds": 0.0,
+    "path": "/tmp/convoy_scratch/data/fr3_structure_texture_far"
+  },
+  "fr3_long_office_household": {
+    "role": "static",
+    "downloaded": false,
+    "restored": true,
+    "n_rgb": 0,
+    "n_depth": 0,
+    "groundtruth": false,
+    "note": "every stage built from it is restored from a checkpoint; not downloaded",
+    "seconds": 0.0,
+    "path": "/tmp/convoy_scratch/data/fr3_long_office_household"
+  },
+  "fr3_walking_xyz": {
+    "role": "dynamic",
+    "downloaded": false,
+    "restored": true,
+    "n_rgb": 0,
+    "n_depth": 0,
+    "groundtruth": false,
+    "note": "every stage built from it is restored from a checkpoint; not downloaded",
+    "seconds": 0.0,
+    "path": "/tmp/convoy_scratch/data/fr3_walking_xyz"
+  },
+  "fr3_walking_halfsphere": {
+    "role": "dynamic",
+    "downloaded": false,
+    "restored": true,
+    "n_rgb": 0,
+    "n_depth": 0,
+    "groundtruth": false,
+    "note": "every stage built from it is restored from a checkpoint; not downloaded",
+    "seconds": 0.0,
+    "path": "/tmp/convoy_scratch/data/fr3_walking_halfsphere"
+  }
+}

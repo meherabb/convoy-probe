@@ -1,0 +1,8 @@
+{
+  "status": {
+    "available": false,
+    "note": "no KITTI tracking folder attached (needs image_02, velodyne, label_02, calib and oxts; attach them as a private Kaggle dataset)",
+    "sequences": []
+  },
+  "a3": {}
+}

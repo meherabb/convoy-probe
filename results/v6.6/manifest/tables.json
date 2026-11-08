@@ -1,0 +1,331 @@
+[
+  {
+    "table": "T1a_models",
+    "caption": "Models evaluated: family, training data, checkpoint, input size, precision, size, peak GPU memory, and whether Virtual KITTI is among the published training data.",
+    "rows": 6,
+    "csv": "/kaggle/working/outputs/tables/T1a_models.csv",
+    "tex": "/kaggle/working/outputs/tables/T1a_models.tex"
+  },
+  {
+    "table": "T1b_data",
+    "caption": "Data: testbeds, sizes, and the ground-truth self-consistency test (A3: median relative depth disagreement after warping; static / vehicles for Virtual KITTI 2).",
+    "rows": 21,
+    "csv": "/kaggle/working/outputs/tables/T1b_data.csv",
+    "tex": "/kaggle/working/outputs/tables/T1b_data.tex"
+  },
+  {
+    "table": "T1c_argoverse2_logs",
+    "caption": "Argoverse 2 logs and their ground-truth checks (A3): median relative depth disagreement of warped static LiDAR, and the grey-value error (0-255) of static LiDAR pixels with the exact warp and without it. Moving vehicles, pooled over the logs of each stage: v6.3 logs: median grey-value error 4.0 (rigid motion) vs 18.8 (static point) over 63018 pixels; v6.4 logs: median grey-value error 4.8 (rigid motion) vs 20.2 (static point) over 135260 pixels.",
+    "rows": 64,
+    "csv": "/kaggle/working/outputs/tables/T1c_argoverse2_logs.csv",
+    "tex": "/kaggle/working/outputs/tables/T1c_argoverse2_logs.tex"
+  },
+  {
+    "table": "T2_validity_gate",
+    "caption": "Static-scene validity gate: median [IQR] log-depth slope and AbsRel on static pixels.",
+    "rows": 60,
+    "csv": "/kaggle/working/outputs/tables/T2_validity_gate.csv",
+    "tex": "/kaggle/working/outputs/tables/T2_validity_gate.tex"
+  },
+  {
+    "table": "T2b_oracle_validation",
+    "caption": "Estimator validation with predictors of known prior weight w (CONVOY-3D E1 estimator).",
+    "rows": 5,
+    "csv": "/kaggle/working/outputs/tables/T2b_oracle_validation.csv",
+    "tex": "/kaggle/working/outputs/tables/T2b_oracle_validation.tex"
+  },
+  {
+    "table": "T3_E1_geometry_share",
+    "caption": "E1: geometry share beta_s (slope of log depth error on -log(1-s)) for purely parallel movers, CONVOY-3D; verdict under the locked Prediction 1.",
+    "rows": 8,
+    "csv": "/kaggle/working/outputs/tables/T3_E1_geometry_share.csv",
+    "tex": "/kaggle/working/outputs/tables/T3_E1_geometry_share.tex"
+  },
+  {
+    "table": "T4_E2_masks",
+    "caption": "E2 (Prediction 2): dynamic-mask recall at 5% static FPR, parallel vs perpendicular movers (stratified by |s| and size).",
+    "rows": 26,
+    "csv": "/kaggle/working/outputs/tables/T4_E2_masks.csv",
+    "tex": "/kaggle/working/outputs/tables/T4_E2_masks.tex"
+  },
+  {
+    "table": "T5_E3_prior_weight",
+    "caption": "E3 (Prediction 3): prior weight w versus epipolar offset and object class.",
+    "rows": 6,
+    "csv": "/kaggle/working/outputs/tables/T5_E3_prior_weight.csv",
+    "tex": "/kaggle/working/outputs/tables/T5_E3_prior_weight.tex"
+  },
+  {
+    "table": "T6_E4_multiview",
+    "caption": "E4 (Prediction 4): beta_s for K = 2, 4, 8 frames on straight paths and their curved twins.",
+    "rows": 3,
+    "csv": "/kaggle/working/outputs/tables/T6_E4_multiview.csv",
+    "tex": "/kaggle/working/outputs/tables/T6_E4_multiview.tex"
+  },
+  {
+    "table": "T7_A1_knockout",
+    "caption": "A1 correspondence knockout: beta_s with the mover present in / deleted from the second view.",
+    "rows": 6,
+    "csv": "/kaggle/working/outputs/tables/T7_A1_knockout.csv",
+    "tex": "/kaggle/working/outputs/tables/T7_A1_knockout.tex"
+  },
+  {
+    "table": "T8_real_E1",
+    "caption": "CONVOY-REAL: E1 replication on real TUM backgrounds.",
+    "rows": 8,
+    "csv": "/kaggle/working/outputs/tables/T8_real_E1.csv",
+    "tex": "/kaggle/working/outputs/tables/T8_real_E1.tex"
+  },
+  {
+    "table": "T8b_real_E2",
+    "caption": "CONVOY-REAL: E2 replication on real TUM backgrounds.",
+    "rows": 26,
+    "csv": "/kaggle/working/outputs/tables/T8b_real_E2.csv",
+    "tex": "/kaggle/working/outputs/tables/T8b_real_E2.tex"
+  },
+  {
+    "table": "T9a_E5_beta_by_condition",
+    "caption": "E5: geometry share beta_s of the same movers in each ground-contact condition.",
+    "rows": 6,
+    "csv": "/kaggle/working/outputs/tables/T9a_E5_beta_by_condition.csv",
+    "tex": "/kaggle/working/outputs/tables/T9a_E5_beta_by_condition.tex"
+  },
+  {
+    "table": "T9b_E5_contrasts",
+    "caption": "E5: registered contrasts H5-H8 and exploratory contrasts (shadow, class), paired by mover, 95% cluster-bootstrap intervals.",
+    "rows": 36,
+    "csv": "/kaggle/working/outputs/tables/T9b_E5_contrasts.csv",
+    "tex": "/kaggle/working/outputs/tables/T9b_E5_contrasts.tex"
+  },
+  {
+    "table": "T10d_vkitti_sample",
+    "caption": "Virtual KITTI 2: the H9 sample step by step (vehicles and image pairs left after each criterion); the last row applies the v6.0 rule for comparison.",
+    "rows": 7,
+    "csv": "/kaggle/working/outputs/tables/T10d_vkitti_sample.csv",
+    "tex": "/kaggle/working/outputs/tables/T10d_vkitti_sample.tex"
+  },
+  {
+    "table": "T10b_prevalence_two_view",
+    "caption": "Share of moving pixels per motion regime between two views (TUM walking people; Virtual KITTI 2 moving vehicles).",
+    "rows": 7,
+    "csv": "/kaggle/working/outputs/tables/T10b_prevalence_two_view.csv",
+    "tex": "/kaggle/working/outputs/tables/T10b_prevalence_two_view.tex"
+  },
+  {
+    "table": "T10c_prevalence_k_view",
+    "caption": "Virtual KITTI 2: share of moving vehicles whose K-frame track a static point explains within 1 px.",
+    "rows": 3,
+    "csv": "/kaggle/working/outputs/tables/T10c_prevalence_k_view.csv",
+    "tex": "/kaggle/working/outputs/tables/T10c_prevalence_k_view.tex"
+  },
+  {
+    "table": "T11a_E5real_beta_by_condition",
+    "caption": "E5-REAL: geometry share beta_s of the same crates on real TUM backgrounds, grounded with a contact shadow or lifted without one. Classical triangulation with the true pose on the same composites: grounded, contact shadow 1.00 [1.00, 1.00]; lifted, no shadow 1.00 [1.00, 1.00].",
+    "rows": 6,
+    "csv": "/kaggle/working/outputs/tables/T11a_E5real_beta_by_condition.csv",
+    "tex": "/kaggle/working/outputs/tables/T11a_E5real_beta_by_condition.tex"
+  },
+  {
+    "table": "T11b_E5real_contrasts",
+    "caption": "E5-REAL: H11a, beta(lifted) - beta(grounded), and H11b, median single-image rho(lifted) - rho(grounded), paired by crate, 95% cluster-bootstrap intervals (cluster = image pair), Holm across models.",
+    "rows": 12,
+    "csv": "/kaggle/working/outputs/tables/T11b_E5real_contrasts.csv",
+    "tex": "/kaggle/working/outputs/tables/T11b_E5real_contrasts.tex"
+  },
+  {
+    "table": "T12_summary",
+    "caption": "All registered tests (locked P1-P4 and A1; v6 H5-H8; v6.1 H11a-b) and the exploratory H9: estimate [95% CI] and verdict. H10 was withdrawn after the v6 run (D33).",
+    "rows": 102,
+    "csv": "/kaggle/working/outputs/tables/T12_summary.csv",
+    "tex": "/kaggle/working/outputs/tables/T12_summary.tex"
+  },
+  {
+    "table": "T13_robustness",
+    "caption": "beta_s by camera heading, mover class, depth and focal length (E1 movers).",
+    "rows": 12,
+    "csv": "/kaggle/working/outputs/tables/T13_robustness.csv",
+    "tex": "/kaggle/working/outputs/tables/T13_robustness.tex"
+  },
+  {
+    "table": "T14a_masks_by_condition",
+    "caption": "Exploratory: M2 recall (exact correspondences, 5% static FPR) on the same purely parallel movers in each ground-contact condition of E5.",
+    "rows": 6,
+    "csv": "/kaggle/working/outputs/tables/T14a_masks_by_condition.csv",
+    "tex": "/kaggle/working/outputs/tables/T14a_masks_by_condition.tex"
+  },
+  {
+    "table": "T14b_masks_contrasts",
+    "caption": "Exploratory: paired change of M2 recall when the contact is hidden or the mover lifted (95% cluster-bootstrap intervals over base scenes).",
+    "rows": 12,
+    "csv": "/kaggle/working/outputs/tables/T14b_masks_contrasts.csv",
+    "tex": "/kaggle/working/outputs/tables/T14b_masks_contrasts.tex"
+  },
+  {
+    "table": "T15a_driving_contact",
+    "caption": "Exploratory: median per-object geometry share g of parallel vehicles whose wheel contact points are visible or hidden (Virtual KITTI 2: instance masks, D37; Argoverse 2: geometry and LiDAR, D50), the difference, and the median paired difference after matching every hidden-contact vehicle to the nearest visible-contact vehicle on log depth, log image area and x_geo (within 0.5 SD on each). 95% cluster-bootstrap intervals over vehicle tracks.",
+    "rows": 12,
+    "csv": "/kaggle/working/outputs/tables/T15a_driving_contact.csv",
+    "tex": "/kaggle/working/outputs/tables/T15a_driving_contact.tex"
+  },
+  {
+    "table": "T15c_matching_balance",
+    "caption": "Covariate balance of the matched hidden/visible comparison: standardized mean difference (hidden minus visible, in units of the pooled SD of the unmatched groups) of log depth, log image area and x_geo before and after matching (|SMD| < 0.1 is conventionally taken as balanced).",
+    "rows": 12,
+    "csv": "/kaggle/working/outputs/tables/T15c_matching_balance.csv",
+    "tex": "/kaggle/working/outputs/tables/T15c_matching_balance.tex"
+  },
+  {
+    "table": "T15d_contact_rule_check",
+    "caption": "Check of the Argoverse 2 contact rule (D50) on Virtual KITTI 2: the same geometric rule, with the exact depth of static pixels in place of the LiDAR, against the labels from the instance masks (D37), on the vehicles where both rules decide; agreement, Cohen's kappa, the number of hidden contacts under each rule and under both, and the vehicles the instance masks decide but the rule leaves undetermined.",
+    "rows": 2,
+    "csv": "/kaggle/working/outputs/tables/T15d_contact_rule_check.csv",
+    "tex": "/kaggle/working/outputs/tables/T15d_contact_rule_check.tex"
+  },
+  {
+    "table": "T15b_convoy_case",
+    "caption": "Exploratory: vehicles keeping pace with the camera (0.85 <= s < 1.15). For s < 1, the median per-object geometry share g (95% cluster-bootstrap intervals over vehicle tracks) and the share of vehicles whose depth is closer to the model's own single-image depth than to the geometric answer; for s >= 1 (no static solution), the share placed farther than the single-image depth.",
+    "rows": 12,
+    "csv": "/kaggle/working/outputs/tables/T15b_convoy_case.csv",
+    "tex": "/kaggle/working/outputs/tables/T15b_convoy_case.tex"
+  },
+  {
+    "table": "T16a_real_driving_regimes",
+    "caption": "Exploratory, real driving with LiDAR: share of moving vehicles (and of their LiDAR pixels) per motion regime, and the share keeping pace with the camera (0.85 <= s < 1.15); the parallel threshold is the label-noise floor measured on parked vehicles. The ego speed (camera baseline over the time between the two images) describes the traffic sampled: shares measured in urban traffic need not hold at highway speeds.",
+    "rows": 1,
+    "csv": "/kaggle/working/outputs/tables/T16a_real_driving_regimes.csv",
+    "tex": "/kaggle/working/outputs/tables/T16a_real_driving_regimes.tex"
+  },
+  {
+    "table": "T16b_real_driving_beta",
+    "caption": "Exploratory, real driving with LiDAR: slope beta_geo of the log depth error on x_geo for parallel moving vehicles (correspondences from labelled boxes and tracks, Sections 3.10-3.11; 95% cluster-bootstrap intervals over vehicle tracks).",
+    "rows": 6,
+    "csv": "/kaggle/working/outputs/tables/T16b_real_driving_beta.csv",
+    "tex": "/kaggle/working/outputs/tables/T16b_real_driving_beta.tex"
+  },
+  {
+    "table": "T17_single_image_protocol",
+    "caption": "Single-image protocol check for the multi-view models: H11b and the CONVOY-REAL single-image slope with the image given once (the protocol of the paper) or twice.",
+    "rows": 3,
+    "csv": "/kaggle/working/outputs/tables/T17_single_image_protocol.csv",
+    "tex": "/kaggle/working/outputs/tables/T17_single_image_protocol.tex"
+  },
+  {
+    "table": "T18a_support_levels",
+    "caption": "Descriptive (Section 6.9): geometry share by ground support in every testbed, beta_s where s was designed (CONVOY-3D, CONVOY-REAL, E5, E5-REAL) and the median per-object share g in driving; grounded = ground contact in view. Every CONVOY-REAL mover is a floating crate (D52). 95% cluster-bootstrap intervals; only interpretable model x testbed results.",
+    "rows": 14,
+    "csv": "/kaggle/working/outputs/tables/T18a_support_levels.csv",
+    "tex": "/kaggle/working/outputs/tables/T18a_support_levels.tex"
+  },
+  {
+    "table": "T18c_implied_depth_error",
+    "caption": "Depth overestimate exp(beta_s x) implied by each slope for an object keeping pace with the camera at s = 0.85 (x = 1.90; 1 = true depth, 6.7 = the geometric answer), with the slope's interval mapped through the same function.",
+    "rows": 10,
+    "csv": "/kaggle/working/outputs/tables/T18c_implied_depth_error.csv",
+    "tex": "/kaggle/working/outputs/tables/T18c_implied_depth_error.tex"
+  },
+  {
+    "table": "T18b_support_contrasts",
+    "caption": "Descriptive (Section 6.9): unsupported or hidden-contact objects minus grounded ones within each testbed, estimate [95% CI] and the direction the interval gives; H5, H6 and H11a as registered, the driving contrasts as in T15a, and floating minus grounded CONVOY-3D movers (new in v6.4, unpaired).",
+    "rows": 8,
+    "csv": "/kaggle/working/outputs/tables/T18b_support_contrasts.csv",
+    "tex": "/kaggle/working/outputs/tables/T18b_support_contrasts.tex"
+  },
+  {
+    "table": "T19a_baseline_sweep",
+    "caption": "Baseline sweep (Section 6.10): beta_s [95% CI] of the same movers with the camera baseline scaled by 0.5, 1, 2 and 3 (only the parallax changes), for all movers and separately for grounded and floating ones; common sample: measurable at every baseline and identifiable at x1.",
+    "rows": 12,
+    "csv": "/kaggle/working/outputs/tables/T19a_baseline_sweep.csv",
+    "tex": "/kaggle/working/outputs/tables/T19a_baseline_sweep.tex"
+  },
+  {
+    "table": "T19b_baseline_sweep_tests",
+    "caption": "H12 (registered for DUSt3R and MASt3R; no prediction for the other models) and the exploratory split by support: the rise of beta_s from x0.5 to x3, paired by mover, 95% cluster-bootstrap intervals over base scenes, Holm across the two registered models.",
+    "rows": 24,
+    "csv": "/kaggle/working/outputs/tables/T19b_baseline_sweep_tests.csv",
+    "tex": "/kaggle/working/outputs/tables/T19b_baseline_sweep_tests.tex"
+  },
+  {
+    "table": "T20a_dose_response",
+    "caption": "Contact dose-response (Section 6.10): beta_s [95% CI] of the same grounded movers with no wall and behind walls built to hide at least their lowest 15, 35 and 70 cm in both views; share hidden: median share of the mover's silhouette hidden in view 1 (a wall must cover the whole visible base, so it hides more of the near end); common sample: contact visible without a wall and hidden by every wall.",
+    "rows": 4,
+    "csv": "/kaggle/working/outputs/tables/T20a_dose_response.csv",
+    "tex": "/kaggle/working/outputs/tables/T20a_dose_response.tex"
+  },
+  {
+    "table": "T20b_dose_response_tests",
+    "caption": "H13 (registered, every model, Holm across models) and the shape of the curve (exploratory): beta(70 cm) - beta(no wall), beta(70 cm) - beta(15 cm) and the share of the 70 cm effect reached by the 15 cm wall, reported only where the 70 cm effect is clearly positive (its interval excludes 0).",
+    "rows": 24,
+    "csv": "/kaggle/working/outputs/tables/T20b_dose_response_tests.csv",
+    "tex": "/kaggle/working/outputs/tables/T20b_dose_response_tests.tex"
+  },
+  {
+    "table": "T21a_cue_model_fits",
+    "caption": "Cue model (Section 6.11, exploratory): rho - rho_mono = w (x - rho_mono), w = c_support d^2 / (d^2 + kappa^2), fitted by least squares on CONVOY-3D and E5 (two channels), with kappa = 0 (contact only) and with one c for every support (parallax only); kappa in px, rmse of rho.",
+    "rows": 18,
+    "csv": "/kaggle/working/outputs/tables/T21a_cue_model_fits.csv",
+    "tex": "/kaggle/working/outputs/tables/T21a_cue_model_fits.tex"
+  },
+  {
+    "table": "T21b_cue_model_cv",
+    "caption": "Cue model: 10-fold cross-validation over scenes; mean squared error of held-out rho and the difference to the two-channel model with a 95% cluster-bootstrap interval (positive: the two-channel model predicts better).",
+    "rows": 12,
+    "csv": "/kaggle/working/outputs/tables/T21b_cue_model_cv.csv",
+    "tex": "/kaggle/working/outputs/tables/T21b_cue_model_cv.tex"
+  },
+  {
+    "table": "T21c_cue_model_predictions",
+    "caption": "Cue model, out of sample: the slope each testbed shows (95% cluster-bootstrap interval) and the slope the model fitted on CONVOY-3D and E5 predicts from the testbed's own objects (x, rho_mono, parallax, support), without refitting. Over all rows: Pearson r = 0.91, mean absolute error 0.053.",
+    "rows": 132,
+    "csv": "/kaggle/working/outputs/tables/T21c_cue_model_predictions.csv",
+    "tex": "/kaggle/working/outputs/tables/T21c_cue_model_predictions.tex"
+  },
+  {
+    "table": "T21d_monst3r_vs_dust3r",
+    "caption": "What dynamic fine-tuning changed: MonST3R minus DUSt3R on the same movers, for the parallax channel (slope of movers with more than 40 px of parallax; rise over the baseline sweep) and the contact channel (the H6 contrast); 95% cluster-bootstrap intervals over scenes.",
+    "rows": 4,
+    "csv": "/kaggle/working/outputs/tables/T21d_monst3r_vs_dust3r.csv",
+    "tex": "/kaggle/working/outputs/tables/T21d_monst3r_vs_dust3r.tex"
+  },
+  {
+    "table": "T21e_convoy_real_by_parallax",
+    "caption": "Correction of the v6.4 reading (D57): beta_s of CONVOY-REAL movers and of CONVOY-3D floating crates (both unsupported) overall and within parallax bins (bins with >= 12 movers).",
+    "rows": 60,
+    "csv": "/kaggle/working/outputs/tables/T21e_convoy_real_by_parallax.csv",
+    "tex": "/kaggle/working/outputs/tables/T21e_convoy_real_by_parallax.tex"
+  },
+  {
+    "table": "T22a_bonn_regimes",
+    "caption": "Bonn RGB-D Dynamic (Section 6.12, exploratory): motion regimes of real moving objects (parallel: median |eps| below the flow-noise floor, 1.00 px), the share without a static solution and the share on and off the floor, by kind of object.",
+    "rows": 4,
+    "csv": "/kaggle/working/outputs/tables/T22a_bonn_regimes.csv",
+    "tex": "/kaggle/working/outputs/tables/T22a_bonn_regimes.tex"
+  },
+  {
+    "table": "T22b_bonn_geometry_share",
+    "caption": "Bonn RGB-D Dynamic: median per-object geometry share g of parallel, identifiable objects with |x - rho_mono| >= 0.3 (95% cluster-bootstrap intervals over image pairs), by kind and by measured floor contact; x_geo from optical flow and sensor depth, so no slope is fitted (D24).",
+    "rows": 19,
+    "csv": "/kaggle/working/outputs/tables/T22b_bonn_geometry_share.csv",
+    "tex": "/kaggle/working/outputs/tables/T22b_bonn_geometry_share.tex"
+  },
+  {
+    "table": "T23a_twin_test",
+    "caption": "The static twin test on Argoverse 2 (Section 6.13, exploratory): share of moving vehicles flagged by the epipolar test (|eps| > 0.54 px), by the twin test (|twin height| > 0.30 m) and by either, both at 5% false positives on 1375 parked vehicles, by motion regime (95% intervals over vehicle tracks; both tests use the same exact correspondences from labelled boxes); twin_below_road: flagged with the twin below the road; n_epi_miss: vehicles the epipolar test misses; twin_given_epi_miss: the share of those the twin test flags.",
+    "rows": 4,
+    "csv": "/kaggle/working/outputs/tables/T23a_twin_test.csv",
+    "tex": "/kaggle/working/outputs/tables/T23a_twin_test.tex"
+  },
+  {
+    "table": "T23b_twin_test_by_s",
+    "caption": "The static twin test by parallel fraction s (moving Argoverse 2 vehicles with a static solution).",
+    "rows": 8,
+    "csv": "/kaggle/working/outputs/tables/T23b_twin_test_by_s.csv",
+    "tex": "/kaggle/working/outputs/tables/T23b_twin_test_by_s.tex"
+  },
+  {
+    "table": "T23c_twin_test_flow",
+    "caption": "The twin test with optical flow (RAFT-large (torchvision C_T_SKHT_V2); Section 6.13, D63): the same vehicles, with correspondences from forward-backward checked flow at their LiDAR pixels and the road plane fitted to the LiDAR returns (no labelled box). Epipolar test: |eps| > 1.14 px; twin test: the 10th percentile of the static reconstruction's heights above the road outside [-0.08, 1.76] m; both at 5% false positives on 1372 parked vehicles. H14 (registered): in the parallel regime the twin test flags more vehicles than the epipolar test, difference +0.212 [+0.132, +0.290] over 543 vehicles (214 tracks): SUPPORTED.",
+    "rows": 4,
+    "csv": "/kaggle/working/outputs/tables/T23c_twin_test_flow.csv",
+    "tex": "/kaggle/working/outputs/tables/T23c_twin_test_flow.tex"
+  }
+]
