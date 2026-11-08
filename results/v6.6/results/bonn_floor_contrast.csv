@@ -1,0 +1,7 @@
+model,contrast,n_off,n_on,estimate,ci_lo,ci_hi,direction
+DUSt3R,off the floor minus on the floor (median g),2,0,,,,NOT TESTABLE
+MASt3R,off the floor minus on the floor (median g),2,0,,,,NOT TESTABLE
+MonST3R,off the floor minus on the floor (median g),5,0,,,,NOT TESTABLE
+VGGT-1B,off the floor minus on the floor (median g),5,0,,,,NOT TESTABLE
+pi3,off the floor minus on the floor (median g),7,0,,,,NOT TESTABLE
+MapAnything,off the floor minus on the floor (median g),6,0,,,,NOT TESTABLE

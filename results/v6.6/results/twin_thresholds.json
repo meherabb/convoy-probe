@@ -1,0 +1,10 @@
+{
+ "n_parked": 1375,
+ "eps_px": 0.5376787131274139,
+ "height_m": 0.2981302688169257,
+ "H_median_m": 1.7611506578467,
+ "n_moving": 1304,
+ "n_no_static_solution": 625,
+ "parked_fpr_epipolar": 0.05018181818181818,
+ "parked_fpr_twin": 0.05018181818181818
+}

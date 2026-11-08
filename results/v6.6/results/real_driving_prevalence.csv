@@ -1,0 +1,2 @@
+dataset,n_logs,n_vehicles,n_pairs,frac_parallel,frac_intermediate,frac_perpendicular,frac_parallel_lidar_px,frac_keeping_pace,parallel_threshold_px,ego_speed_median_mps,ego_speed_p90_mps
+Argoverse 2 (moving vehicles),64,1304,644,0.566717791411043,0.25996932515337423,0.17331288343558282,0.4006944778725434,0.15720858895705522,1.0,6.007742348182436,10.61051316867505

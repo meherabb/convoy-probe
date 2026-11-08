@@ -1,0 +1,25 @@
+{
+ "thresholds": {
+  "n_parked": 1372,
+  "eps_px": 1.1354426549279037,
+  "h_low_lo_m": -0.08342910428303037,
+  "h_low_hi_m": 1.7572746953082372,
+  "parked_h_low_true_median_m": 0.4086044551012604,
+  "parked_x_flow_abs_median": 0.0321385392953359,
+  "flow": "RAFT-large (torchvision C_T_SKHT_V2)",
+  "n_moving": 1263,
+  "n_no_static_solution": 369,
+  "parked_fpr_epipolar": 0.05029154518950437,
+  "parked_fpr_twin": 0.05102040816326531
+ },
+ "H14": {
+  "n": 543,
+  "n_tracks": 214,
+  "det_twin": 0.289134438305709,
+  "det_epipolar": 0.07734806629834254,
+  "estimate": 0.21178637200736647,
+  "ci_lo": 0.13178055316298212,
+  "ci_hi": 0.2899101110914045,
+  "verdict": "SUPPORTED"
+ }
+}

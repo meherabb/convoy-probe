@@ -1,0 +1,8 @@
+model,trained_on_vkitti,gate,n,n_pairs,beta_geo,ci_lo,ci_hi,r2,beta_mono,w_eff,verdict
+"Classical triangulation, exact correspondences",-,-,6,6,,,,,,,control
+DUSt3R,no,PASS,6,6,,,,,,,NOT TESTABLE
+MASt3R,yes,PASS,6,6,,,,,,,NOT TESTABLE
+MonST3R,no,PASS,6,6,,,,,,,NOT TESTABLE
+VGGT-1B,yes,PASS,6,6,,,,,,,NOT TESTABLE
+pi3,no,PASS,6,6,,,,,,,NOT TESTABLE
+MapAnything,no,PASS,6,6,,,,,,,NOT TESTABLE

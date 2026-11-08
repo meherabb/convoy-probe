@@ -1,0 +1,49 @@
+model,testbed,contrast,statistic,estimate,ci_lo,ci_hi,n,direction,source
+DUSt3R,CONVOY-3D,floating crates - cars and crates,beta_s,0.35152484291896996,0.11528328445047968,0.6006399085984417,220,higher,new in v6.4 (unpaired)
+MASt3R,CONVOY-3D,floating crates - cars and crates,beta_s,0.4612825674318773,0.2310911862481082,0.7077795248078719,220,higher,new in v6.4 (unpaired)
+MonST3R,CONVOY-3D,floating crates - cars and crates,beta_s,0.4545834847757594,0.26374045780893046,0.6679737434707618,220,higher,new in v6.4 (unpaired)
+VGGT-1B,CONVOY-3D,floating crates - cars and crates,beta_s,0.24665209106755726,0.02391841159956496,0.49133051269726,220,higher,new in v6.4 (unpaired)
+pi3,CONVOY-3D,floating crates - cars and crates,beta_s,0.45839489175617043,0.23976745944445707,0.6882372393014649,220,higher,new in v6.4 (unpaired)
+MapAnything,CONVOY-3D,floating crates - cars and crates,beta_s,-0.08009477876469005,-0.3911734261304604,0.25424637582419773,220,no clear change,new in v6.4 (unpaired)
+DUSt3R,E5 ablation,floating - no shadow (H5),beta_s,0.14291475776563467,0.045753617563629896,0.2413416496010461,161,higher,T9b
+DUSt3R,E5 ablation,contact hidden - grounded (H6),beta_s,0.307633051934127,0.25563870330954164,0.3664845107864434,159,higher,T9b
+MASt3R,E5 ablation,floating - no shadow (H5),beta_s,0.3054325664152242,0.19978380325479977,0.4189203655159106,161,higher,T9b
+MASt3R,E5 ablation,contact hidden - grounded (H6),beta_s,0.3862865691009007,0.32162573146383094,0.46021939247945376,159,higher,T9b
+MonST3R,E5 ablation,floating - no shadow (H5),beta_s,0.2608313923766618,0.1611152267449003,0.36700943952134363,161,higher,T9b
+MonST3R,E5 ablation,contact hidden - grounded (H6),beta_s,0.346512389795033,0.2808919674979639,0.425865840542144,159,higher,T9b
+VGGT-1B,E5 ablation,floating - no shadow (H5),beta_s,0.1080333052734424,0.02565786343914084,0.19568151979335693,161,higher,T9b
+VGGT-1B,E5 ablation,contact hidden - grounded (H6),beta_s,0.2609399445830058,0.22182744106987076,0.3096994924880845,159,higher,T9b
+pi3,E5 ablation,floating - no shadow (H5),beta_s,0.19947607896599873,0.095122394807666,0.3112507711709804,161,higher,T9b
+pi3,E5 ablation,contact hidden - grounded (H6),beta_s,0.3316062919525756,0.27810105307789873,0.39738402225339636,159,higher,T9b
+MapAnything,E5 ablation,floating - no shadow (H5),beta_s,0.08239405572163876,-0.037936070743424866,0.21399402236875972,161,no clear change,T9b
+MapAnything,E5 ablation,contact hidden - grounded (H6),beta_s,0.1443544039287972,0.08862876336961646,0.2082795922815581,159,higher,T9b
+DUSt3R,E5-REAL,lifted - grounded (H11a),beta_s,0.24167919154638956,0.15110788719702145,0.34172314209318116,141,higher,T11b
+MASt3R,E5-REAL,lifted - grounded (H11a),beta_s,0.3017451972576888,0.20234955412334263,0.4082316492048657,141,higher,T11b
+MonST3R,E5-REAL,lifted - grounded (H11a),beta_s,0.21882518833913878,0.15295241238189194,0.28944965617602614,141,higher,T11b
+VGGT-1B,E5-REAL,lifted - grounded (H11a),beta_s,0.24042189427484964,0.18042491762209636,0.30790992764093167,141,higher,T11b
+pi3,E5-REAL,lifted - grounded (H11a),beta_s,-0.06408539603366442,-0.3084031134677337,0.16403369701896015,141,no clear change,T11b
+MapAnything,E5-REAL,lifted - grounded (H11a),beta_s,0.20452095162415324,0.14186544000749554,0.27223858572601645,141,higher,T11b
+DUSt3R,Virtual KITTI 2,contact hidden - visible,median_g,0.14198576022195852,-0.043383023960948376,0.4552190889022216,189,no clear change,T15a
+MASt3R,Virtual KITTI 2,contact hidden - visible,median_g,0.3792352364213839,0.18840720519704618,0.42340358668478495,201,higher,T15a
+MonST3R,Virtual KITTI 2,contact hidden - visible,median_g,0.05296987599641843,0.013212455176554352,0.13519346675145572,191,higher,T15a
+VGGT-1B,Virtual KITTI 2,contact hidden - visible,median_g,-0.011590357584313118,-0.014987316363231468,-0.002112454827620372,206,lower,T15a
+pi3,Virtual KITTI 2,contact hidden - visible,median_g,0.18742253173277743,0.06069208857668192,0.3251067849290082,195,higher,T15a
+MapAnything,Virtual KITTI 2,contact hidden - visible,median_g,0.2451345907012275,0.12637188639150973,0.4564246851830637,174,higher,T15a
+DUSt3R,Argoverse 2,contact hidden - visible,median_g,0.09867969277343555,-0.049060860807829634,0.25299906190474125,278,no clear change,T15a
+MASt3R,Argoverse 2,contact hidden - visible,median_g,0.15639876604694314,-0.06066508468695959,0.5922682863182392,281,no clear change,T15a
+MonST3R,Argoverse 2,contact hidden - visible,median_g,0.07321450749699382,-0.038502913550618544,0.23660361023153037,275,no clear change,T15a
+VGGT-1B,Argoverse 2,contact hidden - visible,median_g,-0.012562553630271967,-0.10616572091913137,0.02858225752428254,274,no clear change,T15a
+pi3,Argoverse 2,contact hidden - visible,median_g,-0.06015912202593528,-0.13700323114818183,0.01489150470747591,276,no clear change,T15a
+MapAnything,Argoverse 2,contact hidden - visible,median_g,0.05531481738337489,-0.00432899659730779,0.09924718483423312,280,no clear change,T15a
+DUSt3R,Virtual KITTI 2,"contact hidden - visible, matched",median_g,0.11666784310168817,-0.02611432841883049,0.4430290609080223,29,no clear change,T15a
+MASt3R,Virtual KITTI 2,"contact hidden - visible, matched",median_g,0.08326620504825427,0.022617547145968243,0.234371832249597,25,higher,T15a
+MonST3R,Virtual KITTI 2,"contact hidden - visible, matched",median_g,0.045668382382172266,-0.0024283546194573055,0.16167780981463026,31,no clear change,T15a
+VGGT-1B,Virtual KITTI 2,"contact hidden - visible, matched",median_g,-0.02223225191212205,-0.030226562858177264,-0.0012231427819149078,31,lower,T15a
+pi3,Virtual KITTI 2,"contact hidden - visible, matched",median_g,0.12453463259390271,-0.014470259334313307,0.1781377203512151,22,no clear change,T15a
+MapAnything,Virtual KITTI 2,"contact hidden - visible, matched",median_g,0.07001266485589339,-0.08699622557391251,0.1685235082935301,21,no clear change,T15a
+DUSt3R,Argoverse 2,"contact hidden - visible, matched",median_g,0.025668025381443194,-0.041094910524999965,0.1305454261499514,17,no clear change,T15a
+MASt3R,Argoverse 2,"contact hidden - visible, matched",median_g,0.1534108142272949,0.06876378499074916,0.2571973126332124,17,higher,T15a
+MonST3R,Argoverse 2,"contact hidden - visible, matched",median_g,0.06571398862094216,-0.003824628445781978,0.10180865471830028,15,no clear change,T15a
+VGGT-1B,Argoverse 2,"contact hidden - visible, matched",median_g,0.005736281858471987,-0.12905502164852173,0.024295266808879074,16,no clear change,T15a
+pi3,Argoverse 2,"contact hidden - visible, matched",median_g,-0.07706396688332823,-0.11245033803014101,0.02556959301299769,16,no clear change,T15a
+MapAnything,Argoverse 2,"contact hidden - visible, matched",median_g,0.028517397680390702,-0.009090733342598745,0.09830935241814945,16,no clear change,T15a

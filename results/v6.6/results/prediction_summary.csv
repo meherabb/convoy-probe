@@ -1,0 +1,109 @@
+family,prediction,model,statistic,estimate,ci_lo,ci_hi,p_holm,n,verdict
+locked (v5),P1 degeneracy (CONVOY-3D),DUSt3R,beta_s,0.16946810368257337,0.09117131856393339,0.2599572387943455,1.0,220,FALSIFIED
+locked (v5),P1 degeneracy (CONVOY-3D),MASt3R,beta_s,0.1867684252703476,0.09215916937927061,0.2974533114034908,1.0,220,FALSIFIED
+locked (v5),P1 degeneracy (CONVOY-3D),MonST3R,beta_s,0.12282165054369555,0.05671864049279092,0.20258356727823296,1.0,220,FALSIFIED
+locked (v5),P1 degeneracy (CONVOY-3D),VGGT-1B,beta_s,0.08557815049428752,0.0033481149608496266,0.18942639659780647,1.0,220,FALSIFIED
+locked (v5),P1 degeneracy (CONVOY-3D),pi3,beta_s,0.10940410178809402,0.03130252775898843,0.2079490700939632,1.0,220,FALSIFIED
+locked (v5),P1 degeneracy (CONVOY-3D),MapAnything,beta_s,-0.04182294238146673,-0.15290742987152614,0.08001663560920154,1.0,220,FALSIFIED
+locked (v5),P1 degeneracy (CONVOY-REAL),DUSt3R,beta_s,0.5440204845393747,0.42307239401054736,0.6836373920632685,,108,PARTIAL
+locked (v5),P1 degeneracy (CONVOY-REAL),MASt3R,beta_s,0.7395967984554086,0.5934260881653828,0.8724161529040748,,108,PARTIAL
+locked (v5),P1 degeneracy (CONVOY-REAL),MonST3R,beta_s,0.510744881375713,0.4153750213578988,0.6193926404470274,,108,PARTIAL
+locked (v5),P1 degeneracy (CONVOY-REAL),VGGT-1B,beta_s,0.4691830471140196,0.36497848280358186,0.5852647987335292,,108,PARTIAL
+locked (v5),P1 degeneracy (CONVOY-REAL),pi3,beta_s,0.21171907286486485,-0.017852771555513344,0.4250880712573249,,108,FALSIFIED
+locked (v5),P1 degeneracy (CONVOY-REAL),MapAnything,beta_s,0.40282644877176105,0.2946187150224634,0.5125141005222741,,108,FALSIFIED
+locked (v5),P2 masks (CONVOY-3D),(model-independent) / M1 epipolar residual (exact corr.),recall(perp) - recall(par),0.8335656216864089,0.7959932411509758,0.869327266409719,,593,SUPPORTED
+locked (v5),P2 masks (CONVOY-3D),(model-independent) / M1 epipolar residual (flow),recall(perp) - recall(par),0.6775995034926803,0.6180723931420516,0.7350132593359807,,593,SUPPORTED
+locked (v5),P2 masks (CONVOY-3D),DUSt3R / M2 rigid-flow residual (exact corr.),recall(perp) - recall(par),0.4430585045750939,0.38745439803595266,0.4976070110529272,,593,SUPPORTED
+locked (v5),P2 masks (CONVOY-3D),DUSt3R / M2 rigid-flow residual (flow),recall(perp) - recall(par),0.2534280033515896,0.18241806168961786,0.3257917557766667,,593,PARTIAL
+locked (v5),P2 masks (CONVOY-3D),DUSt3R / M4 model confidence,recall(perp) - recall(par),0.019705032347195065,-0.04072473355742416,0.07799212597046362,,593,FALSIFIED
+locked (v5),P2 masks (CONVOY-3D),MASt3R / M2 rigid-flow residual (exact corr.),recall(perp) - recall(par),0.48480651787141155,0.41856546629708297,0.549900790679919,,593,SUPPORTED
+locked (v5),P2 masks (CONVOY-3D),MASt3R / M2 rigid-flow residual (flow),recall(perp) - recall(par),0.20414096528120745,0.14559847762253672,0.2672871283398921,,593,PARTIAL
+locked (v5),P2 masks (CONVOY-3D),MASt3R / M4 model confidence,recall(perp) - recall(par),0.12646389654036727,0.06820418423057441,0.18485527705104476,,593,PARTIAL
+locked (v5),P2 masks (CONVOY-3D),MonST3R / M2 rigid-flow residual (exact corr.),recall(perp) - recall(par),0.4000834432953158,0.3378197644584599,0.4576996327865644,,593,SUPPORTED
+locked (v5),P2 masks (CONVOY-3D),MonST3R / M2 rigid-flow residual (flow),recall(perp) - recall(par),0.2418150360184431,0.17174811404189688,0.31177256880971105,,593,PARTIAL
+locked (v5),P2 masks (CONVOY-3D),MonST3R / M4 model confidence,recall(perp) - recall(par),-0.02103031187926713,-0.06816262122779279,0.028676920891724186,,593,FALSIFIED
+locked (v5),P2 masks (CONVOY-3D),VGGT-1B / M2 rigid-flow residual (exact corr.),recall(perp) - recall(par),0.30848330931305085,0.2561204806449515,0.3589770740345867,,593,SUPPORTED
+locked (v5),P2 masks (CONVOY-3D),VGGT-1B / M2 rigid-flow residual (flow),recall(perp) - recall(par),0.2093006766642714,0.13336092607353509,0.2842907823115896,,593,PARTIAL
+locked (v5),P2 masks (CONVOY-3D),VGGT-1B / M4 model confidence,recall(perp) - recall(par),0.09834961036371777,0.0318746368991553,0.16652528016837106,,593,PARTIAL
+locked (v5),P2 masks (CONVOY-3D),pi3 / M2 rigid-flow residual (exact corr.),recall(perp) - recall(par),0.3048289918840487,0.2550099932698274,0.353742430855786,,593,SUPPORTED
+locked (v5),P2 masks (CONVOY-3D),pi3 / M2 rigid-flow residual (flow),recall(perp) - recall(par),0.21566189166070182,0.13759959336956193,0.29152235916743013,,593,PARTIAL
+locked (v5),P2 masks (CONVOY-3D),pi3 / M4 model confidence,recall(perp) - recall(par),0.08852266082081359,0.03987896155267134,0.13748684806793252,,593,PARTIAL
+locked (v5),P2 masks (CONVOY-3D),MapAnything / M2 rigid-flow residual (exact corr.),recall(perp) - recall(par),0.40300633985411033,0.33611869175718256,0.467871305307133,,593,SUPPORTED
+locked (v5),P2 masks (CONVOY-3D),MapAnything / M2 rigid-flow residual (flow),recall(perp) - recall(par),0.17568684804993448,0.11789326008592362,0.2342588617512164,,593,PARTIAL
+locked (v5),P2 masks (CONVOY-3D),MapAnything / M4 model confidence,recall(perp) - recall(par),0.01986637193046058,-0.04141667886131366,0.08254466021920157,,593,FALSIFIED
+locked (v5),P3a prior weight vs eps,DUSt3R,"Spearman(w, |eps|)",0.06446743549425991,-0.029613192203541798,0.16266715775985852,,424,FALSIFIED
+locked (v5),P3b class dependence at eps~0,DUSt3R,w(car) - w(crate),0.11394382764906341,0.022271226045040615,0.2346176005793581,,259,SUPPORTED
+locked (v5),P3a prior weight vs eps,MASt3R,"Spearman(w, |eps|)",0.12385885840295653,0.030099515090564494,0.2186570868676404,,436,PARTIAL
+locked (v5),P3b class dependence at eps~0,MASt3R,w(car) - w(crate),0.3413111741780346,0.21755410791769972,0.5052053530669339,,262,SUPPORTED
+locked (v5),P3a prior weight vs eps,MonST3R,"Spearman(w, |eps|)",0.09704869345393191,-0.001994908052221519,0.19398194105729194,,432,FALSIFIED
+locked (v5),P3b class dependence at eps~0,MonST3R,w(car) - w(crate),0.10964669500365332,0.04733871714350622,0.16193553358807256,,261,SUPPORTED
+locked (v5),P3a prior weight vs eps,VGGT-1B,"Spearman(w, |eps|)",0.07192818700599858,-0.029353231119833414,0.17280656031940705,,427,FALSIFIED
+locked (v5),P3b class dependence at eps~0,VGGT-1B,w(car) - w(crate),0.08131683890579577,0.04698112475671033,0.11446528387818375,,258,SUPPORTED
+locked (v5),P3a prior weight vs eps,pi3,"Spearman(w, |eps|)",0.05539802390455718,-0.04374713545205326,0.15499553695241688,,429,FALSIFIED
+locked (v5),P3b class dependence at eps~0,pi3,w(car) - w(crate),0.22092643110323262,0.09418519543476811,0.28593695381272144,,264,SUPPORTED
+locked (v5),P3a prior weight vs eps,MapAnything,"Spearman(w, |eps|)",-0.002982762697597867,-0.1091755335872187,0.10541344905180357,,441,FALSIFIED
+locked (v5),P3b class dependence at eps~0,MapAnything,w(car) - w(crate),0.028610767041114205,0.014080317148900892,0.0452477322172258,,265,SUPPORTED
+locked (v5),P4 convoy persistence,VGGT-1B,"beta_s(straight,K=8) - beta_s(curved,K=8)",0.0420097466803874,0.02075654827016707,0.08034940760178023,,75,FALSIFIED
+locked (v5),P4 convoy persistence,pi3,"beta_s(straight,K=8) - beta_s(curved,K=8)",0.06565390083368039,0.03253342922300517,0.11229978270103426,,75,FALSIFIED
+locked (v5),P4 convoy persistence,MapAnything,"beta_s(straight,K=8) - beta_s(curved,K=8)",0.009899650755132758,-0.009083005340502394,0.027489698511874033,,75,FALSIFIED
+locked (v5),A1 correspondence (knockout),DUSt3R,beta_s(full) - beta_s(knockout),0.25516834206405675,0.11343795069608692,0.44428000493150366,,89,HOLDS (deleting the correspondence lowers beta_s)
+locked (v5),A1 correspondence (knockout),MASt3R,beta_s(full) - beta_s(knockout),0.22383205581422452,0.06601619641282061,0.37513358145329495,,89,HOLDS (deleting the correspondence lowers beta_s)
+locked (v5),A1 correspondence (knockout),MonST3R,beta_s(full) - beta_s(knockout),0.2088581038917699,0.07082444807421337,0.3753728098565203,,89,HOLDS (deleting the correspondence lowers beta_s)
+locked (v5),A1 correspondence (knockout),VGGT-1B,beta_s(full) - beta_s(knockout),0.07054975848313114,0.03516869933133073,0.1090565748220741,,89,HOLDS (deleting the correspondence lowers beta_s)
+locked (v5),A1 correspondence (knockout),pi3,beta_s(full) - beta_s(knockout),0.12649994533857964,0.02014334159976081,0.2559335287767282,,89,HOLDS (deleting the correspondence lowers beta_s)
+locked (v5),A1 correspondence (knockout),MapAnything,beta_s(full) - beta_s(knockout),0.043137523009748394,-0.010876877154259472,0.10035642733846181,,89,NOT DETECTED (depth does not depend on the correspondence)
+registered (v6),H5 lifting raises the geometry share,DUSt3R,beta(F) - beta(NS),0.14291475776563467,0.045753617563629896,0.2413416496010461,0.0044995500449955,161,SUPPORTED
+registered (v6),H6 hiding the contact raises it,DUSt3R,beta(CH) - beta(G),0.307633051934127,0.25563870330954164,0.3664845107864434,0.0005999400059994001,159,SUPPORTED
+registered (v6),H7 the wall acts through the contact,DUSt3R,(beta_CH - beta_G) - (beta_FH - beta_F),0.1137537003367009,0.05205486429145987,0.18379411347101313,0.0005999400059994001,158,SUPPORTED
+registered (v6),H8 lifted objects look farther (single image),DUSt3R,median rho_mono(F) - median rho_mono(NS),0.687525767620002,0.6049379360111757,0.7343424373573137,0.0005999400059994001,194,SUPPORTED
+registered (v6),H5 lifting raises the geometry share,MASt3R,beta(F) - beta(NS),0.3054325664152242,0.19978380325479977,0.4189203655159106,0.0005999400059994001,161,SUPPORTED
+registered (v6),H6 hiding the contact raises it,MASt3R,beta(CH) - beta(G),0.3862865691009007,0.32162573146383094,0.46021939247945376,0.0005999400059994001,159,SUPPORTED
+registered (v6),H7 the wall acts through the contact,MASt3R,(beta_CH - beta_G) - (beta_FH - beta_F),0.3187838944927545,0.24498957137773636,0.4009014316664402,0.0005999400059994001,158,SUPPORTED
+registered (v6),H8 lifted objects look farther (single image),MASt3R,median rho_mono(F) - median rho_mono(NS),0.7620152398240699,0.7158824638548339,0.8382909472708507,0.0005999400059994001,194,SUPPORTED
+registered (v6),H5 lifting raises the geometry share,MonST3R,beta(F) - beta(NS),0.2608313923766618,0.1611152267449003,0.36700943952134363,0.0005999400059994001,161,SUPPORTED
+registered (v6),H6 hiding the contact raises it,MonST3R,beta(CH) - beta(G),0.346512389795033,0.2808919674979639,0.425865840542144,0.0005999400059994001,159,SUPPORTED
+registered (v6),H7 the wall acts through the contact,MonST3R,(beta_CH - beta_G) - (beta_FH - beta_F),0.1908284009475284,0.12162100784517417,0.2695511240596522,0.0005999400059994001,158,SUPPORTED
+registered (v6),H8 lifted objects look farther (single image),MonST3R,median rho_mono(F) - median rho_mono(NS),0.5967734190269918,0.5483330788436275,0.6350111339060395,0.0005999400059994001,194,SUPPORTED
+registered (v6),H5 lifting raises the geometry share,VGGT-1B,beta(F) - beta(NS),0.1080333052734424,0.02565786343914084,0.19568151979335693,0.009599040095990401,161,SUPPORTED
+registered (v6),H6 hiding the contact raises it,VGGT-1B,beta(CH) - beta(G),0.2609399445830058,0.22182744106987076,0.3096994924880845,0.0005999400059994001,159,SUPPORTED
+registered (v6),H7 the wall acts through the contact,VGGT-1B,(beta_CH - beta_G) - (beta_FH - beta_F),0.06328059275164909,-0.0035336081668966863,0.12985167975839584,0.06359364063593641,158,NOT SUPPORTED
+registered (v6),H8 lifted objects look farther (single image),VGGT-1B,median rho_mono(F) - median rho_mono(NS),0.5863320490843895,0.5644669469883652,0.6269858823152417,0.0005999400059994001,194,SUPPORTED
+registered (v6),H5 lifting raises the geometry share,pi3,beta(F) - beta(NS),0.19947607896599873,0.095122394807666,0.3112507711709804,0.0007999200079992001,161,SUPPORTED
+registered (v6),H6 hiding the contact raises it,pi3,beta(CH) - beta(G),0.3316062919525756,0.27810105307789873,0.39738402225339636,0.0005999400059994001,159,SUPPORTED
+registered (v6),H7 the wall acts through the contact,pi3,(beta_CH - beta_G) - (beta_FH - beta_F),0.05116166718149398,-0.021213473798425905,0.12558239949209837,0.08239176082391761,158,NOT SUPPORTED
+registered (v6),H8 lifted objects look farther (single image),pi3,median rho_mono(F) - median rho_mono(NS),0.567649497516626,0.5262765545230538,0.6101375860049613,0.0005999400059994001,194,SUPPORTED
+registered (v6),H5 lifting raises the geometry share,MapAnything,beta(F) - beta(NS),0.08239405572163876,-0.037936070743424866,0.21399402236875972,0.09679032096790322,161,NOT SUPPORTED
+registered (v6),H6 hiding the contact raises it,MapAnything,beta(CH) - beta(G),0.1443544039287972,0.08862876336961646,0.2082795922815581,0.0005999400059994001,159,SUPPORTED
+registered (v6),H7 the wall acts through the contact,MapAnything,(beta_CH - beta_G) - (beta_FH - beta_F),0.12278081682660877,0.04130177246529817,0.21401875806843135,0.006599340065993401,158,SUPPORTED
+registered (v6),H8 lifted objects look farther (single image),MapAnything,median rho_mono(F) - median rho_mono(NS),0.6445399705930357,0.5936657106641008,0.7228020396499338,0.0005999400059994001,194,SUPPORTED
+registered (v6.1),H11a real images: lifting raises the geometry share,DUSt3R,beta(F) - beta(G),0.24167919154638956,0.15110788719702145,0.34172314209318116,0.0005999400059994001,141,SUPPORTED
+registered (v6.1),H11b real images: lifted crates look farther (single image),DUSt3R,median rho_mono(F) - median rho_mono(G),0.2138464115711217,0.17273928138201353,0.23336101443218626,0.0005999400059994001,141,SUPPORTED
+registered (v6.1),H11a real images: lifting raises the geometry share,MASt3R,beta(F) - beta(G),0.3017451972576888,0.20234955412334263,0.4082316492048657,0.0005999400059994001,141,SUPPORTED
+registered (v6.1),H11b real images: lifted crates look farther (single image),MASt3R,median rho_mono(F) - median rho_mono(G),0.19867468728451748,0.15580090702149668,0.24193789052326453,0.0005999400059994001,141,SUPPORTED
+registered (v6.1),H11a real images: lifting raises the geometry share,MonST3R,beta(F) - beta(G),0.21882518833913878,0.15295241238189194,0.28944965617602614,0.0005999400059994001,141,SUPPORTED
+registered (v6.1),H11b real images: lifted crates look farther (single image),MonST3R,median rho_mono(F) - median rho_mono(G),0.2104967257958309,0.17950127853293035,0.2357734305580004,0.0005999400059994001,141,SUPPORTED
+registered (v6.1),H11a real images: lifting raises the geometry share,VGGT-1B,beta(F) - beta(G),0.24042189427484964,0.18042491762209636,0.30790992764093167,0.0005999400059994001,141,SUPPORTED
+registered (v6.1),H11b real images: lifted crates look farther (single image),VGGT-1B,median rho_mono(F) - median rho_mono(G),0.0030833233005465,-0.04676544921556145,0.0533911116672288,0.9543045695430457,141,NOT SUPPORTED
+registered (v6.1),H11a real images: lifting raises the geometry share,pi3,beta(F) - beta(G),-0.06408539603366442,-0.3084031134677337,0.16403369701896015,0.6826317368263174,141,NOT SUPPORTED
+registered (v6.1),H11b real images: lifted crates look farther (single image),pi3,median rho_mono(F) - median rho_mono(G),-0.4608056048033367,-1.0380196612923656,-0.13466536773891669,1.0,141,CONTRADICTED
+registered (v6.1),H11a real images: lifting raises the geometry share,MapAnything,beta(F) - beta(G),0.20452095162415324,0.14186544000749554,0.27223858572601645,0.0005999400059994001,141,SUPPORTED
+registered (v6.1),H11b real images: lifted crates look farther (single image),MapAnything,median rho_mono(F) - median rho_mono(G),0.15599400989211618,0.1124824422075453,0.20590295152983595,0.0005999400059994001,141,SUPPORTED
+registered (v6.5),H12 a longer baseline raises the geometry share (baseline sweep),DUSt3R,beta(x3) - beta(x0.5),0.10060538088676349,0.014700569002953898,0.18514737474568166,0.013498650134986502,148,SUPPORTED
+registered (v6.5),H12 a longer baseline raises the geometry share (baseline sweep),MASt3R,beta(x3) - beta(x0.5),0.09058348058414925,0.04044272001743692,0.1400773951993548,0.0005999400059994001,148,SUPPORTED
+registered (v6.5),H12 a longer baseline raises the geometry share (baseline sweep),MonST3R,beta(x3) - beta(x0.5),0.11172495042909812,0.06538590298013074,0.16236865318022267,,148,NO PREDICTION
+registered (v6.5),H12 a longer baseline raises the geometry share (baseline sweep),VGGT-1B,beta(x3) - beta(x0.5),0.04103853563767075,0.006026051041300783,0.08553689317405572,,148,NO PREDICTION
+registered (v6.5),H12 a longer baseline raises the geometry share (baseline sweep),pi3,beta(x3) - beta(x0.5),0.08679265640446152,0.0014694100925568008,0.18790738497692341,,148,NO PREDICTION
+registered (v6.5),H12 a longer baseline raises the geometry share (baseline sweep),MapAnything,beta(x3) - beta(x0.5),0.06428874488869116,0.03178350855865176,0.10657079444344307,,148,NO PREDICTION
+registered (v6.5),H13 hiding the contact with the lowest wall raises it (dose-response),DUSt3R,beta(15 cm wall) - beta(no wall),0.28782497416760944,0.20368015980392395,0.37706842604383156,0.0005999400059994001,145,SUPPORTED
+registered (v6.5),H13 hiding the contact with the lowest wall raises it (dose-response),MASt3R,beta(15 cm wall) - beta(no wall),0.43126898873334985,0.35681833865087625,0.5087022839330746,0.0005999400059994001,145,SUPPORTED
+registered (v6.5),H13 hiding the contact with the lowest wall raises it (dose-response),MonST3R,beta(15 cm wall) - beta(no wall),0.22149974747268847,0.1513570429184273,0.3043123152506519,0.0005999400059994001,145,SUPPORTED
+registered (v6.5),H13 hiding the contact with the lowest wall raises it (dose-response),VGGT-1B,beta(15 cm wall) - beta(no wall),0.2078629442993648,0.16117288911446292,0.25755475105701076,0.0005999400059994001,145,SUPPORTED
+registered (v6.5),H13 hiding the contact with the lowest wall raises it (dose-response),pi3,beta(15 cm wall) - beta(no wall),0.183032633587037,0.13614225408614844,0.24106993438329896,0.0005999400059994001,145,SUPPORTED
+registered (v6.5),H13 hiding the contact with the lowest wall raises it (dose-response),MapAnything,beta(15 cm wall) - beta(no wall),0.1455645232716207,0.09945771418650193,0.19372520129131954,0.0005999400059994001,145,SUPPORTED
+registered (v6.6),H14 twin test with flow flags more parallel movers than the epipolar test (Argoverse 2),optical flow (RAFT-large),det_twin - det_epipolar (parallel regime),0.21178637200736647,0.13178055316298212,0.2899101110914045,,543,SUPPORTED
+exploratory (v6.1 sample rule),H9 driving: beta_geo < 0.3 (Virtual KITTI 2),DUSt3R,beta_geo,,,,,6,NOT TESTABLE
+exploratory (v6.1 sample rule),H9 driving: beta_geo < 0.3 (Virtual KITTI 2),MASt3R (trained on Virtual KITTI),beta_geo,,,,,6,NOT TESTABLE
+exploratory (v6.1 sample rule),H9 driving: beta_geo < 0.3 (Virtual KITTI 2),MonST3R,beta_geo,,,,,6,NOT TESTABLE
+exploratory (v6.1 sample rule),H9 driving: beta_geo < 0.3 (Virtual KITTI 2),VGGT-1B (trained on Virtual KITTI),beta_geo,,,,,6,NOT TESTABLE
+exploratory (v6.1 sample rule),H9 driving: beta_geo < 0.3 (Virtual KITTI 2),pi3,beta_geo,,,,,6,NOT TESTABLE
+exploratory (v6.1 sample rule),H9 driving: beta_geo < 0.3 (Virtual KITTI 2),MapAnything,beta_geo,,,,,6,NOT TESTABLE
