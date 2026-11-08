@@ -1,0 +1,11 @@
+<!-- Cell No: PLACEHOLDER -->
+# Parallel Motion as an Exact Counterfactual
+### How much geometry feed-forward 3D reconstruction models use for moving objects (the convoy ambiguity)
+
+A point moving by a fraction `s` of the camera baseline, parallel to it, gives the same two images as a static point at depth `Z/(1−s)`. The slope `β_s` of a model's log-depth error on `x = −log(1−s)` is the share of cross-view geometry it uses for the object (0: single-image prior, 1: triangulation). This notebook measures that share for DUSt3R, MASt3R, MonST3R, VGGT, π³ and MapAnything on CONVOY-3D, CONVOY-REAL, E5/E5-REAL, Virtual KITTI 2, Argoverse 2 and Bonn RGB-D Dynamic, tests the registered hypotheses (P1–P4, H5–H8, H11–H14) and writes every number, table and figure of the paper into `outputs/`. The idea lock, the amendments with every registered prediction, and all decisions are in Section 0 (code cells) and in `outputs/manifest/`.
+
+**Version 6.6.** H14 (registered): the static-twin test with optical flow and a LiDAR road plane instead of labelled boxes. Bonn ground truth corrected (relative poses re-estimated from static correspondences, photometric check of every moving region, quality gate). Figure and caption corrections; explanatory text cells removed.
+
+**How to run (Kaggle).** Accelerator: GPU T4, Internet: on. Attach the `convoy_checkpoints.zip` of the v6.5 run as a dataset (Section 0.5 finds it) and run all cells. Every v6.5 stage is restored unchanged; only the Bonn ground truth, the six models on Bonn and the flow-based twin stage are computed: about 1.5–2 h, of which restoring the archive takes about 45–50 min. Without an archive a fresh run takes about 13 h and needs a second session (attach the first session's archive and run again). Optional: KITTI tracking as a private dataset (Section 3.10); the secrets `KAGGLE_USERNAME` and `KAGGLE_KEY` to copy the archives to a private dataset.
+
+**Outputs.** `convoy_checkpoints.zip` (every finished stage, a valid resume point at any time) and `convoy_paper_outputs.zip` (figures as PDF/PNG with data and LaTeX captions, tables as CSV/JSON/LaTeX, results, manifests). For a run that must survive a closed browser use *Save Version → Save & Run All*.
