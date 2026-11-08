@@ -1,0 +1,16 @@
+{
+  "prop1_rendered_max_abs_dev_log_depth": 2.3098856161141157e-11,
+  "prop1_rendered_n_movers": 258,
+  "parallel_movers_max_pixel_eps_px": 4.767249297047764e-10,
+  "eps_center_max_abs_error_px": 1.0075162926170833e-11,
+  "static_pixels_eps_median_px": 4.970849972246937e-14,
+  "static_pixels_eps_p999_px": 6.46553438418428e-13,
+  "photometric_err_static_exact_warp": 2.5081710815429688,
+  "photometric_err_movers_exact_warp": 1.6827832460403442,
+  "photometric_err_movers_if_assumed_static": 18.342445373535156,
+  "abl_contact_visible_when_grounded": 0.9759615384615384,
+  "abl_walls_designed_frac": 0.9759615384615384,
+  "abl_contact_hidden_given_wall": 1.0,
+  "abl_lifted_contact_px_max": 0,
+  "abl_share_of_pixels_away_from_movers_differing_NS_vs_F": 2.386564216237992e-07
+}

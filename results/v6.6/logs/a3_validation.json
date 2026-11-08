@@ -1,0 +1,38 @@
+{
+  "fr3_structure_texture_far": {
+    "n_frames": 903,
+    "n_test_pairs": 16,
+    "warp_err_documented": 0.0057029108834541434,
+    "warp_err_inverted": 0.04398631404028534,
+    "convention": "documented",
+    "median_rel_depth_err": 0.0057029108834541434,
+    "passed": true
+  },
+  "fr3_long_office_household": {
+    "n_frames": 2485,
+    "n_test_pairs": 16,
+    "warp_err_documented": 0.005573959353604235,
+    "warp_err_inverted": 0.058915050045161184,
+    "convention": "documented",
+    "median_rel_depth_err": 0.005573959353604235,
+    "passed": true
+  },
+  "fr3_walking_xyz": {
+    "n_frames": 826,
+    "n_test_pairs": 16,
+    "warp_err_documented": 0.012675322522302659,
+    "warp_err_inverted": 0.11170330465439424,
+    "convention": "documented",
+    "median_rel_depth_err": 0.012675322522302659,
+    "passed": true
+  },
+  "fr3_walking_halfsphere": {
+    "n_frames": 1017,
+    "n_test_pairs": 16,
+    "warp_err_documented": 0.014358043568372565,
+    "warp_err_inverted": 0.0934482622757673,
+    "convention": "documented",
+    "median_rel_depth_err": 0.014358043568372565,
+    "passed": true
+  }
+}

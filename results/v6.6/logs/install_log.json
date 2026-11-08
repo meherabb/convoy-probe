@@ -1,0 +1,149 @@
+[
+  {
+    "package": "numpy",
+    "import_name": "numpy",
+    "version": "2.1.3",
+    "status": "preinstalled",
+    "needed_by": "everything"
+  },
+  {
+    "package": "scipy",
+    "import_name": "scipy",
+    "version": "1.16.3",
+    "status": "preinstalled",
+    "needed_by": "statistics, root finding"
+  },
+  {
+    "package": "pandas",
+    "import_name": "pandas",
+    "version": "2.3.3",
+    "status": "preinstalled",
+    "needed_by": "result tables"
+  },
+  {
+    "package": "pyarrow",
+    "import_name": "pyarrow",
+    "version": "23.0.1",
+    "status": "preinstalled",
+    "needed_by": "Argoverse 2 tables and LiDAR sweeps (feather)"
+  },
+  {
+    "package": "matplotlib",
+    "import_name": "matplotlib",
+    "version": "3.10.0",
+    "status": "preinstalled",
+    "needed_by": "figures"
+  },
+  {
+    "package": "pillow",
+    "import_name": "PIL",
+    "version": "13.0.0",
+    "status": "preinstalled",
+    "needed_by": "image I/O"
+  },
+  {
+    "package": "opencv-python-headless",
+    "import_name": "cv2",
+    "version": "4.14.0.94",
+    "status": "preinstalled",
+    "needed_by": "DIS optical flow, PnP, image ops"
+  },
+  {
+    "package": "torch",
+    "import_name": "torch",
+    "version": "2.11.0+cu128",
+    "status": "preinstalled",
+    "needed_by": "models"
+  },
+  {
+    "package": "torchvision",
+    "import_name": "torchvision",
+    "version": "0.26.0+cu128",
+    "status": "preinstalled",
+    "needed_by": "RAFT optical flow"
+  },
+  {
+    "package": "huggingface_hub",
+    "import_name": "huggingface_hub",
+    "version": "1.29.0",
+    "status": "preinstalled",
+    "needed_by": "checkpoint download"
+  },
+  {
+    "package": "safetensors",
+    "import_name": "safetensors",
+    "version": "0.8.0",
+    "status": "preinstalled",
+    "needed_by": "checkpoint loading"
+  },
+  {
+    "package": "einops",
+    "import_name": "einops",
+    "version": "0.8.2",
+    "status": "preinstalled",
+    "needed_by": "DUSt3R family, VGGT"
+  },
+  {
+    "package": "roma",
+    "import_name": "roma",
+    "version": "1.8.0",
+    "status": "installed now",
+    "needed_by": "DUSt3R family"
+  },
+  {
+    "package": "omegaconf",
+    "import_name": "omegaconf",
+    "version": "2.3.1",
+    "status": "preinstalled",
+    "needed_by": "MapAnything"
+  },
+  {
+    "package": "hydra-core",
+    "import_name": "hydra",
+    "version": "1.3.8",
+    "status": "installed now",
+    "needed_by": "MapAnything"
+  },
+  {
+    "package": "python-box",
+    "import_name": "box",
+    "version": "7.4.1",
+    "status": "preinstalled",
+    "needed_by": "MapAnything"
+  },
+  {
+    "package": "orjson",
+    "import_name": "orjson",
+    "version": "3.12.0",
+    "status": "preinstalled",
+    "needed_by": "MapAnything"
+  },
+  {
+    "package": "natsort",
+    "import_name": "natsort",
+    "version": "8.4.0",
+    "status": "preinstalled",
+    "needed_by": "MapAnything"
+  },
+  {
+    "package": "jaxtyping",
+    "import_name": "jaxtyping",
+    "version": "0.3.11",
+    "status": "installed now",
+    "needed_by": "MapAnything (uniception)"
+  },
+  {
+    "package": "timm",
+    "import_name": "timm",
+    "version": "1.0.29",
+    "status": "preinstalled",
+    "needed_by": "MapAnything (uniception)"
+  },
+  {
+    "package": "uniception",
+    "import_name": "uniception",
+    "version": "0.1.7",
+    "status": "installed now",
+    "needed_by": "MapAnything (encoders and heads)"
+  }
+]
