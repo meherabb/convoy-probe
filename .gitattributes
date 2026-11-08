@@ -1,0 +1,9 @@
+# Text files are stored and checked out with LF line endings on every platform, so that the notebook
+# rebuild (notebook/build_notebook.py --check) and the run checksums (results/v6.6/manifest/file_inventory.csv)
+# hold on any operating system.
+* text=auto eol=lf
+*.png binary
+*.npz binary
+
+# The archived run outputs are generated files.
+results/** linguist-generated=true

@@ -1,0 +1,48 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "convoy"
+version = "1.0.0"
+description = "Parallel motion as an exact counterfactual: how much geometry feed-forward 3D models use for moving objects"
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [{ name = "Anonymous Authors" }]
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.24",
+    "scipy>=1.10",
+    "pandas>=2.0",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Scientific/Engineering :: Image Recognition",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0", "ruff>=0.4", "nbformat>=5.7"]
+assets = ["matplotlib>=3.7"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src", "tests"]
+addopts = "-ra"
+
+[tool.ruff]
+line-length = 130
+target-version = "py310"
+extend-exclude = ["notebook/src/cells", "notebook/build", "*.ipynb"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP"]
+ignore = ["E731", "E741", "B023", "B905"]
+
+[tool.ruff.lint.per-file-ignores]
+"src/convoy/registered.py" = ["E501"]
+"src/convoy/claims.py" = ["E501"]
+"tests/test_paper_tables.py" = ["E501"]

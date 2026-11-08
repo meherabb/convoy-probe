@@ -1,0 +1,5 @@
+# The convoy package and the CPU checks (pip install -e ".[dev]" installs these plus the dev tools).
+# The GPU notebook has its own list: notebook/requirements-notebook.txt
+numpy>=1.24
+scipy>=1.10
+pandas>=2.0

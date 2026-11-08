@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+
+# Tools
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.coverage
+htmlcov/
+
+# Notebook runs (outputs and scratch data of a local run)
+notebook/build/
+outputs/
+checkpoints/
+convoy_scratch/
+scratch/
+convoy_checkpoints.zip
+convoy_paper_outputs.zip
+
+# Local files
+.env
+.denylist
+.DS_Store

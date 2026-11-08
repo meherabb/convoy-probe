@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this code or the released results, please cite the paper (anonymous submission to CVPR 2027)."
+title: "Parallel Motion as an Exact Counterfactual: How Much Geometry Do Feed-Forward 3D Models Use for Moving Objects?"
+type: software
+authors:
+  - name: "Anonymous Authors"
+version: "1.0.0"
+license: MIT
+keywords:
+  - 3D reconstruction
+  - feed-forward reconstruction
+  - dynamic scenes
+  - multi-view geometry
+  - probing
+abstract: >-
+  An object that moves parallel to the camera baseline by a fraction s of it looks, in both images,
+  exactly like a static object 1/(1-s) times as far away. The slope of a model's log-depth error on
+  x = -log(1-s) is the share of geometry the model uses for the object. This repository holds the
+  notebook that ran every experiment, a tested package with the model-independent code, the
+  registration record and all outputs of the run reported in the paper.
