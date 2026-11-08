@@ -1,0 +1,37 @@
+model,test,contrast,n,n_scenes,estimate_ci,p_holm,verdict
+DUSt3R,H5,beta(F) - beta(NS): lifting removes the contact,161,71,"0.143 [0.046, 0.241]",0.0044995500449955,SUPPORTED
+DUSt3R,H6,beta(CH) - beta(G): hiding the contact,159,71,"0.308 [0.256, 0.366]",0.0005999400059994001,SUPPORTED
+DUSt3R,H7,(beta_CH - beta_G) - (beta_FH - beta_F): the wall acts through the contact,158,71,"0.114 [0.052, 0.184]",0.0005999400059994001,SUPPORTED
+DUSt3R,SH,beta(NS) - beta(G): removing the contact shadow,162,71,"0.067 [0.045, 0.093]",–,EXPLORATORY
+DUSt3R,H8,median rho_mono(F) - median rho_mono(NS): single-image depth of a lifted object,194,71,"0.688 [0.605, 0.734]",0.0005999400059994001,SUPPORTED
+DUSt3R,CL,"beta(F, car) - beta(F, crate): floating car vs floating crate",162,71,"-0.124 [-0.308, 0.073]",–,EXPLORATORY
+MASt3R,H5,beta(F) - beta(NS): lifting removes the contact,161,71,"0.305 [0.200, 0.419]",0.0005999400059994001,SUPPORTED
+MASt3R,H6,beta(CH) - beta(G): hiding the contact,159,71,"0.386 [0.322, 0.460]",0.0005999400059994001,SUPPORTED
+MASt3R,H7,(beta_CH - beta_G) - (beta_FH - beta_F): the wall acts through the contact,158,71,"0.319 [0.245, 0.401]",0.0005999400059994001,SUPPORTED
+MASt3R,SH,beta(NS) - beta(G): removing the contact shadow,162,71,"0.056 [0.032, 0.085]",–,EXPLORATORY
+MASt3R,H8,median rho_mono(F) - median rho_mono(NS): single-image depth of a lifted object,194,71,"0.762 [0.716, 0.838]",0.0005999400059994001,SUPPORTED
+MASt3R,CL,"beta(F, car) - beta(F, crate): floating car vs floating crate",162,71,"0.000 [-0.189, 0.199]",–,EXPLORATORY
+MonST3R,H5,beta(F) - beta(NS): lifting removes the contact,161,71,"0.261 [0.161, 0.367]",0.0005999400059994001,SUPPORTED
+MonST3R,H6,beta(CH) - beta(G): hiding the contact,159,71,"0.347 [0.281, 0.426]",0.0005999400059994001,SUPPORTED
+MonST3R,H7,(beta_CH - beta_G) - (beta_FH - beta_F): the wall acts through the contact,158,71,"0.191 [0.122, 0.270]",0.0005999400059994001,SUPPORTED
+MonST3R,SH,beta(NS) - beta(G): removing the contact shadow,162,71,"0.023 [0.005, 0.048]",–,EXPLORATORY
+MonST3R,H8,median rho_mono(F) - median rho_mono(NS): single-image depth of a lifted object,194,71,"0.597 [0.548, 0.635]",0.0005999400059994001,SUPPORTED
+MonST3R,CL,"beta(F, car) - beta(F, crate): floating car vs floating crate",162,71,"-0.166 [-0.318, -0.001]",–,EXPLORATORY
+VGGT,H5,beta(F) - beta(NS): lifting removes the contact,161,71,"0.108 [0.026, 0.196]",0.009599040095990401,SUPPORTED
+VGGT,H6,beta(CH) - beta(G): hiding the contact,159,71,"0.261 [0.222, 0.310]",0.0005999400059994001,SUPPORTED
+VGGT,H7,(beta_CH - beta_G) - (beta_FH - beta_F): the wall acts through the contact,158,71,"0.063 [-0.004, 0.130]",0.06359364063593641,NOT SUPPORTED
+VGGT,SH,beta(NS) - beta(G): removing the contact shadow,162,71,"0.003 [-0.000, 0.008]",–,EXPLORATORY
+VGGT,H8,median rho_mono(F) - median rho_mono(NS): single-image depth of a lifted object,194,71,"0.586 [0.564, 0.627]",0.0005999400059994001,SUPPORTED
+VGGT,CL,"beta(F, car) - beta(F, crate): floating car vs floating crate",162,71,"-0.147 [-0.297, 0.015]",–,EXPLORATORY
+π³,H5,beta(F) - beta(NS): lifting removes the contact,161,71,"0.199 [0.095, 0.311]",0.0007999200079992001,SUPPORTED
+π³,H6,beta(CH) - beta(G): hiding the contact,159,71,"0.332 [0.278, 0.397]",0.0005999400059994001,SUPPORTED
+π³,H7,(beta_CH - beta_G) - (beta_FH - beta_F): the wall acts through the contact,158,71,"0.051 [-0.021, 0.126]",0.08239176082391761,NOT SUPPORTED
+π³,SH,beta(NS) - beta(G): removing the contact shadow,162,71,"0.006 [0.003, 0.011]",–,EXPLORATORY
+π³,H8,median rho_mono(F) - median rho_mono(NS): single-image depth of a lifted object,194,71,"0.568 [0.526, 0.610]",0.0005999400059994001,SUPPORTED
+π³,CL,"beta(F, car) - beta(F, crate): floating car vs floating crate",162,71,"-0.214 [-0.402, -0.012]",–,EXPLORATORY
+MapAnything,H5,beta(F) - beta(NS): lifting removes the contact,161,71,"0.082 [-0.038, 0.214]",0.09679032096790322,NOT SUPPORTED
+MapAnything,H6,beta(CH) - beta(G): hiding the contact,159,71,"0.144 [0.089, 0.208]",0.0005999400059994001,SUPPORTED
+MapAnything,H7,(beta_CH - beta_G) - (beta_FH - beta_F): the wall acts through the contact,158,71,"0.123 [0.041, 0.214]",0.006599340065993401,SUPPORTED
+MapAnything,SH,beta(NS) - beta(G): removing the contact shadow,162,71,"0.009 [0.004, 0.015]",–,EXPLORATORY
+MapAnything,H8,median rho_mono(F) - median rho_mono(NS): single-image depth of a lifted object,194,71,"0.645 [0.594, 0.723]",0.0005999400059994001,SUPPORTED
+MapAnything,CL,"beta(F, car) - beta(F, crate): floating car vs floating crate",162,71,"-0.312 [-0.490, -0.127]",–,EXPLORATORY

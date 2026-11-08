@@ -1,0 +1,13 @@
+model,comparison,n,mse_two_channels,mse_other,delta_ci,direction
+DUSt3R,contact only (kappa = 0) minus two channels,1067,0.03627946275757582,0.04188900645725459,"0.0056 [0.0010, 0.0102]",two channels predict better
+DUSt3R,parallax only (one c) minus two channels,1067,0.03627946275757582,0.04453817970780711,"0.0083 [0.0043, 0.0123]",two channels predict better
+MASt3R,contact only (kappa = 0) minus two channels,1067,0.05380064168088387,0.05324522111547058,"-0.0006 [-0.0034, 0.0020]",no clear difference
+MASt3R,parallax only (one c) minus two channels,1067,0.05380064168088387,0.08467572521309798,"0.0309 [0.0219, 0.0403]",two channels predict better
+MonST3R,contact only (kappa = 0) minus two channels,1067,0.027093981667454733,0.029150605458121575,"0.0021 [-0.0005, 0.0047]",no clear difference
+MonST3R,parallax only (one c) minus two channels,1067,0.027093981667454733,0.03808379360586657,"0.0110 [0.0077, 0.0144]",two channels predict better
+VGGT,contact only (kappa = 0) minus two channels,1067,0.014481924918606217,0.014214767381882073,"-0.0003 [-0.0009, 0.0004]",no clear difference
+VGGT,parallax only (one c) minus two channels,1067,0.014481924918606217,0.01852317662290527,"0.0040 [0.0028, 0.0053]",two channels predict better
+π³,contact only (kappa = 0) minus two channels,1067,0.03620917540374924,0.03620917540374924,"0.0000 [0.0000, 0.0000]",no clear difference
+π³,parallax only (one c) minus two channels,1067,0.03620917540374924,0.05437571611970546,"0.0182 [0.0114, 0.0270]",two channels predict better
+MapAnything,contact only (kappa = 0) minus two channels,1067,0.01998893702237406,0.020135983896569187,"0.0001 [-0.0008, 0.0010]",no clear difference
+MapAnything,parallax only (one c) minus two channels,1067,0.01998893702237406,0.021058092334709937,"0.0011 [0.0005, 0.0017]",two channels predict better

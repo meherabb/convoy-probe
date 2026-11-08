@@ -1,0 +1,20 @@
+model,grouping,group,n,n_pairs,median_x_geo,g_ci
+DUSt3R,kind,balloon,2,2,0.9424998377322475,-0.341
+DUSt3R,kind,box,1,1,-0.41252452829570047,-0.183
+DUSt3R,floor contact,off the floor,2,2,0.9424998377322475,-0.341
+MASt3R,kind,person,2,2,0.2526011231547586,0.449
+MASt3R,floor contact,off the floor,2,2,0.2526011231547586,0.449
+MonST3R,kind,balloon,3,3,0.769882404272262,-0.139
+MonST3R,kind,box,4,3,-0.31210331107686473,0.040
+MonST3R,kind,person,1,1,0.3514598451488579,0.035
+MonST3R,floor contact,off the floor,5,5,0.7088526046557495,0.015
+VGGT,kind,person,5,5,0.3514598451488579,0.013
+VGGT,floor contact,off the floor,5,5,0.3514598451488579,0.013
+π³,kind,balloon,4,4,0.7417568237594628,-0.170
+π³,kind,box,2,2,-0.37206418997151225,0.074
+π³,kind,person,3,3,0.4377949814375512,0.032
+π³,floor contact,off the floor,7,7,0.7088526046557495,-0.056
+MapAnything,kind,balloon,3,3,0.769882404272262,0.004
+MapAnything,kind,box,3,2,-0.3316038516473241,0.124
+MapAnything,kind,person,3,3,0.4377949814375512,0.063
+MapAnything,floor contact,off the floor,6,6,0.624741798774048,0.034

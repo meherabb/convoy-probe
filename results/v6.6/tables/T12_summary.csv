@@ -1,0 +1,103 @@
+family,prediction,model,statistic,estimate_ci,n,verdict
+locked (v5),P1 degeneracy (CONVOY-3D),DUSt3R,beta_s,"0.169 [0.091, 0.260]",220,FALSIFIED
+locked (v5),P1 degeneracy (CONVOY-3D),MASt3R,beta_s,"0.187 [0.092, 0.297]",220,FALSIFIED
+locked (v5),P1 degeneracy (CONVOY-3D),MonST3R,beta_s,"0.123 [0.057, 0.203]",220,FALSIFIED
+locked (v5),P1 degeneracy (CONVOY-3D),VGGT,beta_s,"0.086 [0.003, 0.189]",220,FALSIFIED
+locked (v5),P1 degeneracy (CONVOY-3D),π³,beta_s,"0.109 [0.031, 0.208]",220,FALSIFIED
+locked (v5),P1 degeneracy (CONVOY-3D),MapAnything,beta_s,"-0.042 [-0.153, 0.080]",220,FALSIFIED
+locked (v5),P1 degeneracy (CONVOY-REAL),DUSt3R,beta_s,"0.544 [0.423, 0.684]",108,PARTIAL
+locked (v5),P1 degeneracy (CONVOY-REAL),MASt3R,beta_s,"0.740 [0.593, 0.872]",108,PARTIAL
+locked (v5),P1 degeneracy (CONVOY-REAL),MonST3R,beta_s,"0.511 [0.415, 0.619]",108,PARTIAL
+locked (v5),P1 degeneracy (CONVOY-REAL),VGGT,beta_s,"0.469 [0.365, 0.585]",108,PARTIAL
+locked (v5),P1 degeneracy (CONVOY-REAL),π³,beta_s,"0.212 [-0.018, 0.425]",108,FALSIFIED
+locked (v5),P1 degeneracy (CONVOY-REAL),MapAnything,beta_s,"0.403 [0.295, 0.513]",108,FALSIFIED
+locked (v5),P2 masks (CONVOY-3D),(model-independent) / M1 epipolar residual (exact corr.),recall(perp) - recall(par),"0.834 [0.796, 0.869]",593,SUPPORTED
+locked (v5),P2 masks (CONVOY-3D),(model-independent) / M1 epipolar residual (flow),recall(perp) - recall(par),"0.678 [0.618, 0.735]",593,SUPPORTED
+locked (v5),P2 masks (CONVOY-3D),DUSt3R / M2 rigid-flow residual (exact corr.),recall(perp) - recall(par),"0.443 [0.387, 0.498]",593,SUPPORTED
+locked (v5),P2 masks (CONVOY-3D),DUSt3R / M2 rigid-flow residual (flow),recall(perp) - recall(par),"0.253 [0.182, 0.326]",593,PARTIAL
+locked (v5),P2 masks (CONVOY-3D),DUSt3R / M4 model confidence,recall(perp) - recall(par),"0.020 [-0.041, 0.078]",593,FALSIFIED
+locked (v5),P2 masks (CONVOY-3D),MASt3R / M2 rigid-flow residual (exact corr.),recall(perp) - recall(par),"0.485 [0.419, 0.550]",593,SUPPORTED
+locked (v5),P2 masks (CONVOY-3D),MASt3R / M2 rigid-flow residual (flow),recall(perp) - recall(par),"0.204 [0.146, 0.267]",593,PARTIAL
+locked (v5),P2 masks (CONVOY-3D),MASt3R / M4 model confidence,recall(perp) - recall(par),"0.126 [0.068, 0.185]",593,PARTIAL
+locked (v5),P2 masks (CONVOY-3D),MonST3R / M2 rigid-flow residual (exact corr.),recall(perp) - recall(par),"0.400 [0.338, 0.458]",593,SUPPORTED
+locked (v5),P2 masks (CONVOY-3D),MonST3R / M2 rigid-flow residual (flow),recall(perp) - recall(par),"0.242 [0.172, 0.312]",593,PARTIAL
+locked (v5),P2 masks (CONVOY-3D),MonST3R / M4 model confidence,recall(perp) - recall(par),"-0.021 [-0.068, 0.029]",593,FALSIFIED
+locked (v5),P2 masks (CONVOY-3D),VGGT / M2 rigid-flow residual (exact corr.),recall(perp) - recall(par),"0.308 [0.256, 0.359]",593,SUPPORTED
+locked (v5),P2 masks (CONVOY-3D),VGGT / M2 rigid-flow residual (flow),recall(perp) - recall(par),"0.209 [0.133, 0.284]",593,PARTIAL
+locked (v5),P2 masks (CONVOY-3D),VGGT / M4 model confidence,recall(perp) - recall(par),"0.098 [0.032, 0.167]",593,PARTIAL
+locked (v5),P2 masks (CONVOY-3D),π³ / M2 rigid-flow residual (exact corr.),recall(perp) - recall(par),"0.305 [0.255, 0.354]",593,SUPPORTED
+locked (v5),P2 masks (CONVOY-3D),π³ / M2 rigid-flow residual (flow),recall(perp) - recall(par),"0.216 [0.138, 0.292]",593,PARTIAL
+locked (v5),P2 masks (CONVOY-3D),π³ / M4 model confidence,recall(perp) - recall(par),"0.089 [0.040, 0.137]",593,PARTIAL
+locked (v5),P2 masks (CONVOY-3D),MapAnything / M2 rigid-flow residual (exact corr.),recall(perp) - recall(par),"0.403 [0.336, 0.468]",593,SUPPORTED
+locked (v5),P2 masks (CONVOY-3D),MapAnything / M2 rigid-flow residual (flow),recall(perp) - recall(par),"0.176 [0.118, 0.234]",593,PARTIAL
+locked (v5),P2 masks (CONVOY-3D),MapAnything / M4 model confidence,recall(perp) - recall(par),"0.020 [-0.041, 0.083]",593,FALSIFIED
+locked (v5),P3a prior weight vs eps,DUSt3R,"Spearman(w, |eps|)","0.064 [-0.030, 0.163]",424,FALSIFIED
+locked (v5),P3b class dependence at eps~0,DUSt3R,w(car) - w(crate),"0.114 [0.022, 0.235]",259,SUPPORTED
+locked (v5),P3a prior weight vs eps,MASt3R,"Spearman(w, |eps|)","0.124 [0.030, 0.219]",436,PARTIAL
+locked (v5),P3b class dependence at eps~0,MASt3R,w(car) - w(crate),"0.341 [0.218, 0.505]",262,SUPPORTED
+locked (v5),P3a prior weight vs eps,MonST3R,"Spearman(w, |eps|)","0.097 [-0.002, 0.194]",432,FALSIFIED
+locked (v5),P3b class dependence at eps~0,MonST3R,w(car) - w(crate),"0.110 [0.047, 0.162]",261,SUPPORTED
+locked (v5),P3a prior weight vs eps,VGGT,"Spearman(w, |eps|)","0.072 [-0.029, 0.173]",427,FALSIFIED
+locked (v5),P3b class dependence at eps~0,VGGT,w(car) - w(crate),"0.081 [0.047, 0.114]",258,SUPPORTED
+locked (v5),P3a prior weight vs eps,π³,"Spearman(w, |eps|)","0.055 [-0.044, 0.155]",429,FALSIFIED
+locked (v5),P3b class dependence at eps~0,π³,w(car) - w(crate),"0.221 [0.094, 0.286]",264,SUPPORTED
+locked (v5),P3a prior weight vs eps,MapAnything,"Spearman(w, |eps|)","-0.003 [-0.109, 0.105]",441,FALSIFIED
+locked (v5),P3b class dependence at eps~0,MapAnything,w(car) - w(crate),"0.029 [0.014, 0.045]",265,SUPPORTED
+locked (v5),P4 convoy persistence,VGGT,"beta_s(straight,K=8) - beta_s(curved,K=8)","0.042 [0.021, 0.080]",75,FALSIFIED
+locked (v5),P4 convoy persistence,π³,"beta_s(straight,K=8) - beta_s(curved,K=8)","0.066 [0.033, 0.112]",75,FALSIFIED
+locked (v5),P4 convoy persistence,MapAnything,"beta_s(straight,K=8) - beta_s(curved,K=8)","0.010 [-0.009, 0.027]",75,FALSIFIED
+locked (v5),A1 correspondence (knockout),DUSt3R,beta_s(full) - beta_s(knockout),"0.255 [0.113, 0.444]",89,HOLDS (deleting the correspondence lowers beta_s)
+locked (v5),A1 correspondence (knockout),MASt3R,beta_s(full) - beta_s(knockout),"0.224 [0.066, 0.375]",89,HOLDS (deleting the correspondence lowers beta_s)
+locked (v5),A1 correspondence (knockout),MonST3R,beta_s(full) - beta_s(knockout),"0.209 [0.071, 0.375]",89,HOLDS (deleting the correspondence lowers beta_s)
+locked (v5),A1 correspondence (knockout),VGGT,beta_s(full) - beta_s(knockout),"0.071 [0.035, 0.109]",89,HOLDS (deleting the correspondence lowers beta_s)
+locked (v5),A1 correspondence (knockout),π³,beta_s(full) - beta_s(knockout),"0.126 [0.020, 0.256]",89,HOLDS (deleting the correspondence lowers beta_s)
+locked (v5),A1 correspondence (knockout),MapAnything,beta_s(full) - beta_s(knockout),"0.043 [-0.011, 0.100]",89,NOT DETECTED (depth does not depend on the correspondence)
+registered (v6),H5 lifting raises the geometry share,DUSt3R,beta(F) - beta(NS),"0.143 [0.046, 0.241]",161,SUPPORTED
+registered (v6),H6 hiding the contact raises it,DUSt3R,beta(CH) - beta(G),"0.308 [0.256, 0.366]",159,SUPPORTED
+registered (v6),H7 the wall acts through the contact,DUSt3R,(beta_CH - beta_G) - (beta_FH - beta_F),"0.114 [0.052, 0.184]",158,SUPPORTED
+registered (v6),H8 lifted objects look farther (single image),DUSt3R,median rho_mono(F) - median rho_mono(NS),"0.688 [0.605, 0.734]",194,SUPPORTED
+registered (v6),H5 lifting raises the geometry share,MASt3R,beta(F) - beta(NS),"0.305 [0.200, 0.419]",161,SUPPORTED
+registered (v6),H6 hiding the contact raises it,MASt3R,beta(CH) - beta(G),"0.386 [0.322, 0.460]",159,SUPPORTED
+registered (v6),H7 the wall acts through the contact,MASt3R,(beta_CH - beta_G) - (beta_FH - beta_F),"0.319 [0.245, 0.401]",158,SUPPORTED
+registered (v6),H8 lifted objects look farther (single image),MASt3R,median rho_mono(F) - median rho_mono(NS),"0.762 [0.716, 0.838]",194,SUPPORTED
+registered (v6),H5 lifting raises the geometry share,MonST3R,beta(F) - beta(NS),"0.261 [0.161, 0.367]",161,SUPPORTED
+registered (v6),H6 hiding the contact raises it,MonST3R,beta(CH) - beta(G),"0.347 [0.281, 0.426]",159,SUPPORTED
+registered (v6),H7 the wall acts through the contact,MonST3R,(beta_CH - beta_G) - (beta_FH - beta_F),"0.191 [0.122, 0.270]",158,SUPPORTED
+registered (v6),H8 lifted objects look farther (single image),MonST3R,median rho_mono(F) - median rho_mono(NS),"0.597 [0.548, 0.635]",194,SUPPORTED
+registered (v6),H5 lifting raises the geometry share,VGGT,beta(F) - beta(NS),"0.108 [0.026, 0.196]",161,SUPPORTED
+registered (v6),H6 hiding the contact raises it,VGGT,beta(CH) - beta(G),"0.261 [0.222, 0.310]",159,SUPPORTED
+registered (v6),H7 the wall acts through the contact,VGGT,(beta_CH - beta_G) - (beta_FH - beta_F),"0.063 [-0.004, 0.130]",158,NOT SUPPORTED
+registered (v6),H8 lifted objects look farther (single image),VGGT,median rho_mono(F) - median rho_mono(NS),"0.586 [0.564, 0.627]",194,SUPPORTED
+registered (v6),H5 lifting raises the geometry share,π³,beta(F) - beta(NS),"0.199 [0.095, 0.311]",161,SUPPORTED
+registered (v6),H6 hiding the contact raises it,π³,beta(CH) - beta(G),"0.332 [0.278, 0.397]",159,SUPPORTED
+registered (v6),H7 the wall acts through the contact,π³,(beta_CH - beta_G) - (beta_FH - beta_F),"0.051 [-0.021, 0.126]",158,NOT SUPPORTED
+registered (v6),H8 lifted objects look farther (single image),π³,median rho_mono(F) - median rho_mono(NS),"0.568 [0.526, 0.610]",194,SUPPORTED
+registered (v6),H5 lifting raises the geometry share,MapAnything,beta(F) - beta(NS),"0.082 [-0.038, 0.214]",161,NOT SUPPORTED
+registered (v6),H6 hiding the contact raises it,MapAnything,beta(CH) - beta(G),"0.144 [0.089, 0.208]",159,SUPPORTED
+registered (v6),H7 the wall acts through the contact,MapAnything,(beta_CH - beta_G) - (beta_FH - beta_F),"0.123 [0.041, 0.214]",158,SUPPORTED
+registered (v6),H8 lifted objects look farther (single image),MapAnything,median rho_mono(F) - median rho_mono(NS),"0.645 [0.594, 0.723]",194,SUPPORTED
+registered (v6.1),H11a real images: lifting raises the geometry share,DUSt3R,beta(F) - beta(G),"0.242 [0.151, 0.342]",141,SUPPORTED
+registered (v6.1),H11b real images: lifted crates look farther (single image),DUSt3R,median rho_mono(F) - median rho_mono(G),"0.214 [0.173, 0.233]",141,SUPPORTED
+registered (v6.1),H11a real images: lifting raises the geometry share,MASt3R,beta(F) - beta(G),"0.302 [0.202, 0.408]",141,SUPPORTED
+registered (v6.1),H11b real images: lifted crates look farther (single image),MASt3R,median rho_mono(F) - median rho_mono(G),"0.199 [0.156, 0.242]",141,SUPPORTED
+registered (v6.1),H11a real images: lifting raises the geometry share,MonST3R,beta(F) - beta(G),"0.219 [0.153, 0.289]",141,SUPPORTED
+registered (v6.1),H11b real images: lifted crates look farther (single image),MonST3R,median rho_mono(F) - median rho_mono(G),"0.210 [0.180, 0.236]",141,SUPPORTED
+registered (v6.1),H11a real images: lifting raises the geometry share,VGGT,beta(F) - beta(G),"0.240 [0.180, 0.308]",141,SUPPORTED
+registered (v6.1),H11b real images: lifted crates look farther (single image),VGGT,median rho_mono(F) - median rho_mono(G),"0.003 [-0.047, 0.053]",141,NOT SUPPORTED
+registered (v6.1),H11a real images: lifting raises the geometry share,π³,beta(F) - beta(G),"-0.064 [-0.308, 0.164]",141,NOT SUPPORTED
+registered (v6.1),H11b real images: lifted crates look farther (single image),π³,median rho_mono(F) - median rho_mono(G),"-0.461 [-1.038, -0.135]",141,CONTRADICTED
+registered (v6.1),H11a real images: lifting raises the geometry share,MapAnything,beta(F) - beta(G),"0.205 [0.142, 0.272]",141,SUPPORTED
+registered (v6.1),H11b real images: lifted crates look farther (single image),MapAnything,median rho_mono(F) - median rho_mono(G),"0.156 [0.112, 0.206]",141,SUPPORTED
+registered (v6.5),H12 a longer baseline raises the geometry share (baseline sweep),DUSt3R,beta(x3) - beta(x0.5),"0.101 [0.015, 0.185]",148,SUPPORTED
+registered (v6.5),H12 a longer baseline raises the geometry share (baseline sweep),MASt3R,beta(x3) - beta(x0.5),"0.091 [0.040, 0.140]",148,SUPPORTED
+registered (v6.5),H12 a longer baseline raises the geometry share (baseline sweep),MonST3R,beta(x3) - beta(x0.5),"0.112 [0.065, 0.162]",148,NO PREDICTION
+registered (v6.5),H12 a longer baseline raises the geometry share (baseline sweep),VGGT,beta(x3) - beta(x0.5),"0.041 [0.006, 0.086]",148,NO PREDICTION
+registered (v6.5),H12 a longer baseline raises the geometry share (baseline sweep),π³,beta(x3) - beta(x0.5),"0.087 [0.001, 0.188]",148,NO PREDICTION
+registered (v6.5),H12 a longer baseline raises the geometry share (baseline sweep),MapAnything,beta(x3) - beta(x0.5),"0.064 [0.032, 0.107]",148,NO PREDICTION
+registered (v6.5),H13 hiding the contact with the lowest wall raises it (dose-response),DUSt3R,beta(15 cm wall) - beta(no wall),"0.288 [0.204, 0.377]",145,SUPPORTED
+registered (v6.5),H13 hiding the contact with the lowest wall raises it (dose-response),MASt3R,beta(15 cm wall) - beta(no wall),"0.431 [0.357, 0.509]",145,SUPPORTED
+registered (v6.5),H13 hiding the contact with the lowest wall raises it (dose-response),MonST3R,beta(15 cm wall) - beta(no wall),"0.221 [0.151, 0.304]",145,SUPPORTED
+registered (v6.5),H13 hiding the contact with the lowest wall raises it (dose-response),VGGT,beta(15 cm wall) - beta(no wall),"0.208 [0.161, 0.258]",145,SUPPORTED
+registered (v6.5),H13 hiding the contact with the lowest wall raises it (dose-response),π³,beta(15 cm wall) - beta(no wall),"0.183 [0.136, 0.241]",145,SUPPORTED
+registered (v6.5),H13 hiding the contact with the lowest wall raises it (dose-response),MapAnything,beta(15 cm wall) - beta(no wall),"0.146 [0.099, 0.194]",145,SUPPORTED
+registered (v6.6),H14 twin test with flow flags more parallel movers than the epipolar test (Argoverse 2),optical flow (RAFT-large),det_twin - det_epipolar (parallel regime),"0.212 [0.132, 0.290]",543,SUPPORTED

@@ -1,0 +1,25 @@
+test,model,contrast,n,n_scenes,estimate_ci,p_holm,verdict
+H13,DUSt3R,beta(15 cm wall) - beta(no wall),145,63,"0.288 [0.204, 0.377]",0.0005999400059994001,SUPPORTED
+dose 70-15,DUSt3R,beta(70 cm) - beta(15 cm),135,62,"0.034 [-0.032, 0.097]",–,EXPLORATORY
+dose 70-0,DUSt3R,beta(70 cm) - beta(no wall),135,62,"0.326 [0.247, 0.405]",–,EXPLORATORY
+dose share,DUSt3R,(beta 15 cm - beta no wall) / (beta 70 cm - beta no wall),135,62,"0.897 [0.706, 1.103]",–,EXPLORATORY
+H13,MASt3R,beta(15 cm wall) - beta(no wall),145,63,"0.431 [0.357, 0.509]",0.0005999400059994001,SUPPORTED
+dose 70-15,MASt3R,beta(70 cm) - beta(15 cm),135,62,"-0.013 [-0.071, 0.043]",–,EXPLORATORY
+dose 70-0,MASt3R,beta(70 cm) - beta(no wall),135,62,"0.418 [0.318, 0.518]",–,EXPLORATORY
+dose share,MASt3R,(beta 15 cm - beta no wall) / (beta 70 cm - beta no wall),135,62,"1.031 [0.908, 1.203]",–,EXPLORATORY
+H13,MonST3R,beta(15 cm wall) - beta(no wall),145,63,"0.221 [0.151, 0.304]",0.0005999400059994001,SUPPORTED
+dose 70-15,MonST3R,beta(70 cm) - beta(15 cm),135,62,"0.164 [0.088, 0.241]",–,EXPLORATORY
+dose 70-0,MonST3R,beta(70 cm) - beta(no wall),135,62,"0.386 [0.294, 0.487]",–,EXPLORATORY
+dose share,MonST3R,(beta 15 cm - beta no wall) / (beta 70 cm - beta no wall),135,62,"0.575 [0.426, 0.749]",–,EXPLORATORY
+H13,VGGT,beta(15 cm wall) - beta(no wall),145,63,"0.208 [0.161, 0.258]",0.0005999400059994001,SUPPORTED
+dose 70-15,VGGT,beta(70 cm) - beta(15 cm),135,62,"0.116 [0.071, 0.164]",–,EXPLORATORY
+dose 70-0,VGGT,beta(70 cm) - beta(no wall),135,62,"0.318 [0.249, 0.393]",–,EXPLORATORY
+dose share,VGGT,(beta 15 cm - beta no wall) / (beta 70 cm - beta no wall),135,62,"0.634 [0.533, 0.744]",–,EXPLORATORY
+H13,π³,beta(15 cm wall) - beta(no wall),145,63,"0.183 [0.136, 0.241]",0.0005999400059994001,SUPPORTED
+dose 70-15,π³,beta(70 cm) - beta(15 cm),135,62,"0.264 [0.206, 0.325]",–,EXPLORATORY
+dose 70-0,π³,beta(70 cm) - beta(no wall),135,62,"0.449 [0.364, 0.541]",–,EXPLORATORY
+dose share,π³,(beta 15 cm - beta no wall) / (beta 70 cm - beta no wall),135,62,"0.413 [0.335, 0.494]",–,EXPLORATORY
+H13,MapAnything,beta(15 cm wall) - beta(no wall),145,63,"0.146 [0.099, 0.194]",0.0005999400059994001,SUPPORTED
+dose 70-15,MapAnything,beta(70 cm) - beta(15 cm),135,62,"-0.024 [-0.091, 0.039]",–,EXPLORATORY
+dose 70-0,MapAnything,beta(70 cm) - beta(no wall),135,62,"0.127 [0.038, 0.215]",–,EXPLORATORY
+dose share,MapAnything,(beta 15 cm - beta no wall) / (beta 70 cm - beta no wall),135,62,"1.193 [0.799, 3.102]",–,EXPLORATORY

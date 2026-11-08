@@ -1,0 +1,8 @@
+step,vehicles,pairs
+moving vehicles in the pairs,1247,289
+parallel regime (|eps| < 1 px),889,246
+... and >= 40 eroded visible px,860,246
+... and >= 85% of the silhouette visible (measurable),30,30
+... and parallax >= 5 px (identifiable),15,15
+"... and x_geo in [-0.47, 1.9] (the H9 sample)",6,6
+"H9 sample under the v6.0 rule (whole box in the crop, truncation <= 5%, visible in view 2 >= 85%)",5,5

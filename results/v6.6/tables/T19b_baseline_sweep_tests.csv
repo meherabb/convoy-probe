@@ -1,0 +1,25 @@
+test,model,contrast,n,n_scenes,estimate_ci,p_holm,verdict
+H12,DUSt3R,beta(x3) - beta(x0.5),148,62,"0.101 [0.015, 0.185]",0.013498650134986502,SUPPORTED
+H12-floating,DUSt3R,"rise x0.5 -> x3, floating movers",55,62,"0.205 [0.011, 0.390]",–,EXPLORATORY
+H12-grounded,DUSt3R,"rise x0.5 -> x3, grounded movers",93,62,"0.030 [-0.022, 0.080]",–,EXPLORATORY
+H12-interaction,DUSt3R,rise of floating minus rise of grounded movers,148,62,"0.174 [-0.021, 0.362]",–,EXPLORATORY
+H12,MASt3R,beta(x3) - beta(x0.5),148,62,"0.091 [0.040, 0.140]",0.0005999400059994001,SUPPORTED
+H12-floating,MASt3R,"rise x0.5 -> x3, floating movers",55,62,"0.237 [0.161, 0.343]",–,EXPLORATORY
+H12-grounded,MASt3R,"rise x0.5 -> x3, grounded movers",93,62,"-0.012 [-0.078, 0.034]",–,EXPLORATORY
+H12-interaction,MASt3R,rise of floating minus rise of grounded movers,148,62,"0.249 [0.159, 0.374]",–,EXPLORATORY
+H12,MonST3R,beta(x3) - beta(x0.5),148,62,"0.112 [0.065, 0.162]",–,NO PREDICTION
+H12-floating,MonST3R,"rise x0.5 -> x3, floating movers",55,62,"0.233 [0.138, 0.343]",–,EXPLORATORY
+H12-grounded,MonST3R,"rise x0.5 -> x3, grounded movers",93,62,"0.027 [0.014, 0.042]",–,EXPLORATORY
+H12-interaction,MonST3R,rise of floating minus rise of grounded movers,148,62,"0.206 [0.112, 0.314]",–,EXPLORATORY
+H12,VGGT,beta(x3) - beta(x0.5),148,62,"0.041 [0.006, 0.086]",–,NO PREDICTION
+H12-floating,VGGT,"rise x0.5 -> x3, floating movers",55,62,"0.092 [0.010, 0.193]",–,EXPLORATORY
+H12-grounded,VGGT,"rise x0.5 -> x3, grounded movers",93,62,"0.006 [-0.003, 0.017]",–,EXPLORATORY
+H12-interaction,VGGT,rise of floating minus rise of grounded movers,148,62,"0.085 [0.003, 0.188]",–,EXPLORATORY
+H12,π³,beta(x3) - beta(x0.5),148,62,"0.087 [0.001, 0.188]",–,NO PREDICTION
+H12-floating,π³,"rise x0.5 -> x3, floating movers",55,62,"0.210 [0.004, 0.444]",–,EXPLORATORY
+H12-grounded,π³,"rise x0.5 -> x3, grounded movers",93,62,"0.002 [-0.015, 0.022]",–,EXPLORATORY
+H12-interaction,π³,rise of floating minus rise of grounded movers,148,62,"0.208 [0.002, 0.441]",–,EXPLORATORY
+H12,MapAnything,beta(x3) - beta(x0.5),148,62,"0.064 [0.032, 0.107]",–,NO PREDICTION
+H12-floating,MapAnything,"rise x0.5 -> x3, floating movers",55,62,"0.130 [0.058, 0.234]",–,EXPLORATORY
+H12-grounded,MapAnything,"rise x0.5 -> x3, grounded movers",93,62,"0.018 [0.011, 0.029]",–,EXPLORATORY
+H12-interaction,MapAnything,rise of floating minus rise of grounded movers,148,62,"0.112 [0.038, 0.217]",–,EXPLORATORY

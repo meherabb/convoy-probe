@@ -1,0 +1,22 @@
+dataset,role,items,movers,check,used_in
+CONVOY-3D main (+ knockout),"synthetic, exact",240,715,exact,"E1-E3, A1"
+CONVOY-3D E4 twins,"synthetic, exact",96,254,exact,E4
+CONVOY-3D ablation (5 conditions),"synthetic, exact",360,208,exact,E5
+CONVOY-3D baseline sweep (4 baselines),"synthetic, exact (v6.5)",256,192,exact,H12
+CONVOY-3D dose-response (4 wall heights),"synthetic, exact (v6.5)",256,190,exact,H13
+LEGACY-FLAT,negative control,24,0,not applicable,gate
+TUM fr3_structure_texture_far,static,903,120,A3 PASS (0.006),"CONVOY-REAL, E5-REAL"
+TUM fr3_long_office_household,static,2485,120,A3 PASS (0.006),"CONVOY-REAL, E5-REAL"
+TUM fr3_walking_xyz,dynamic,826,0,A3 PASS (0.013),prevalence
+TUM fr3_walking_halfsphere,dynamic,1017,0,A3 PASS (0.014),prevalence
+E5-REAL composites (2 conditions),"real background, inserted crate",80,141,A3 of the source sequence,E5-REAL
+Virtual KITTI 2 Scene01,"photo-realistic, exact",447,64,A3 PASS (0.001 / 0.001),E6
+Virtual KITTI 2 Scene02,"photo-realistic, exact",233,49,A3 PASS (0.002 / 0.000),E6
+Virtual KITTI 2 Scene06,"photo-realistic, exact",270,19,A3 PASS (0.002 / 0.000),E6
+Virtual KITTI 2 Scene18,"photo-realistic, exact",339,330,A3 PASS (0.002 / 0.000),E6
+Virtual KITTI 2 Scene20,"photo-realistic, exact",837,785,A3 PASS (0.002 / 0.000),E6
+Argoverse 2 (64 validation logs),"real driving, LiDAR (exploratory)",669,1770,"A3 PASS (median 0.003, max 0.013)","E6x, 6.9"
+Bonn RGB-D Dynamic balloon,"real objects, measured depth (exploratory)",437,146,"A3 PASS (0.012, documented)",6.12
+Bonn RGB-D Dynamic balloon2,"real objects, measured depth (exploratory)",467,120,"A3 PASS (0.013, documented)",6.12
+Bonn RGB-D Dynamic moving_nonobstructing_box,"real objects, measured depth (exploratory)",774,108,"A3 PASS (0.007, documented)",6.12
+Bonn RGB-D Dynamic moving_nonobstructing_box2,"real objects, measured depth (exploratory)",921,98,"A3 PASS (0.008, documented)",6.12

@@ -1,0 +1,7 @@
+model,family,training,checkpoint,input,precision,params_M,peak_gpu_GiB,virtual_kitti_in_training
+DUSt3R,croco,static,naver/DUSt3R_ViTLarge_BaseDecoder_512_dpt,512x384,fp32,571.2,2.69,no
+MASt3R,croco,static,naver/MASt3R_ViTLarge_BaseDecoder_512_catmlpdpt_metric,512x384,fp32,688.6,3.15,yes
+MonST3R,croco,dynamic (DUSt3R fine-tuned on video),Junyi42/MonST3R_PO-TA-S-W_ViTLarge_BaseDecoder_512_dpt,512x384,fp32,571.2,2.69,no
+VGGT,multiview,multi-dataset mixture,facebook/VGGT-1B,504x378,fp16,1190.6,5.26,yes
+π³,multiview,multi-dataset mixture,yyfz233/Pi3,560x420,fp16,958.7,3.75,no
+MapAnything,multiview,multi-dataset mixture,facebook/map-anything,504x378,fp32,1228.5,5.84,no

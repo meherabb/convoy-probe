@@ -1,0 +1,13 @@
+model,contrast,meaning,n,n_scenes,change_ci,direction
+DUSt3R,CH - G,contact hidden - grounded,158,71,"-0.143 [-0.225, -0.067]",lower
+DUSt3R,F - NS,lifted - grounded without shadow,158,71,"0.078 [-0.011, 0.167]",no clear change
+MASt3R,CH - G,contact hidden - grounded,158,71,"-0.044 [-0.120, 0.037]",no clear change
+MASt3R,F - NS,lifted - grounded without shadow,158,71,"-0.005 [-0.088, 0.080]",no clear change
+MonST3R,CH - G,contact hidden - grounded,158,71,"-0.194 [-0.272, -0.118]",lower
+MonST3R,F - NS,lifted - grounded without shadow,158,71,"-0.037 [-0.130, 0.053]",no clear change
+VGGT,CH - G,contact hidden - grounded,158,71,"-0.196 [-0.256, -0.136]",lower
+VGGT,F - NS,lifted - grounded without shadow,158,71,"-0.097 [-0.207, 0.015]",no clear change
+π³,CH - G,contact hidden - grounded,158,71,"-0.261 [-0.335, -0.190]",lower
+π³,F - NS,lifted - grounded without shadow,158,71,"-0.108 [-0.200, -0.016]",lower
+MapAnything,CH - G,contact hidden - grounded,158,71,"0.043 [-0.011, 0.098]",no clear change
+MapAnything,F - NS,lifted - grounded without shadow,158,71,"-0.011 [-0.098, 0.074]",no clear change

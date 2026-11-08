@@ -1,0 +1,61 @@
+testbed,model,n_images,slope,absrel,gate
+CONVOY-3D,DUSt3R,240,"1.02 [0.98, 1.06]","0.04 [0.03, 0.05]",PASS
+CONVOY-3D,MASt3R,240,"1.09 [1.06, 1.17]","0.07 [0.05, 0.11]",PASS
+CONVOY-3D,MapAnything,240,"1.14 [1.11, 1.22]","0.13 [0.11, 0.17]",PASS
+CONVOY-3D,MonST3R,240,"0.98 [0.95, 1.03]","0.05 [0.04, 0.06]",PASS
+CONVOY-3D,VGGT,240,"0.98 [0.96, 1.01]","0.03 [0.02, 0.04]",PASS
+CONVOY-3D,π³,240,"1.02 [1.01, 1.04]","0.02 [0.02, 0.03]",PASS
+CONVOY-3D ablation (E5),DUSt3R,360,"1.04 [1.00, 1.09]","0.04 [0.03, 0.07]",PASS
+CONVOY-3D ablation (E5),MASt3R,360,"1.09 [1.06, 1.16]","0.07 [0.05, 0.11]",PASS
+CONVOY-3D ablation (E5),MapAnything,360,"1.13 [1.09, 1.18]","0.12 [0.09, 0.15]",PASS
+CONVOY-3D ablation (E5),MonST3R,360,"1.01 [0.96, 1.06]","0.05 [0.04, 0.07]",PASS
+CONVOY-3D ablation (E5),VGGT,360,"0.99 [0.97, 1.03]","0.03 [0.02, 0.04]",PASS
+CONVOY-3D ablation (E5),π³,360,"1.03 [1.01, 1.05]","0.03 [0.02, 0.04]",PASS
+CONVOY-REAL,DUSt3R,124,"0.93 [0.85, 0.99]","0.03 [0.02, 0.04]",PASS
+CONVOY-REAL,MASt3R,124,"0.97 [0.91, 1.05]","0.04 [0.03, 0.05]",PASS
+CONVOY-REAL,MapAnything,124,"1.01 [0.95, 1.06]","0.04 [0.02, 0.05]",PASS
+CONVOY-REAL,MonST3R,124,"0.93 [0.88, 0.99]","0.03 [0.02, 0.05]",PASS
+CONVOY-REAL,VGGT,124,"0.92 [0.85, 0.99]","0.03 [0.02, 0.04]",PASS
+CONVOY-REAL,π³,124,"1.00 [0.95, 1.06]","0.02 [0.02, 0.03]",PASS
+CONVOY-REAL contact ablation (E5-REAL),DUSt3R,160,"0.95 [0.90, 0.98]","0.03 [0.02, 0.04]",PASS
+CONVOY-REAL contact ablation (E5-REAL),MASt3R,160,"0.98 [0.91, 1.06]","0.03 [0.02, 0.04]",PASS
+CONVOY-REAL contact ablation (E5-REAL),MapAnything,160,"1.00 [0.96, 1.05]","0.03 [0.02, 0.04]",PASS
+CONVOY-REAL contact ablation (E5-REAL),MonST3R,160,"0.95 [0.89, 1.00]","0.03 [0.02, 0.04]",PASS
+CONVOY-REAL contact ablation (E5-REAL),VGGT,160,"0.93 [0.87, 0.98]","0.02 [0.02, 0.03]",PASS
+CONVOY-REAL contact ablation (E5-REAL),π³,160,"1.00 [0.95, 1.07]","0.02 [0.01, 0.03]",PASS
+Virtual KITTI 2,DUSt3R,290,"0.93 [0.87, 0.99]","0.08 [0.06, 0.09]",PASS
+Virtual KITTI 2,MASt3R,290,"1.00 [0.99, 1.01]","0.02 [0.01, 0.04]",PASS
+Virtual KITTI 2,MapAnything,290,"0.95 [0.92, 1.00]","0.05 [0.04, 0.07]",PASS
+Virtual KITTI 2,MonST3R,290,"0.87 [0.83, 0.94]","0.09 [0.06, 0.10]",PASS
+Virtual KITTI 2,VGGT,290,"1.00 [0.99, 1.00]","0.01 [0.01, 0.03]",PASS
+Virtual KITTI 2,π³,290,"1.08 [1.05, 1.11]","0.06 [0.04, 0.08]",PASS
+Argoverse 2,DUSt3R,669,"0.91 [0.87, 0.96]","0.12 [0.09, 0.16]",PASS
+Argoverse 2,MASt3R,669,"0.99 [0.96, 1.02]","0.10 [0.08, 0.13]",PASS
+Argoverse 2,MapAnything,669,"1.01 [0.97, 1.05]","0.11 [0.08, 0.16]",PASS
+Argoverse 2,MonST3R,669,"0.93 [0.89, 0.97]","0.11 [0.09, 0.15]",PASS
+Argoverse 2,VGGT,669,"0.88 [0.84, 0.91]","0.09 [0.08, 0.12]",PASS
+Argoverse 2,π³,669,"1.02 [0.99, 1.05]","0.09 [0.07, 0.13]",PASS
+CONVOY-3D baseline sweep (H12),DUSt3R,256,"1.02 [0.99, 1.05]","0.04 [0.03, 0.05]",PASS
+CONVOY-3D baseline sweep (H12),MASt3R,256,"1.08 [1.05, 1.12]","0.07 [0.04, 0.10]",PASS
+CONVOY-3D baseline sweep (H12),MapAnything,256,"1.14 [1.11, 1.17]","0.12 [0.10, 0.15]",PASS
+CONVOY-3D baseline sweep (H12),MonST3R,256,"0.99 [0.96, 1.02]","0.04 [0.03, 0.06]",PASS
+CONVOY-3D baseline sweep (H12),VGGT,256,"0.98 [0.97, 1.01]","0.02 [0.02, 0.03]",PASS
+CONVOY-3D baseline sweep (H12),π³,256,"1.02 [1.01, 1.03]","0.02 [0.02, 0.03]",PASS
+CONVOY-3D dose-response (H13),DUSt3R,256,"1.00 [0.98, 1.06]","0.04 [0.03, 0.06]",PASS
+CONVOY-3D dose-response (H13),MASt3R,256,"1.06 [1.04, 1.11]","0.06 [0.04, 0.08]",PASS
+CONVOY-3D dose-response (H13),MapAnything,256,"1.09 [1.05, 1.15]","0.10 [0.07, 0.13]",PASS
+CONVOY-3D dose-response (H13),MonST3R,256,"0.98 [0.94, 1.06]","0.05 [0.04, 0.07]",PASS
+CONVOY-3D dose-response (H13),VGGT,256,"0.97 [0.95, 0.99]","0.03 [0.02, 0.04]",PASS
+CONVOY-3D dose-response (H13),π³,256,"1.02 [1.01, 1.04]","0.02 [0.02, 0.03]",PASS
+Bonn RGB-D Dynamic,DUSt3R,148,"0.97 [0.94, 1.00]","0.02 [0.02, 0.02]",PASS
+Bonn RGB-D Dynamic,MASt3R,148,"0.98 [0.94, 1.03]","0.03 [0.02, 0.03]",PASS
+Bonn RGB-D Dynamic,MapAnything,148,"0.97 [0.93, 1.03]","0.02 [0.02, 0.03]",PASS
+Bonn RGB-D Dynamic,MonST3R,148,"1.04 [1.01, 1.08]","0.02 [0.02, 0.03]",PASS
+Bonn RGB-D Dynamic,VGGT,148,"0.91 [0.86, 0.94]","0.02 [0.02, 0.03]",PASS
+Bonn RGB-D Dynamic,π³,148,"0.97 [0.94, 1.02]","0.02 [0.02, 0.02]",PASS
+LEGACY-FLAT (control),DUSt3R,24,"-0.00 [-0.01, 0.01]","0.43 [0.24, 0.63]",FAIL
+LEGACY-FLAT (control),MASt3R,24,"0.01 [-0.03, 0.03]","0.43 [0.24, 0.57]",FAIL
+LEGACY-FLAT (control),MapAnything,24,"0.00 [-0.02, 0.02]","0.43 [0.24, 0.61]",FAIL
+LEGACY-FLAT (control),MonST3R,24,"0.01 [-0.08, 0.07]","0.38 [0.23, 0.63]",FAIL
+LEGACY-FLAT (control),VGGT,24,"0.00 [-0.00, 0.01]","0.42 [0.24, 0.60]",FAIL
+LEGACY-FLAT (control),π³,24,"0.00 [0.00, 0.00]","0.42 [0.24, 0.62]",FAIL

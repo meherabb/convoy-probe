@@ -1,0 +1,9 @@
+model,training,n,n_clips,beta_s_ci,r2,beta_mono_ci,beta_geo_ci,w_eff,p_holm,verdict
+DUSt3R,static,220,159,"0.17 [0.09, 0.26]",0.09533703238623414,"0.00 [-0.09, 0.11]","0.15 [0.08, 0.24]",0.9003872134960881,1.0,FALSIFIED
+MASt3R,static,220,159,"0.19 [0.09, 0.30]",0.09351927837819407,"-0.06 [-0.21, 0.09]","0.18 [0.09, 0.27]",0.8878698090478865,1.0,FALSIFIED
+MonST3R,dynamic (DUSt3R fine-tuned on video),220,159,"0.12 [0.06, 0.20]",0.07380128729097368,"0.02 [-0.05, 0.10]","0.12 [0.06, 0.19]",0.9278058431775247,1.0,FALSIFIED
+VGGT,multi-dataset mixture,220,159,"0.09 [0.00, 0.19]",0.031111837263047448,"0.01 [-0.08, 0.12]","0.08 [0.01, 0.18]",0.9496974483732085,1.0,FALSIFIED
+π³,multi-dataset mixture,220,159,"0.11 [0.03, 0.21]",0.052889399464745024,"-0.03 [-0.13, 0.08]","0.11 [0.04, 0.20]",0.9356926336150989,1.0,FALSIFIED
+MapAnything,multi-dataset mixture,220,159,"-0.04 [-0.15, 0.08]",0.003386882938052449,"-0.06 [-0.18, 0.06]","-0.04 [-0.13, 0.07]",1.0,1.0,FALSIFIED
+"Classical triangulation, exact correspondences",control,220,159,"1.00 [1.00, 1.00]",1.0,–,–,–,–,control
+"Classical triangulation, RAFT-large flow",control,220,159,"1.00 [0.99, 1.00]",0.9983229084913597,–,–,–,–,control

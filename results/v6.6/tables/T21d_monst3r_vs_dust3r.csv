@@ -1,0 +1,5 @@
+contrast,n,n_scenes,DUSt3R,MonST3R,difference_ci,direction
+"beta_s, CONVOY-3D movers with parallax > 40 px",40,32,0.5499460530909168,0.09548919623038862,"-0.454 [-0.711, -0.262]",lower
+"beta_s, CONVOY-3D movers with parallax 5-40 px",180,140,0.126524892625169,0.1191674361558919,"-0.007 [-0.065, 0.058]",no clear change
+"H6 contrast beta(CH) - beta(G), E5 movers",159,71,0.307633051934127,0.346512389795033,"0.039 [-0.011, 0.098]",no clear change
+"rise of beta_s from x0.5 to x3, baseline sweep",148,62,0.10060538088676349,0.11172495042909812,"0.011 [-0.053, 0.078]",no clear change

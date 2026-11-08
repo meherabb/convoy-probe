@@ -1,0 +1,7 @@
+model,n,n_clips,full,knockout,drop_ci,static_sensitivity,A1
+DUSt3R,89,62,"0.31 [0.16, 0.49]","0.05 [-0.10, 0.21]","0.26 [0.11, 0.44]",0.15991981524192905,HOLDS (deleting the correspondence lowers beta_s)
+MASt3R,89,62,"0.33 [0.16, 0.54]","0.10 [-0.11, 0.39]","0.22 [0.07, 0.38]",0.1054144242609146,HOLDS (deleting the correspondence lowers beta_s)
+MonST3R,89,62,"0.23 [0.10, 0.41]","0.02 [-0.04, 0.09]","0.21 [0.07, 0.38]",0.0394651363113626,HOLDS (deleting the correspondence lowers beta_s)
+VGGT,89,62,"0.23 [0.06, 0.44]","0.16 [-0.01, 0.37]","0.07 [0.04, 0.11]",0.014305751812624001,HOLDS (deleting the correspondence lowers beta_s)
+π³,89,62,"0.25 [0.09, 0.45]","0.12 [-0.05, 0.34]","0.13 [0.02, 0.26]",0.0295746607953124,HOLDS (deleting the correspondence lowers beta_s)
+MapAnything,89,62,"0.05 [-0.13, 0.29]","0.01 [-0.18, 0.26]","0.04 [-0.01, 0.10]",0.022200125708768607,NOT DETECTED (depth does not depend on the correspondence)
