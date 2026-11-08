@@ -1,0 +1,43 @@
+{
+ "format": "convoy-checkpoint/1",
+ "stage": "eval:VGGT-1B:RABL",
+ "family": "eval",
+ "fingerprint": "1f9bec7fdcc2fcf0bef2",
+ "created_utc": "2026-10-23T05:43:39Z",
+ "files": [
+  [
+   "O/cache/VGGT-1B/RABL/done.json",
+   89
+  ],
+  [
+   "O/cache/VGGT-1B/RABL/exemplars.npz",
+   1177256
+  ],
+  [
+   "O/cache/VGGT-1B/RABL/images.csv",
+   31779
+  ],
+  [
+   "O/cache/VGGT-1B/RABL/movers.csv",
+   57610
+  ]
+ ],
+ "extra": {
+  "seconds": 324.1,
+  "status_record": {
+   "model": "VGGT-1B",
+   "family": "multiview",
+   "training": "multi-dataset mixture",
+   "checkpoint": "facebook/VGGT-1B",
+   "input": "504x378",
+   "precision": "fp16",
+   "status": "PASS",
+   "params_M": 1190.6,
+   "load_s": 31.2,
+   "peak_gpu_GiB": 5.26,
+   "check_s": 39.6,
+   "note": "loaded and ran"
+  }
+ },
+ "compute_seconds": 1518.4
+}

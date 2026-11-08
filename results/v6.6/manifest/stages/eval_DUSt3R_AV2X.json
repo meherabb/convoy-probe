@@ -1,0 +1,43 @@
+{
+ "format": "convoy-checkpoint/1",
+ "stage": "eval:DUSt3R:AV2X",
+ "family": "eval",
+ "fingerprint": "a8e8806aea8dc9ef4e83",
+ "created_utc": "2026-10-28T23:19:29Z",
+ "files": [
+  [
+   "O/cache/DUSt3R/AV2X/done.json",
+   88
+  ],
+  [
+   "O/cache/DUSt3R/AV2X/exemplars.npz",
+   22
+  ],
+  [
+   "O/cache/DUSt3R/AV2X/images.csv",
+   67951
+  ],
+  [
+   "O/cache/DUSt3R/AV2X/movers.csv",
+   283885
+  ]
+ ],
+ "extra": {
+  "seconds": 712.8,
+  "status_record": {
+   "model": "DUSt3R",
+   "family": "croco",
+   "training": "static",
+   "checkpoint": "naver/DUSt3R_ViTLarge_BaseDecoder_512_dpt",
+   "input": "512x384",
+   "precision": "fp32",
+   "status": "PASS",
+   "params_M": 571.2,
+   "load_s": 27.2,
+   "peak_gpu_GiB": 2.69,
+   "check_s": 30.8,
+   "note": "loaded and ran; 7 of 8 stages restored"
+  }
+ },
+ "compute_seconds": 745.4
+}

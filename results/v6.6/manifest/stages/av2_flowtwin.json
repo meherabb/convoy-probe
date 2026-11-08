@@ -1,0 +1,23 @@
+{
+ "format": "convoy-checkpoint/1",
+ "stage": "av2_flowtwin",
+ "family": "av2ft",
+ "fingerprint": "46874e9060a6b2f7dd3a",
+ "created_utc": "2026-10-31T09:45:19Z",
+ "files": [
+  [
+   "S/av2ft/flowtwin.csv",
+   411020
+  ],
+  [
+   "S/av2ft/flowtwin.json",
+   111
+  ],
+  [
+   "S/av2ft/roads.csv",
+   68799
+  ]
+ ],
+ "extra": {},
+ "compute_seconds": 637.6
+}

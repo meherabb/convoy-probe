@@ -1,0 +1,43 @@
+{
+ "format": "convoy-checkpoint/1",
+ "stage": "eval:MASt3R:VK",
+ "family": "eval",
+ "fingerprint": "0383587626d2801b215d",
+ "created_utc": "2026-10-27T09:08:56Z",
+ "files": [
+  [
+   "O/cache/MASt3R/VK/done.json",
+   86
+  ],
+  [
+   "O/cache/MASt3R/VK/exemplars.npz",
+   2149507
+  ],
+  [
+   "O/cache/MASt3R/VK/images.csv",
+   39964
+  ],
+  [
+   "O/cache/MASt3R/VK/movers.csv",
+   217498
+  ]
+ ],
+ "extra": {
+  "seconds": 516.1,
+  "status_record": {
+   "model": "MASt3R",
+   "family": "croco",
+   "training": "static",
+   "checkpoint": "naver/MASt3R_ViTLarge_BaseDecoder_512_catmlpdpt_metric",
+   "input": "512x384",
+   "precision": "fp32",
+   "status": "PASS",
+   "params_M": 688.6,
+   "load_s": 12.9,
+   "peak_gpu_GiB": 3.15,
+   "check_s": 23.7,
+   "note": "loaded and ran; 5 of 7 stages restored"
+  }
+ },
+ "compute_seconds": 541.8
+}

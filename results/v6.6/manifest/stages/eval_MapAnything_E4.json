@@ -1,0 +1,39 @@
+{
+ "format": "convoy-checkpoint/1",
+ "stage": "eval:MapAnything:E4",
+ "family": "eval",
+ "fingerprint": "479b0411c33367eb870f",
+ "created_utc": "2026-10-23T07:53:01Z",
+ "files": [
+  [
+   "O/cache/MapAnything/E4/done.json",
+   92
+  ],
+  [
+   "O/cache/MapAnything/E4/e4.csv",
+   64106
+  ],
+  [
+   "O/cache/MapAnything/E4/exemplars.npz",
+   22
+  ]
+ ],
+ "extra": {
+  "seconds": 1412.7,
+  "status_record": {
+   "model": "MapAnything",
+   "family": "multiview",
+   "training": "multi-dataset mixture",
+   "checkpoint": "facebook/map-anything",
+   "input": "504x378",
+   "precision": "fp32",
+   "status": "PASS",
+   "params_M": 1228.5,
+   "load_s": 44.0,
+   "peak_gpu_GiB": 7.82,
+   "check_s": 57.4,
+   "note": "loaded and ran"
+  }
+ },
+ "compute_seconds": 5223.2
+}

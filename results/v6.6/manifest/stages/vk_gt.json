@@ -1,0 +1,27 @@
+{
+ "format": "convoy-checkpoint/1",
+ "stage": "vk:gt",
+ "family": "vk",
+ "fingerprint": "2c6bcacc1ddd4f02e553",
+ "created_utc": "2026-10-27T08:38:29Z",
+ "files": [
+  [
+   "S/vkitti/gt/a3.json",
+   55747
+  ],
+  [
+   "S/vkitti/gt/movers_pairs.csv",
+   342533
+  ],
+  [
+   "S/vkitti/gt/prevalence_kview.csv",
+   500309
+  ],
+  [
+   "S/vkitti/gt/prevalence_pixels.csv",
+   694
+  ]
+ ],
+ "extra": {},
+ "compute_seconds": 84.0
+}

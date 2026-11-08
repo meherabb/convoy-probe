@@ -1,0 +1,43 @@
+{
+ "format": "convoy-checkpoint/1",
+ "stage": "eval:pi3:WDR",
+ "family": "eval",
+ "fingerprint": "3b06fc7cb89286eb1507",
+ "created_utc": "2026-10-31T11:04:17Z",
+ "files": [
+  [
+   "O/cache/pi3/WDR/done.json",
+   84
+  ],
+  [
+   "O/cache/pi3/WDR/exemplars.npz",
+   3768862
+  ],
+  [
+   "O/cache/pi3/WDR/images.csv",
+   34175
+  ],
+  [
+   "O/cache/pi3/WDR/movers.csv",
+   147668
+  ]
+ ],
+ "extra": {
+  "seconds": 261.8,
+  "status_record": {
+   "model": "pi3",
+   "family": "multiview",
+   "training": "multi-dataset mixture",
+   "checkpoint": "yyfz233/Pi3",
+   "input": "560x420",
+   "precision": "fp16",
+   "status": "PASS",
+   "params_M": 958.7,
+   "load_s": 19.8,
+   "peak_gpu_GiB": 3.75,
+   "check_s": 33.8,
+   "note": "loaded and ran; 9 of 12 stages restored"
+  }
+ },
+ "compute_seconds": 503.9
+}

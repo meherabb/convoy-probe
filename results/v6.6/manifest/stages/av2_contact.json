@@ -1,0 +1,19 @@
+{
+ "format": "convoy-checkpoint/1",
+ "stage": "av2_contact",
+ "family": "av2x",
+ "fingerprint": "79cae56fd3662d5a73f9",
+ "created_utc": "2026-10-28T23:06:30Z",
+ "files": [
+  [
+   "S/av2c/contact.csv",
+   425227
+  ],
+  [
+   "S/av2c/contact.json",
+   100
+  ]
+ ],
+ "extra": {},
+ "compute_seconds": 111.2
+}

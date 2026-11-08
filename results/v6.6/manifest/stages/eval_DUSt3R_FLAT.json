@@ -1,0 +1,39 @@
+{
+ "format": "convoy-checkpoint/1",
+ "stage": "eval:DUSt3R:FLAT",
+ "family": "eval",
+ "fingerprint": "b15c6edde3a1b461afab",
+ "created_utc": "2026-10-23T03:48:11Z",
+ "files": [
+  [
+   "O/cache/DUSt3R/FLAT/done.json",
+   87
+  ],
+  [
+   "O/cache/DUSt3R/FLAT/exemplars.npz",
+   22
+  ],
+  [
+   "O/cache/DUSt3R/FLAT/images.csv",
+   1689
+  ]
+ ],
+ "extra": {
+  "seconds": 18.2,
+  "status_record": {
+   "model": "DUSt3R",
+   "family": "croco",
+   "training": "static",
+   "checkpoint": "naver/DUSt3R_ViTLarge_BaseDecoder_512_dpt",
+   "input": "512x384",
+   "precision": "fp32",
+   "status": "PASS",
+   "params_M": 571.2,
+   "load_s": 24.8,
+   "peak_gpu_GiB": 2.69,
+   "check_s": 27.3,
+   "note": "loaded and ran"
+  }
+ },
+ "compute_seconds": 540.2
+}

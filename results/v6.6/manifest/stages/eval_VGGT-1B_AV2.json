@@ -1,0 +1,43 @@
+{
+ "format": "convoy-checkpoint/1",
+ "stage": "eval:VGGT-1B:AV2",
+ "family": "eval",
+ "fingerprint": "44113704da7146e1c38e",
+ "created_utc": "2026-10-27T09:36:43Z",
+ "files": [
+  [
+   "O/cache/VGGT-1B/AV2/done.json",
+   88
+  ],
+  [
+   "O/cache/VGGT-1B/AV2/exemplars.npz",
+   994926
+  ],
+  [
+   "O/cache/VGGT-1B/AV2/images.csv",
+   22924
+  ],
+  [
+   "O/cache/VGGT-1B/AV2/movers.csv",
+   99735
+  ]
+ ],
+ "extra": {
+  "seconds": 190.9,
+  "status_record": {
+   "model": "VGGT-1B",
+   "family": "multiview",
+   "training": "multi-dataset mixture",
+   "checkpoint": "facebook/VGGT-1B",
+   "input": "504x378",
+   "precision": "fp16",
+   "status": "PASS",
+   "params_M": 1190.6,
+   "load_s": 32.6,
+   "peak_gpu_GiB": 5.26,
+   "check_s": 40.2,
+   "note": "loaded and ran; 6 of 8 stages restored"
+  }
+ },
+ "compute_seconds": 611.1
+}

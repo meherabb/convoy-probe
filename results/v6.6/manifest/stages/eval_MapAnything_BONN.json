@@ -1,0 +1,43 @@
+{
+ "format": "convoy-checkpoint/1",
+ "stage": "eval:MapAnything:BONN",
+ "family": "eval",
+ "fingerprint": "ad5f3bfe8d9234883f67",
+ "created_utc": "2026-10-31T11:38:41Z",
+ "files": [
+  [
+   "O/cache/MapAnything/BONN/done.json",
+   93
+  ],
+  [
+   "O/cache/MapAnything/BONN/exemplars.npz",
+   810990
+  ],
+  [
+   "O/cache/MapAnything/BONN/images.csv",
+   22103
+  ],
+  [
+   "O/cache/MapAnything/BONN/movers.csv",
+   50704
+  ]
+ ],
+ "extra": {
+  "seconds": 429.3,
+  "status_record": {
+   "model": "MapAnything",
+   "family": "multiview",
+   "training": "multi-dataset mixture",
+   "checkpoint": "facebook/map-anything",
+   "input": "504x378",
+   "precision": "fp32",
+   "status": "PASS",
+   "params_M": 1228.5,
+   "load_s": 53.4,
+   "peak_gpu_GiB": 5.84,
+   "check_s": 63.0,
+   "note": "loaded and ran; 9 of 12 stages restored"
+  }
+ },
+ "compute_seconds": 1912.2
+}

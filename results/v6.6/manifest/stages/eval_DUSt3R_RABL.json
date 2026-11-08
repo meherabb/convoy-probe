@@ -1,0 +1,43 @@
+{
+ "format": "convoy-checkpoint/1",
+ "stage": "eval:DUSt3R:RABL",
+ "family": "eval",
+ "fingerprint": "b63191fa0f9084d79f63",
+ "created_utc": "2026-10-23T04:06:31Z",
+ "files": [
+  [
+   "O/cache/DUSt3R/RABL/done.json",
+   88
+  ],
+  [
+   "O/cache/DUSt3R/RABL/exemplars.npz",
+   1382760
+  ],
+  [
+   "O/cache/DUSt3R/RABL/images.csv",
+   25354
+  ],
+  [
+   "O/cache/DUSt3R/RABL/movers.csv",
+   57196
+  ]
+ ],
+ "extra": {
+  "seconds": 268.1,
+  "status_record": {
+   "model": "DUSt3R",
+   "family": "croco",
+   "training": "static",
+   "checkpoint": "naver/DUSt3R_ViTLarge_BaseDecoder_512_dpt",
+   "input": "512x384",
+   "precision": "fp32",
+   "status": "PASS",
+   "params_M": 571.2,
+   "load_s": 24.8,
+   "peak_gpu_GiB": 2.69,
+   "check_s": 27.3,
+   "note": "loaded and ran"
+  }
+ },
+ "compute_seconds": 1639.7
+}

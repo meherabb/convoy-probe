@@ -1,0 +1,29 @@
+{
+ "format": "convoy-checkpoint/1",
+ "stage": "tum:DYN",
+ "family": "tum",
+ "fingerprint": "71cf009837d4727a9e94",
+ "created_utc": "2026-10-23T02:59:29Z",
+ "files": [
+  [
+   "S/renders/realdyn/prevalence_tum.csv",
+   422
+  ],
+  [
+   "S/renders/realdyn/thumb_fr3_walking_halfsphere.png",
+   466693
+  ],
+  [
+   "S/renders/realdyn/thumb_fr3_walking_xyz.png",
+   413519
+  ],
+  [
+   "S/renders/realdyn/tum_dynamic_pairs.csv",
+   25448
+  ]
+ ],
+ "extra": {
+  "flow": "RAFT-large (torchvision C_T_SKHT_V2)"
+ },
+ "compute_seconds": 228.8
+}

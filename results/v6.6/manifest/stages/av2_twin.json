@@ -1,0 +1,19 @@
+{
+ "format": "convoy-checkpoint/1",
+ "stage": "av2_twin",
+ "family": "av2t",
+ "fingerprint": "4a892048130a1c19ea25",
+ "created_utc": "2026-10-31T09:34:38Z",
+ "files": [
+  [
+   "S/av2t/twin.csv",
+   1640188
+  ],
+  [
+   "S/av2t/twin.json",
+   100
+  ]
+ ],
+ "extra": {},
+ "compute_seconds": 113.2
+}

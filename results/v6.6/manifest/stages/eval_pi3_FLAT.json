@@ -1,0 +1,39 @@
+{
+ "format": "convoy-checkpoint/1",
+ "stage": "eval:pi3:FLAT",
+ "family": "eval",
+ "fingerprint": "1af231e01ae3215eab52",
+ "created_utc": "2026-10-23T06:02:28Z",
+ "files": [
+  [
+   "O/cache/pi3/FLAT/done.json",
+   84
+  ],
+  [
+   "O/cache/pi3/FLAT/exemplars.npz",
+   22
+  ],
+  [
+   "O/cache/pi3/FLAT/images.csv",
+   1689
+  ]
+ ],
+ "extra": {
+  "seconds": 13.0,
+  "status_record": {
+   "model": "pi3",
+   "family": "multiview",
+   "training": "multi-dataset mixture",
+   "checkpoint": "yyfz233/Pi3",
+   "input": "560x420",
+   "precision": "fp16",
+   "status": "PASS",
+   "params_M": 958.7,
+   "load_s": 19.4,
+   "peak_gpu_GiB": 3.75,
+   "check_s": 32.9,
+   "note": "loaded and ran"
+  }
+ },
+ "compute_seconds": 354.6
+}

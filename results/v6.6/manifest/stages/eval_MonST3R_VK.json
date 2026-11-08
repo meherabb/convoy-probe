@@ -1,0 +1,43 @@
+{
+ "format": "convoy-checkpoint/1",
+ "stage": "eval:MonST3R:VK",
+ "family": "eval",
+ "fingerprint": "4cc1265c1ab5d7a79823",
+ "created_utc": "2026-10-27T09:22:05Z",
+ "files": [
+  [
+   "O/cache/MonST3R/VK/done.json",
+   87
+  ],
+  [
+   "O/cache/MonST3R/VK/exemplars.npz",
+   2117300
+  ],
+  [
+   "O/cache/MonST3R/VK/images.csv",
+   39444
+  ],
+  [
+   "O/cache/MonST3R/VK/movers.csv",
+   210909
+  ]
+ ],
+ "extra": {
+  "seconds": 476.0,
+  "status_record": {
+   "model": "MonST3R",
+   "family": "croco",
+   "training": "dynamic (DUSt3R fine-tuned on video)",
+   "checkpoint": "Junyi42/MonST3R_PO-TA-S-W_ViTLarge_BaseDecoder_512_dpt",
+   "input": "512x384",
+   "precision": "fp32",
+   "status": "PASS",
+   "params_M": 571.2,
+   "load_s": 11.1,
+   "peak_gpu_GiB": 2.69,
+   "check_s": 21.9,
+   "note": "loaded and ran; 5 of 7 stages restored"
+  }
+ },
+ "compute_seconds": 499.8
+}

@@ -1,0 +1,43 @@
+{
+ "format": "convoy-checkpoint/1",
+ "stage": "eval:pi3:VK",
+ "family": "eval",
+ "fingerprint": "d0800ea2f181a05b2a94",
+ "created_utc": "2026-10-27T09:42:23Z",
+ "files": [
+  [
+   "O/cache/pi3/VK/done.json",
+   83
+  ],
+  [
+   "O/cache/pi3/VK/exemplars.npz",
+   2094903
+  ],
+  [
+   "O/cache/pi3/VK/images.csv",
+   39491
+  ],
+  [
+   "O/cache/pi3/VK/movers.csv",
+   206224
+  ]
+ ],
+ "extra": {
+  "seconds": 287.7,
+  "status_record": {
+   "model": "pi3",
+   "family": "multiview",
+   "training": "multi-dataset mixture",
+   "checkpoint": "yyfz233/Pi3",
+   "input": "560x420",
+   "precision": "fp16",
+   "status": "PASS",
+   "params_M": 958.7,
+   "load_s": 28.8,
+   "peak_gpu_GiB": 3.75,
+   "check_s": 33.3,
+   "note": "loaded and ran; 6 of 8 stages restored"
+  }
+ },
+ "compute_seconds": 322.9
+}

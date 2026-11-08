@@ -1,0 +1,43 @@
+{
+ "format": "convoy-checkpoint/1",
+ "stage": "eval:MapAnything:WDR",
+ "family": "eval",
+ "fingerprint": "2b3275e52b57fe0b0427",
+ "created_utc": "2026-10-31T11:31:27Z",
+ "files": [
+  [
+   "O/cache/MapAnything/WDR/done.json",
+   92
+  ],
+  [
+   "O/cache/MapAnything/WDR/exemplars.npz",
+   4147480
+  ],
+  [
+   "O/cache/MapAnything/WDR/images.csv",
+   33971
+  ],
+  [
+   "O/cache/MapAnything/WDR/movers.csv",
+   151465
+  ]
+ ],
+ "extra": {
+  "seconds": 789.5,
+  "status_record": {
+   "model": "MapAnything",
+   "family": "multiview",
+   "training": "multi-dataset mixture",
+   "checkpoint": "facebook/map-anything",
+   "input": "504x378",
+   "precision": "fp32",
+   "status": "PASS",
+   "params_M": 1228.5,
+   "load_s": 53.4,
+   "peak_gpu_GiB": 5.84,
+   "check_s": 63.0,
+   "note": "loaded and ran; 9 of 12 stages restored"
+  }
+ },
+ "compute_seconds": 1478.2
+}

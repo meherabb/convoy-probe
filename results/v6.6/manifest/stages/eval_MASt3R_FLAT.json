@@ -1,0 +1,39 @@
+{
+ "format": "convoy-checkpoint/1",
+ "stage": "eval:MASt3R:FLAT",
+ "family": "eval",
+ "fingerprint": "99b8441badfa2b6d29f2",
+ "created_utc": "2026-10-23T04:21:18Z",
+ "files": [
+  [
+   "O/cache/MASt3R/FLAT/done.json",
+   87
+  ],
+  [
+   "O/cache/MASt3R/FLAT/exemplars.npz",
+   22
+  ],
+  [
+   "O/cache/MASt3R/FLAT/images.csv",
+   1671
+  ]
+ ],
+ "extra": {
+  "seconds": 19.7,
+  "status_record": {
+   "model": "MASt3R",
+   "family": "croco",
+   "training": "static",
+   "checkpoint": "naver/MASt3R_ViTLarge_BaseDecoder_512_catmlpdpt_metric",
+   "input": "512x384",
+   "precision": "fp32",
+   "status": "PASS",
+   "params_M": 688.6,
+   "load_s": 12.3,
+   "peak_gpu_GiB": 3.15,
+   "check_s": 24.2,
+   "note": "loaded and ran"
+  }
+ },
+ "compute_seconds": 573.4
+}

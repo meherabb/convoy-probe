@@ -1,0 +1,43 @@
+{
+ "format": "convoy-checkpoint/1",
+ "stage": "eval:MapAnything:BSW",
+ "family": "eval",
+ "fingerprint": "95897d97b6028496bfd2",
+ "created_utc": "2026-10-31T11:18:13Z",
+ "files": [
+  [
+   "O/cache/MapAnything/BSW/done.json",
+   92
+  ],
+  [
+   "O/cache/MapAnything/BSW/exemplars.npz",
+   4068061
+  ],
+  [
+   "O/cache/MapAnything/BSW/images.csv",
+   33796
+  ],
+  [
+   "O/cache/MapAnything/BSW/movers.csv",
+   151881
+  ]
+ ],
+ "extra": {
+  "seconds": 617.3,
+  "status_record": {
+   "model": "MapAnything",
+   "family": "multiview",
+   "training": "multi-dataset mixture",
+   "checkpoint": "facebook/map-anything",
+   "input": "504x378",
+   "precision": "fp32",
+   "status": "PASS",
+   "params_M": 1228.5,
+   "load_s": 53.4,
+   "peak_gpu_GiB": 5.84,
+   "check_s": 63.0,
+   "note": "loaded and ran; 9 of 12 stages restored"
+  }
+ },
+ "compute_seconds": 684.7
+}
