@@ -1,0 +1,22 @@
+{
+  "status": "registered after reading the v5 results and before generating any v6 data; IDEA_LOCK and the verdict rules of P1-P4 are not changed",
+  "reframing": "Parallel motion is used as an exact counterfactual. For a mover with delta = s*b the two views are pixel-identical to a static object at Z/(1-s) (Proposition 1), so the geometric answer and the true depth differ by the known amount x = -log(1-s) while nothing else in the images changes. The slope beta_s of the log depth error on x therefore measures how much of the cross-view geometry a model uses for the object: 1 = pure triangulation, 0 = pure single-image prior. Through the slope-weight identity (Section 2.4) beta_s maps to a prior weight, and Section 6.0b checks that the estimator recovers planted weights. The question becomes: how much geometry do feed-forward models use for moving objects, what controls it, and what does that imply for dynamic masks built on geometric residuals?",
+  "registered_hypotheses": {
+    "H5 (support cue)": "Ground-contact ablation E5 (same object, same s, eps = 0): beta(floating, no shadow) - beta(grounded, no shadow) > 0, paired cluster-bootstrap 95% CI > 0, per model, car and crate pooled. Rationale: without a ground contact the single-image depth cue of the object is missing, so a model that combines cues should lean more on geometry.",
+    "H6 (contact visibility)": "beta(grounded, contact hidden by a wall) - beta(grounded) > 0, CI > 0.",
+    "H7 (the wall acts through the contact)": "(beta_CH - beta_G) - (beta_FH - beta_F) > 0, CI > 0: hiding the contact matters more for an object that has one.",
+    "H8 (single-image signature)": "median rho_mono(floating) - median rho_mono(grounded, no shadow) > 0, CI > 0: a lifted object is placed farther away by the single-image prediction (its lowest pixels sit higher in the image, as for a farther grounded object).",
+    "H9 (driving)": "Virtual KITTI 2 moving vehicles in the parallel regime (|eps| < 1 px), measurable and identifiable, x_geo = log(Z_geo/Z) inside the CONVOY-3D design range [-0.47, 1.90]: the slope beta_geo of rho on x_geo is below 0.3. SUPPORTED if the estimate is < 0.3 and the CI upper end < 0.5; FALSIFIED if the CI lower end > 0.3; PARTIAL otherwise. Tested only with >= 20 movers from >= 5 pairs. Models trained on Virtual KITTI (MASt3R, VGGT) are flagged, not removed.",
+    "H10 (attention masks on long clips)": "Easi3R on 10-frame CONVOY-3D clips (window-5 scene graph, the dynamic map of Eq. 9 refined by k-means clustering of encoder features as in the Easi3R paper), evaluated on the middle frame: recall(perpendicular) - recall(parallel) >= 0.3 with CI > 0, using the P2 rule unchanged (recall at 5% static FPR, stratified by |s| and size). Backbones DUSt3R and MonST3R. Replicated on Virtual KITTI 2 clips when each regime has >= 20 movers."
+  },
+  "exploratory_without_prediction": [
+    "E5 shadow effect: beta(grounded, no shadow) - beta(grounded).",
+    "E5 class effect: floating car versus floating crate.",
+    "E6 prevalence: share of moving-vehicle pixels in Virtual KITTI 2 within 1 px of the epipolar line, and share of moving vehicles whose track over K = 2, 4, 8 frames a static point fits within 1 px.",
+    "E7 secondary outputs: the raw Eq. 9 map and the Otsu-thresholded binary Easi3R mask."
+  ],
+  "removed_from_v5": [
+    "Real-people slope analysis (v5 Section 6.7): the regressor log(Z_tri/Z) is built from noisy flow and sensor depth, which attenuates the slope by an unknown factor. Only the prevalence of motion regimes in TUM walking is kept.",
+    "M3 Easi3R on a 3-frame complete graph (v5 E2): far shorter than the windows the method was designed for. Replaced by H10 on 10-frame clips."
+  ]
+}

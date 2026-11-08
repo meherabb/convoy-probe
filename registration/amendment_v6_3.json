@@ -1,0 +1,10 @@
+{
+  "status": "written after reading the complete v6.2 run and before any Argoverse 2 data, any additional Virtual KITTI 2 pair or any of the analyses below existed. Nothing in it is a registered test; every item is exploratory and no registered verdict depends on it.",
+  "exploratory_analyses": {
+    "Argoverse 2 (3.11, 6.8b)": "real vehicles with LiDAR depth from the public Argoverse 2 sensor dataset (validation split, front-centre camera), downloaded automatically: regime shares, the convoy case and the slope beta_geo, with the KITTI rules of v6.2 unchanged (moving >= 0.5 m, parked <= 0.15 m, >= 40 LiDAR pixels, parallel threshold = 90th percentile of |eps| over parked vehicles, at least 1 px).",
+    "matched contact comparison (6.8b)": "every Virtual KITTI 2 vehicle with hidden wheel contact is matched to the nearest vehicle with visible contact on log depth, log image area and x_geo (within 0.5 pooled SD on each, with replacement); the median paired difference of g is reported with covariate balance.",
+    "more Virtual KITTI 2 pairs": "at most 150 pairs per scene instead of 60 (the short scenes stay limited by their length); same selection rule and ground truth.",
+    "cluster unit (6.8b)": "intervals of the driving analyses resample vehicle tracks instead of image pairs, because the denser sampling shows the same vehicle in several pairs."
+  },
+  "ground_truth_changes": "projected LiDAR (KITTI, Argoverse 2) keeps a pixel only where its return is the nearest surface in a 5 x 5 window (no see-through between sparse returns); a moving vehicle's Argoverse 2 returns are carried to the image time along its labelled track."
+}

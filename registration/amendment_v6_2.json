@@ -1,0 +1,11 @@
+{
+  "status": "written after reading the complete v6.1 run and before any of the analyses below existed. Nothing in it is a registered test: every item is exploratory and none changes a registered verdict.",
+  "exploratory_analyses": {
+    "masks by support (6.7c)": "M2 recall (exact correspondences) on the same parallel E5 movers in each condition; expected direction: lower when the contact is hidden (G -> CH) or the mover lifted (NS -> F).",
+    "ground contact in traffic (6.8b)": "Virtual KITTI 2 parallel vehicles (>= 40 eroded px, identifiable; the D34 occupancy rule left 3 vehicles and is dropped here): per-object geometry share g for vehicles whose wheel contact points are hidden vs visible; expected direction: higher when hidden (as H6).",
+    "the convoy case (6.8b)": "vehicles keeping pace with the camera (0.85 <= s < 1.15): g for s < 1 and, for s >= 1, the share placed farther than the model's own single-image depth; Virtual KITTI 2 and KITTI tracking. Identifiability is not required (keeping pace means almost no parallax by construction).",
+    "KITTI tracking (3.10, 6.8b)": "real vehicles with LiDAR depth when the dataset is attached: regime shares, the slope beta_geo on parallel vehicles, and the convoy case. Correspondences come from labelled boxes; the parallel threshold is the label-noise floor measured on parked vehicles.",
+    "single-image protocol (6.7d)": "for the multi-view models, H11b and the CONVOY-REAL single-image slope with the image given once and twice; a model whose single-image results depend on the protocol makes no single-image claim."
+  },
+  "per_object_share": "g = (e^rho - e^rho_mono) / (e^x - e^rho_mono), from the oracle's mixing model Zhat = w Zhat_mono + (1 - w) Z_geo; computed only when |x - rho_mono| >= 0.3."
+}
