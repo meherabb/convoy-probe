@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="448" viewBox="0 0 1280 448" role="img" aria-label="The study in five steps, from testbeds to verified paper numbers">
+<rect x="0.5" y="0.5" width="1279" height="447" rx="16" fill="#fcfcfb" stroke="#d9d8d1"/>
+<text x="32" y="46" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="21" font-weight="650" fill="#0b0b0b" text-anchor="start">The study at a glance</text>
+<text x="32" y="70" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="400" fill="#52514e" text-anchor="start">From exact parallel motion to every number of the paper</text>
+<rect x="32.0" y="92" width="216.0" height="236" rx="12" fill="#ffffff" stroke="#d9d8d1"/>
+<rect x="32.0" y="92" width="216.0" height="5" rx="2.5" fill="#2a78d6"/>
+<circle cx="60.0" cy="130" r="14" fill="#1c5cab"/>
+<text x="60.0" y="135" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="650" fill="#ffffff" text-anchor="middle">1</text>
+<text x="84.0" y="136" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16.5" font-weight="650" fill="#0b0b0b" text-anchor="start">Testbeds</text>
+<text x="50.0" y="176" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.8" font-weight="400" fill="#52514e" text-anchor="start">CONVOY-3D, exact motion</text>
+<text x="50.0" y="201" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.8" font-weight="400" fill="#52514e" text-anchor="start">E5, sweep, dose-response</text>
+<text x="50.0" y="226" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.8" font-weight="400" fill="#52514e" text-anchor="start">CONVOY-REAL, E5-REAL</text>
+<text x="50.0" y="251" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.8" font-weight="400" fill="#52514e" text-anchor="start">Virtual KITTI 2, Argoverse 2</text>
+<rect x="46.0" y="284" width="188.0" height="28" rx="7" fill="#f2f1ec"/>
+<text x="140.0" y="303" font-family="'SFMono-Regular', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="12" font-weight="500" fill="#0b0b0b" text-anchor="middle">notebook §3</text>
+<path d="M256.0 210.0 h18 m-7 -7 l7 7 l-7 7" fill="none" stroke="#898781" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="282.0" y="92" width="216.0" height="236" rx="12" fill="#ffffff" stroke="#d9d8d1"/>
+<rect x="282.0" y="92" width="216.0" height="5" rx="2.5" fill="#2a78d6"/>
+<circle cx="310.0" cy="130" r="14" fill="#1c5cab"/>
+<text x="310.0" y="135" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="650" fill="#ffffff" text-anchor="middle">2</text>
+<text x="334.0" y="136" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16.5" font-weight="650" fill="#0b0b0b" text-anchor="start">Six frozen models</text>
+<text x="300.0" y="176" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.8" font-weight="400" fill="#52514e" text-anchor="start">DUSt3R · MASt3R · MonST3R</text>
+<text x="300.0" y="201" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.8" font-weight="400" fill="#52514e" text-anchor="start">VGGT · π³ · MapAnything</text>
+<text x="300.0" y="226" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.8" font-weight="400" fill="#52514e" text-anchor="start">two views, depth of view 1</text>
+<text x="300.0" y="251" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.8" font-weight="400" fill="#52514e" text-anchor="start">public checkpoints</text>
+<rect x="296.0" y="284" width="188.0" height="28" rx="7" fill="#f2f1ec"/>
+<text x="390.0" y="303" font-family="'SFMono-Regular', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="12" font-weight="500" fill="#0b0b0b" text-anchor="middle">notebook §4–5</text>
+<path d="M506.0 210.0 h18 m-7 -7 l7 7 l-7 7" fill="none" stroke="#898781" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="532.0" y="92" width="216.0" height="236" rx="12" fill="#ffffff" stroke="#d9d8d1"/>
+<rect x="532.0" y="92" width="216.0" height="5" rx="2.5" fill="#2a78d6"/>
+<circle cx="560.0" cy="130" r="14" fill="#1c5cab"/>
+<text x="560.0" y="135" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="650" fill="#ffffff" text-anchor="middle">3</text>
+<text x="584.0" y="136" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16.5" font-weight="650" fill="#0b0b0b" text-anchor="start">The probe</text>
+<text x="550.0" y="176" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.8" font-weight="400" fill="#52514e" text-anchor="start">ρ: log-depth error</text>
+<text x="550.0" y="201" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.8" font-weight="400" fill="#52514e" text-anchor="start">x = −log(1 − s)</text>
+<text x="550.0" y="226" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.8" font-weight="400" fill="#52514e" text-anchor="start">β<tspan baseline-shift="sub" font-size="72%">s</tspan> = slope of ρ on x</text>
+<text x="550.0" y="251" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.8" font-weight="400" fill="#52514e" text-anchor="start">0 prior · 1 geometry</text>
+<rect x="546.0" y="284" width="188.0" height="28" rx="7" fill="#f2f1ec"/>
+<text x="640.0" y="303" font-family="'SFMono-Regular', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="12" font-weight="500" fill="#0b0b0b" text-anchor="middle">convoy.probe</text>
+<path d="M756.0 210.0 h18 m-7 -7 l7 7 l-7 7" fill="none" stroke="#898781" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="782.0" y="92" width="216.0" height="236" rx="12" fill="#ffffff" stroke="#d9d8d1"/>
+<rect x="782.0" y="92" width="216.0" height="5" rx="2.5" fill="#2a78d6"/>
+<circle cx="810.0" cy="130" r="14" fill="#1c5cab"/>
+<text x="810.0" y="135" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="650" fill="#ffffff" text-anchor="middle">4</text>
+<text x="834.0" y="136" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16.5" font-weight="650" fill="#0b0b0b" text-anchor="start">Registered tests</text>
+<text x="800.0" y="176" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.8" font-weight="400" fill="#52514e" text-anchor="start">P1–P4, A1 locked first</text>
+<text x="800.0" y="201" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.8" font-weight="400" fill="#52514e" text-anchor="start">H5–H8, H11–H14 fixed</text>
+<text x="800.0" y="226" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.8" font-weight="400" fill="#52514e" text-anchor="start">before the data they test</text>
+<text x="800.0" y="251" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.8" font-weight="400" fill="#52514e" text-anchor="start">bootstrap, 10,000 draws</text>
+<rect x="796.0" y="284" width="188.0" height="28" rx="7" fill="#f2f1ec"/>
+<text x="890.0" y="303" font-family="'SFMono-Regular', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="12" font-weight="500" fill="#0b0b0b" text-anchor="middle">convoy.stats</text>
+<path d="M1006.0 210.0 h18 m-7 -7 l7 7 l-7 7" fill="none" stroke="#898781" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1032.0" y="92" width="216.0" height="236" rx="12" fill="#ffffff" stroke="#d9d8d1"/>
+<rect x="1032.0" y="92" width="216.0" height="5" rx="2.5" fill="#2a78d6"/>
+<circle cx="1060.0" cy="130" r="14" fill="#1c5cab"/>
+<text x="1060.0" y="135" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="650" fill="#ffffff" text-anchor="middle">5</text>
+<text x="1084.0" y="136" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16.5" font-weight="650" fill="#0b0b0b" text-anchor="start">Consequences</text>
+<text x="1050.0" y="176" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.8" font-weight="400" fill="#52514e" text-anchor="start">masks inherit the prior</text>
+<text x="1050.0" y="201" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.8" font-weight="400" fill="#52514e" text-anchor="start">static-twin height test</text>
+<text x="1050.0" y="226" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.8" font-weight="400" fill="#52514e" text-anchor="start">H14 with real flow</text>
+<text x="1050.0" y="251" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.8" font-weight="400" fill="#52514e" text-anchor="start">+0.21 [0.13, 0.29]</text>
+<rect x="1046.0" y="284" width="188.0" height="28" rx="7" fill="#f2f1ec"/>
+<text x="1140.0" y="303" font-family="'SFMono-Regular', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="12" font-weight="500" fill="#0b0b0b" text-anchor="middle">convoy.twin</text>
+<rect x="32" y="354" width="1216" height="62" rx="12" fill="#eef4fc" stroke="#cde2fb"/>
+<text x="54" y="380" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="650" fill="#1c5cab" text-anchor="start">Traceability</text>
+<text x="54" y="401" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.2" font-weight="400" fill="#0b0b0b" text-anchor="start">results/v6.6 (676 files, SHA-256 checked)  →  scripts/verify_paper_numbers.py  →  181 numeric statements and 41 table rows of the paper, recomputed</text>
+</svg>
